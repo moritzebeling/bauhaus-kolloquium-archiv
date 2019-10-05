@@ -1,0 +1,45 @@
+title: Gallery
+
+# blueprint for the 1976+ page
+
+pages: true
+options:
+  preview: true
+  status: true
+  template: false
+  url: true
+  delete: true
+
+files:
+  fields:
+    caption:
+      label: Bildbeschreibung
+      type: textarea
+    copyright:
+      label: Copyright
+      type: text
+      default: Archiv der Moderne
+
+fields:
+
+  title:
+    label: Titel
+    type:  text
+    required: true
+
+  gallery:
+    label: Gallerie
+    type: structure
+    style: table
+    sort: position, asc
+    entry:
+      - position
+      - image
+    fields:
+      position:
+        label: Position
+        type: number
+        default: 2
+      image:
+        label: Bilddatei
+        type: image

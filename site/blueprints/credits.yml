@@ -1,0 +1,32 @@
+title: Credits
+
+#blueprint for the credits page
+
+pages: false
+files: true
+options:
+  preview: true
+  status: true
+  template: false
+  url: false
+  delete: false
+
+fields:
+  title:
+    label: Überschrift
+    type:  text
+
+  credits:
+    label: Credits
+    type: textarea
+    buttons:
+      - bold
+      - link
+
+  literature:
+    label: Literatur
+    type: textarea
+    buttons:
+      - bold
+      - link
+      - italic
