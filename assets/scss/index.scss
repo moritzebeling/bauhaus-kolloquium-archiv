@@ -505,9 +505,5 @@ article.retrospect h4 {
 /* fade image in after load */
 .lazyload,
 .lazyloading {
-	opacity: 0;
-}
-.lazyloaded {
-	opacity: 1;
-	transition: opacity 1000ms;
+	background-color: #eee;
 }
