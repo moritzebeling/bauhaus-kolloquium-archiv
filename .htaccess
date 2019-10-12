@@ -1,0 +1,128 @@
+# Kirby .htaccess
+
+# rewrite rules
+<IfModule mod_rewrite.c>
+
+# enable awesome urls. i.e.:
+# http://yourdomain.com/about-us/team
+RewriteEngine on
+
+# make sure to set the RewriteBase correctly
+# if you are running the site in a subfolder.
+# Otherwise links or the entire site will break.
+#
+# If your homepage is http://yourdomain.com/mysite
+# Set the RewriteBase to:
+# RewriteBase /archiv
+
+# In some enviroments it's necessary to
+# set the RewriteBase to:
+#
+# RewriteBase /
+
+# favicon
+RewriteRule ^favicon\.ico$ assets/favicon/favicon-128.png [L]
+
+# block text files in the content folder from being accessed directly
+RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
+
+# block all files in the site folder from being accessed directly
+# except for requests to plugin assets files
+#RewriteRule ^assets/plugins/([a-zA-Z0-9\.\-_%=]+)/(.*)$ site/plugins/$1/assets/$2 [L,N]
+#RewriteCond $1 !^plugins/[a-zA-Z0-9\.\-_%=]+/assets/.*
+RewriteRule ^site/(.*) index.php [L]
+
+# block direct access to kirby and the panel sources
+RewriteRule ^(kirby|panel\/app|panel\/tests)/(.*) index.php [L]
+
+# make panel links work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^panel/(.*) panel/index.php [L]
+
+# make site links work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php [L]
+
+</IfModule>
+
+### charset
+AddDefaultCharset UTF-8
+
+### avoid directory listing
+Options -Indexes
+
+### default language
+DefaultLanguage en
+
+### add file types
+<IfModule mod_mime.c>
+  AddType text/html .html
+  AddType application/json .json
+
+  AddType text/css .css
+  AddType text/javascript .js
+  
+  AddType image/jpeg .jpeg .jpg .JPG
+  AddType image/png .png
+  AddType image/svg+xml .svg
+  AddType image/x-icon .ico
+
+  AddType application/x-font-woff .woff
+  AddType application/x-font-woff .woff2
+  AddType font/truetype .ttf
+  AddType font/opentype .otf
+  AddType font/eot .eot
+
+  AddType application/zip .zip
+  AddType application/pdf .pdf
+
+  AddType video/mp4 .mp4
+</IfModule>
+
+### enable keep alive
+<ifModule mod_headers.c>
+  Header set Connection keep-alive
+</ifModule>
+
+### compress text file responses
+<IfModule mod_deflate.c>
+
+  <FilesMatch "\.(txt|html|md|css|js|json|xml)$" >
+    SetOutputFilter DEFLATE
+  </FilesMatch>
+
+  <FilesMatch "\.(woff|woff2|ttf|otf|eot|svg)$" >
+    SetOutputFilter DEFLATE
+  </FilesMatch>
+
+</IfModule>
+
+### set browser caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  ExpiresByType text/html "access 1 day"
+  ExpiresByType application/json "access 1 day"
+
+  ExpiresByType text/css "access 1 month"
+  ExpiresByType text/javascript "access 1 month"
+  
+  ExpiresByType image/jpeg "access 1 year"
+  ExpiresByType image/png "access 1 year"
+  ExpiresByType image/svg+xml "access 1 year"
+  ExpiresByType image/x-icon "access 1 year"
+
+  ExpiresByType application/x-font-woff "access 1 year"
+  ExpiresByType font/truetype "access 1 year"
+  ExpiresByType font/opentype "access 1 year"
+  ExpiresByType font/eot "access 1 year"
+
+  ExpiresByType application/zip "access 1 year"
+  ExpiresByType application/pdf  "access 1 year"
+
+  ExpiresByType video/mp4 "access 1 year"
+
+  ExpiresDefault "access 1 month"
+</IfModule>
