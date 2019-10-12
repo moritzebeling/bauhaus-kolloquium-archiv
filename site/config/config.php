@@ -53,9 +53,10 @@ c::set('ssl',true);
 
 // live
 c::set('debug',false);
+c::set('whoops',true);
+
 c::set('cache',true);
 c::set('cache.autoupdate',true);
-c::set('whoops',true);
 
 // content
 c::set('kirbytext.video.width','100%');
