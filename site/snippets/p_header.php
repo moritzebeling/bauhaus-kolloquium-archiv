@@ -8,7 +8,7 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/css/index.min.css') ?>
+  <?= css('assets/css/index.min.css?v2') ?>
   <?= css('assets/css/index-grid.min.css', 'only screen and (min-width: 650px)') ?>
 
   <?= js('assets/js/jquery-3.3.1.min.js', ['defer' => true]); ?>
