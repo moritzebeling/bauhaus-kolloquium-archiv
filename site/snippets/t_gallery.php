@@ -10,7 +10,7 @@ Recieving:
 */
 
 ?>
-<article id="ibhk-16-gallery" class="colloquia span2 addon add-nav">
+<article id="ibhk-13-gallery" class="colloquia span2 addon">
 	<div class="wrapper">
 
 		<header>
