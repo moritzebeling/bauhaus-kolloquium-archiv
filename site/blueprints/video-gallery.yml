@@ -1,0 +1,76 @@
+title: Video Gallery
+
+pages: false
+options:
+  preview: true
+  status: true
+  template: false
+  url: true
+  delete: true
+
+fields:
+
+  title:
+    label: Titel
+    type:  text
+    required: true
+
+
+
+  panel1_headline:
+    type: headline
+    label: Sektion 1
+    numbered: false
+
+  panel1_title:
+    type: text
+    label: Titel
+
+  panel1_videos:
+    extends: videos
+    label: Videos
+
+
+
+  panel2_headline:
+    type: headline
+    label: Sektion 2
+    numbered: false
+
+  panel2_title:
+    type: text
+    label: Titel
+
+  panel2_videos:
+    extends: videos
+    label: Videos
+
+
+
+  panel3_headline:
+    type: headline
+    label: Sektion 3
+    numbered: false
+
+  panel3_title:
+    type: text
+    label: Titel
+
+  panel3_videos:
+    extends: videos
+    label: Videos
+
+
+
+  panel4_headline:
+    type: headline
+    label: Sektion 4
+    numbered: false
+
+  panel4_title:
+    type: text
+    label: Titel
+
+  panel4_videos:
+    extends: videos
+    label: Videos

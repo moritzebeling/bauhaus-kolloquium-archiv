@@ -70,3 +70,6 @@ c::set('thumbs.presets', [
   '1280' => ['width' => 1280, 'quality' => 80],
   '1600' => ['width' => 1600, 'quality' => 80]
 ]);
+
+// cdn
+c::set('cdn', 'https://documentary-architecture.fra1.cdn.digitaloceanspaces.com/ibhk/');

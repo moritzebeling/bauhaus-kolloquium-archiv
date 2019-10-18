@@ -28,51 +28,20 @@ endif;
 			snippet( 'b_quote' ,[ 'quote' => $quote ]);
 		endif; endforeach; endif; ?>
 
-		<?php if($page->hasVideos()):
-			$videos = $page->videos();
-			?>
+		<?php foreach( $page->videosource()->toStructure() as $video ): ?>
 			<section class="video">
-				<div class="video-player">
-					<div class="video-screen">
-						<?php $thumbnail = $page->video_thumbnail()->toFile(); ?>
-						<video width="100%" height="auto" preload="none" poster="<?php if( $thumbnail ){ echo $thumbnail->thumb(['width' => 800])->url(); } ?>">
-							<?php foreach($videos as $video):
-								if( strpos( $video, '.mobil.' ) !== false ){
-									$med = 'media="all and (max-width:1280px)"';
-								} else {
-									$med = '';
-								} ?>
-								<source width="100%" height="auto" src="<?php echo $video->url(); ?>" type="<?php echo $video->mime(); ?>" <?= $med ?> />
-							<?php endforeach ?>
-							<?php if( $thumbnail ): ?>
-								<img width="100%" height="auto" src="<?php echo $thumbnail->thumb(['width' => 800])->url() ?>" />
-							<?php endif ?>
-						</video>
-					</div>
-					<div class="video-controls">
-						<div class="left">
-							<span class="button play">Play</span>
-							<span class="button pause">Pause</span>
-							<span class="time-now">0:00</span>
-						</div>
-						<div class="flex time-progress">
-							<div class="time-progress-bar"></div>
-							<div class="time-progress-slider"></div>
-						</div>
-						<div class="right">
-							<span class="time-total">
-								<?php if($page->duration_min()->isNotEmpty() && $page->duration_sec()->isNotEmpty()):
-									echo $page->duration_min();
-									echo ":";
-									$sec = "00".$page->duration_sec()->text();
-									echo substr($sec, -2);
-								endif ?>
-							</span>
-						</div>
-					</div>
-				</div>
+
+				<?php snippet('videoplayer',[
+					'thumbnail' => $video->thumbnail()->toFile(),
+					'min' => $video->duration_min(),
+					'sec' => $video->duration_sec(),
+					'sizes' => $video->sizes(),
+					'directory' => c::get('cdn') . 'retrospects/',
+					'filename' => $video->filename()
+				]); ?>
+
 			</section>
-		<?php endif ?>
+		<?php endforeach; ?>
 
 		<section class="black grid small mono">
 			<?php if($page->is_retrospect()->bool()): ?>
