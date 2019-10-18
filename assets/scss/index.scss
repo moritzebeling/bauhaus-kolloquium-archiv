@@ -222,53 +222,54 @@ nav {
      -khtml-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none;
-}
+			user-select: none;
 
-nav .index {
-	position: absolute;
-	width: auto;
-	top: 0;
-	padding: 0 4rem;
-}
+	.index {
+		position: absolute;
+		width: auto;
+		top: 0;
+		padding: 0 4rem;
+	}
 
-nav .index a {
-	display: inline-block;
-	flex: 1;
-	padding: 0.5rem 0;
-	margin-top: 0.4rem;
-	margin-right: 0.4em;
-	font-size: 1rem;
-}
+	.index a {
+		display: inline-block;
+		flex: 1;
+		padding: 0.5rem 0;
+		margin-top: 0.4rem;
+		margin-right: 0.4em;
+		font-size: 1rem;
+	}
 
-nav a.prev-chapter,
-nav a.next-chapter {
-	position: fixed;
-	z-index: 100;
-	top: 0.2rem;
-	height: 2.6rem;
-	width: 3.2rem;
-	display: block;
-	background-size: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-color: #fff;
-}
-nav a.prev-chapter {
-	left: 0;
-	background-position: 70% center;
-	background-image: url(../images/arrow-prev.svg);
-	-webkit-box-shadow: 15px 0px 10px -5px rgba(255,255,255,1);
-	-moz-box-shadow: 15px 0px 10px -5px rgba(255,255,255,1);
-	box-shadow: 15px 0px 10px -5px rgba(255,255,255,1);
-}
-nav a.next-chapter {
-	right: 0;
-	background-position: 30% center;
-	background-image: url(../images/arrow-next.svg);
-	-webkit-box-shadow: -15px 0px 10px -5px rgba(255,255,255,1);
-	-moz-box-shadow: -15px 0px 10px -5px rgba(255,255,255,1);
-	box-shadow: -15px 0px 10px -5px rgba(255,255,255,1);
+	a.prev-chapter,
+	a.next-chapter {
+		position: fixed;
+		z-index: 100;
+		top: 0.2rem;
+		height: 2.6rem;
+		width: 3.2rem;
+		display: block;
+		background-size: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: #fff;
+	}
+	a.prev-chapter {
+		left: 0;
+		background-position: 70% center;
+		background-image: url(../images/arrow-prev.svg);
+		-webkit-box-shadow: 15px 0px 10px -5px rgba(255,255,255,1);
+		-moz-box-shadow: 15px 0px 10px -5px rgba(255,255,255,1);
+		box-shadow: 15px 0px 10px -5px rgba(255,255,255,1);
+	}
+	a.next-chapter {
+		right: 0;
+		background-position: 30% center;
+		background-image: url(../images/arrow-next.svg);
+		-webkit-box-shadow: -15px 0px 10px -5px rgba(255,255,255,1);
+		-moz-box-shadow: -15px 0px 10px -5px rgba(255,255,255,1);
+		box-shadow: -15px 0px 10px -5px rgba(255,255,255,1);
+	}
+
 }
 
 footer a {
@@ -452,6 +453,23 @@ article.colloquia header .official-page-link:hover a {
 article.retrospect h4 {
 	margin-bottom: 1rem;
 	padding-right: 1.5em;
+}
+
+
+article.video-gallery {
+	.sektion + .sektion {
+		margin-top: 4rem;
+	}
+	header {
+		h3 {
+			padding-right: 1rem;
+		}
+	}
+	section {
+		h5 {
+			display: none;
+		}
+	}
 }
 
 
