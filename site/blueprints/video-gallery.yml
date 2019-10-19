@@ -74,3 +74,57 @@ fields:
   panel4_videos:
     extends: videos
     label: Videos
+
+
+  line:
+    type: line
+
+  production:
+    label: Produktion
+    type: textarea
+    required: true
+    width: 1/2
+    buttons:
+      - bold
+      - italic
+      - link
+
+  production_en:
+    label: Production English
+    type: textarea
+    required: true
+    width: 1/2
+    buttons:
+      - bold
+      - italic
+      - link
+
+  copyright:
+    label: Copyright
+    type: text
+    width: 1/2
+    required: true
+    default: Centre for Documentary Architecture
+
+  copyright_url:
+    label: Copyright URL
+    type: url
+    width: 1/2
+
+  copyright_city:
+    label:
+      de: Copyright Ort
+      en: Copyright City
+    type: text
+    width: 1/2
+    default: Weimar
+
+  copyright_year:
+    label:
+      de: Copyright Jahr
+      en: Copyright Year
+    type: number
+    width: 1/2
+    min: 1800
+    max: 2050
+    default: 2016

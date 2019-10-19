@@ -46,6 +46,21 @@ Recieving:
 					</section>
 				<?php endforeach; ?>
 
+				<section class="black grid small mono">
+					<div class="g-element">
+						<?= $page->production()->kirbytext() ?>
+					</div>
+					<div class="g-element en">
+						<?= $page->production_en()->kirbytext() ?>
+					</div>
+					<div class="g-element">
+						<p>Centre for Documentary Architecture</p>
+					</div>
+					<div class="g-element">
+						<p>&copy; Weimar, 2019</p>
+					</div>
+				</section>
+
 			</div>
 		<?php endfor; ?>
 
