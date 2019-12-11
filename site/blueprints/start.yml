@@ -11,6 +11,13 @@ options:
   url: true
   delete: true
 
+files:
+  fields:
+    alt:
+      label: Bildbeschreibung
+      type: textarea
+      buttons: false
+
 fields:
   title:
     label: Überschrift

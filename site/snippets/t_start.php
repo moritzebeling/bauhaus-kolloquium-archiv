@@ -99,7 +99,7 @@ Recieving:
 					foreach($galleryItems as $galleryItem):
 					  $image = $galleryItem->image()->toFile();
 					  if($image): ?>
-							<img width="auto" height="32px" src="<?= $image->url() ?>" />
+							<img alt="<?= $image->alt()->html() ?>" width="auto" height="32px" src="<?= $image->url() ?>" />
 					  <?php endif ?>
 					<?php endforeach ?>
 				</section>
@@ -126,7 +126,7 @@ Recieving:
 	</div>
 	<footer>
 
-		&copy; Weimar 2018
+		&copy; Weimar 2018/2019
 		<a target="_blank" href="<?= $site->imprint_url() ?>">Impressum</a>
 
 	</footer>
