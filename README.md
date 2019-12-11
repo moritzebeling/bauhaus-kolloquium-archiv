@@ -29,7 +29,7 @@ $ php -S localhost:3000
 
 Compile CSS
 ```
-$ sass --watch assets/scss:assets/css
+$ sass --watch --style=compressed assets/scss:assets/css
 ```
 
 ### Credits

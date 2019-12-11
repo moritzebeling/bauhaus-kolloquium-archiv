@@ -8,13 +8,11 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/css/index.min.css?v2') ?>
-  <?= css('assets/css/index-grid.min.css', 'only screen and (min-width: 650px)') ?>
+  <?= css('assets/css/index.css?v3') ?>
+  <?= css('assets/css/index-grid.css?v3', 'only screen and (min-width: 650px)') ?>
 
-  <?= js('assets/js/jquery-3.3.1.min.js', ['defer' => true]); ?>
+  <?= js('https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js', ['defer' => true]); ?>
   <?= js('assets/js/video.min.js', ['defer' => true]); ?>
-
-  <?= js('assets/js/lazysizes.min.js'); ?>
 
   <?php $fav_dir = $site->url()."/assets/favicon/"; ?>
   <link rel="apple-touch-icon" sizes="64x64"   href="<?= $fav_dir; ?>favicon-64.png">
