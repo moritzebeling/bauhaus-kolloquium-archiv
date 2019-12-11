@@ -300,6 +300,23 @@ article .wrapper {
 	padding: 0 1rem 5rem 1rem;
 }
 
+article.publication {
+	.wrapper {
+		padding: 0;
+		header, section {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+		section.box {
+			div {
+				border: none;
+			}
+			border-top: 1px solid #000;
+			padding: 0;
+		}
+	}
+}
+
 footer {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
@@ -307,9 +324,8 @@ footer {
 	padding: 1rem;
 }
 
-article#start {
-	background-color: #fff;
-}
+article#start,
+article.publication,
 article.participants {
 	background-color: #fff;
 }
@@ -404,20 +420,27 @@ article.colloquia header:after {
 	display: table;
 	content: "";
 }
-article.colloquia header .official-page-link {
+
+header .official-page-link {
 	float: right;
 }
-article.colloquia header .official-page-link a {
+.official-page-link a {
 	display: inline-block;
 	text-align: center;
 	padding: 1rem 2rem;
 	border: 1px solid #000;
 	border-radius: 10em;
 	transition: background-color 200ms ease, color 200ms ease;
+	&:hover {
+		background-color: #000;
+		color: #fff;
+	}
 }
-article.colloquia header .official-page-link:hover a {
-	background-color: #000;
-	color: #fff;
+section .official-page-link {
+	text-align: center;
+	a {
+		width: 100%;
+	}
 }
 
 

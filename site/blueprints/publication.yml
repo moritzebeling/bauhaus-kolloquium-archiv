@@ -1,0 +1,73 @@
+title: Publication
+
+# blueprint for the 1976+ page
+
+pages: true
+options:
+  preview: true
+  status: true
+  template: false
+  url: true
+  delete: true
+
+files:
+  fields:
+    caption:
+      label: Bildbeschreibung
+      type: textarea
+    copyright:
+      label: Copyright
+      type: text
+      default: Archiv der Moderne
+
+fields:
+
+  title:
+    label: Titel
+    type:  text
+    required: true
+
+  website:
+    label: Link zur Kolloquiums-Webseite (optional)
+    type: url
+
+  gallery:
+    label: Gallerie
+    type: structure
+    style: table
+    sort: position, asc
+    entry:
+      - position
+      - image
+    fields:
+      position:
+        label: Position
+        type: number
+        default: 2
+      image:
+        label: Bilddatei
+        type: image
+
+  text:
+    label: Text
+    type: textarea
+    buttons:
+      - bold
+      - italic
+      - link
+
+  text_en:
+    label: Text English
+    type: textarea
+    buttons:
+      - bold
+      - italic
+      - link
+
+  info:
+    label: Info
+    type: textarea
+    buttons:
+      - bold
+      - italic
+      - link

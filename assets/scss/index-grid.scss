@@ -75,10 +75,8 @@
 		border-right: 1px solid #000;
 		background-color: #fff;
 	}
-	article.participants {
-		background-color: #fff;
-		border-left: 1px solid #000;
-	}
+	article.participants,
+	article.publication,
 	article#credits {
 		background-color: #fff;
 		border-left: 1px solid #000;
@@ -87,6 +85,22 @@
 	article.retrospect .wrapper {
 		padding-left: 3rem;
 		padding-right: 3rem;
+	}
+
+	article.publication {
+		.wrapper {
+			padding: 0;
+			header, section {
+				padding-left: 3rem;
+				padding-right: 3rem;
+			}
+			section.box {
+				margin-top: 3rem;
+				div {
+					padding: 3rem;
+				}
+			}
+		}
 	}
 
 	footer {
