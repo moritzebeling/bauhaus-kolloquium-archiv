@@ -38,7 +38,7 @@ Recieving:
 		<?php if($page->website()->isNotEmpty()): ?>
 			<section>
 				<div class="official-page-link">
-					<a target="_blank" href="<?= $page->website() ?>">Spector Books</a>
+					<a target="_blank" href="<?= $page->website() ?>">Erschienen bei Spector Books</a>
 				</div>
 			</section>
 		<?php endif ?>
