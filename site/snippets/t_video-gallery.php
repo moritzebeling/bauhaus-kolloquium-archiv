@@ -13,6 +13,10 @@ Recieving:
 <article id="ibhk-19-videos" class="span2 video-gallery">
 	<div class="wrapper">
 
+		<header>
+			<h3><?= $page->title() ?></h3>
+		</header>
+
 		<?php
 		for ($s=1; $s < 5; $s++):
 
@@ -23,8 +27,8 @@ Recieving:
 			<div class="sektion sektion-<?= $s ?>">
 
 				<header>
-					<h3>Sektion <?= $s; ?><br />
-					<span class="regular"><?= $page->{$field_headline}() ?></span></h3>
+					<h4>Panel <?= $s; ?><br />
+					<span class="regular"><?= $page->{$field_headline}() ?></span></h4>
 				</header>
 
 				<?php foreach( $page->{$field_lectures}()->toStructure() as $lecture ): ?>
