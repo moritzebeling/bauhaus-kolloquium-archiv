@@ -29,6 +29,10 @@ if($image):
 		if( strpos($check, "archiv") !== false ){
 			$archiveID = $image->name();
 		}
+	} else if($image->caption()->isNotEmpty()){
+		$copyright = $image->caption()->html();
+	} else {
+		$copyright = $page->title()->html();
 	}
 
 	if($archiveID !== false){
