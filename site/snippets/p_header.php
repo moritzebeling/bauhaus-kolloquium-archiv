@@ -8,8 +8,8 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/css/index.css?v3') ?>
-  <?= css('assets/css/index-grid.css?v3', 'only screen and (min-width: 650px)') ?>
+  <?= css('assets/css/index.css?v4') ?>
+  <?= css('assets/css/index-grid.css?v4', 'only screen and (min-width: 650px)') ?>
 
   <?= js('https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js', ['defer' => true]); ?>
   <?= js('assets/js/video.min.js', ['defer' => true]); ?>
