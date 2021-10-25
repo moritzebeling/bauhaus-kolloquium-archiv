@@ -32,6 +32,11 @@ fields:
     required: true
     width: 1/2
 
+  subtitle:
+    label: subtitle
+    type: text
+    width: 1/2
+
   is_retrospect:
     label:
       de: Rückblicke

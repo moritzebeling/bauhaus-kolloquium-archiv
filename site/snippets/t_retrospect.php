@@ -22,7 +22,12 @@ endif;
 <article id="inter-<?= $page->id() ?>" class="retrospect add-nav span1" data-count="<?= $count ?>">
 	<div class="wrapper">
 
-		<h4><?= $page->title()->text() ?></h4>
+		<div class="title">
+			<h4><?= $page->title()->text() ?></h4>
+			<?php if( $page->subtitle()->isNotEmpty() ): ?>
+				<h5 class="subtitle"><?= $page->subtitle()->text() ?></h5>
+			<?php endif ?>
+		</div>
 
 		<?php if(isset($quotes)): foreach($quotes as $quote): if($quote['group'] == 0):
 			snippet( 'b_quote' ,[ 'quote' => $quote ]);

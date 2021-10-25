@@ -473,9 +473,12 @@ section .official-page-link {
 
 
 
-article.retrospect h4 {
+article.retrospect .title {
 	margin-bottom: 1rem;
 	padding-right: 1.5em;
+	h4 {
+		margin-bottom: 0.1em;
+	}
 }
 
 
