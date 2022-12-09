@@ -12,7 +12,7 @@
   <?= css('assets/css/index-grid.css?v4', 'only screen and (min-width: 650px)') ?>
 
   <?= js('https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js', ['defer' => true]); ?>
-  <?= js('assets/js/video.min.js', ['defer' => true]); ?>
+  <?= js('assets/js/video.js', ['defer' => true]); ?>
 
   <?php $fav_dir = $site->url()."/assets/favicon/"; ?>
   <link rel="apple-touch-icon" sizes="64x64"   href="<?= $fav_dir; ?>favicon-64.png">

@@ -1,5 +1,8 @@
 <?php
 
+include 'static-html.html';
+exit;
+
 define('DS', DIRECTORY_SEPARATOR);
 
 // load kirby
