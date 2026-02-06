@@ -1,0 +1,164 @@
+Year: 2019
+
+----
+
+Title: 2019
+
+----
+
+Name: XIV. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: https://www.bauhaus-kolloquium.de
+
+----
+
+Edition: 14
+
+----
+
+Date-start: 2019-04-10
+
+----
+
+Date-end: 2019-04-12
+
+----
+
+Poster: ibhk14-poster-de.jpg
+
+----
+
+Text-intro: 
+
+**Prof. Dr. Ines Weizman**
+Direktorin des Kolloquiums
+
+In Zusammenarbeit mit
+**Max Welch-Guerra**
+**Eva von Engelberg**
+**Johannes Warda**
+
+----
+
+Text-intro-en: 
+
+**Prof. Dr. Ines Weizman**
+Director of the Colloquium
+
+In collaboration with
+**Max Welch-Guerra**
+**Eva von Engelberg**
+**Johannes Warda**
+
+----
+
+Text: 
+
+100 Jahre nach Gründung des Bauhauses 1919 wird sich das 14. Inter­nationale Bauhaus-Kolloquium vertiefend mit der Geschichte des Bauhauses an dessen Wirkungs­stätten Weimar, Dessau und Berlin sowie seiner inter­nationalen Rezeption und Migration auseinandersetzen. Im Jubiläums­jahr versammelt das Bauhaus-Kolloquium eine inter­disziplinäre Gemein­schaft von Forschenden und hält kritische Rück­schau auf die Anfänge und den historischen Kontext des Jahres 1919. Es beleuchtet die gesell­schafts­politische Einbettung des Bauhauses in die Global­geschichte des 20. Jahrhunderts und fragt nach der Etablierung einer „Bauhaus-Architektur“ als Stil­kanon in der Architektur­historiographie der Nachkriegs­zeit. Unausweichlich spiegelt die Geschichte des Bauhauses dabei auch die Fragen der gestaltenden Disziplinen der Gegen­wart zurück. Inter­nationale Architekt­Innen, Künstler­Innen, Historiker­Innen und Gesell­schafts­wissenschaftler­Innen werden das historische Bauhaus mit der Gegen­wart konfrontieren.
+
+– Ines Weizman
+Konferenzdirektorin
+
+----
+
+Text-en: 
+
+One hundred years after the founding of the Bauhaus in 1919, the 14th Inter­national Bauhaus Colloquium will reflect on the history of the school at its original sites in Weimar, Dessau, and Berlin, as well as its inter­national reception and migration. In the anniversary year of the founding of the Bauhaus, this colloquium will bring together an inter­disciplinary community of researchers, providing a critical look back at its beginnings and at the historical context of the year 1919. It also aims to shed light on the socio-political context of the Bauhaus in twentieth-century history and examine the establishment of “Bauhaus architecture” as a canonical style in the archi­tectural historio­graphy of the post-war period. Inevitably, the history of the Bauhaus reflects on some of the core questions of the design disciplines of today, so inter­national architects, urban planners, artists, social scientists, historians, and theoreticians will confront representations and perspectives of the historical Bauhaus with the present day.
+
+– Ines Weizman
+Conference director
+
+----
+
+Program: 
+
+- 
+  image: ibhk14-poster-de2.jpg
+  position: "1"
+  column: right
+
+----
+
+Gallery: 
+
+- 
+  image: 2019_bauhaus_kolloquium_mood-8.jpg
+  position: "1"
+  column: left
+- 
+  image: 2019_bauhaus_kolloquium_vortraege-21.jpg
+  position: "2"
+  column: right
+- 
+  image: 2019_bauhaus_kolloquium_vortraege-25.jpg
+  position: "2"
+  column: left
+- 
+  image: >
+    2019_bauhaus_kolloquium_vortraege-122.jpg
+  position: "4"
+  column: left
+- 
+  image: >
+    2019_bauhaus_kolloquium_vortraege-123.jpg
+  position: "5"
+  column: right
+- 
+  image: >
+    2019_bauhaus_kolloquium_vortraege-162.jpg
+  position: "4"
+  column: left
+- 
+  image: >
+    2019_bauhaus_kolloquium_vortraege-164.jpg
+  position: "9"
+  column: left
+- 
+  image: 2019_bauhaus_kolloquium_dinner-12.jpg
+  position: "9"
+  column: right
+- 
+  image: >
+    2019_bauhaus_kolloquium_vortraege-150.jpg
+  position: "7"
+  column: right
+- 
+  image: 2019_bauhaus_kolloquium_vortraege-30.jpg
+  position: "3"
+  column: right
+- 
+  image: 2019_bauhaus_kolloquium_vortraege-74.jpg
+  position: "4"
+  column: right
+- 
+  image: 2019_bauhaus_kolloquium_dinner-20.jpg
+  position: "8"
+  column: right
+- 
+  image: 2019_bauhaus_kolloquium_vortraege-65.jpg
+  position: "3"
+  column: right
+- 
+  image: >
+    2019_bauhaus_kolloquium_vortraege-133.jpg
+  position: "8"
+  column: left
+- 
+  image: >
+    2019_bauhaus_kolloquium_vortraege-142.jpg
+  position: "7"
+  column: left
+
+----
+
+Quotes: 
+
+----
+
+Album-cover: 
+
+----
+
+Album: 

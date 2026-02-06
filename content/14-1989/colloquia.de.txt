@@ -1,0 +1,171 @@
+Year: 1989
+
+----
+
+Title: 1989
+
+----
+
+Name: V. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 5
+
+----
+
+Date-start: 1989-06-27
+
+----
+
+Date-end: 1989-06-30
+
+----
+
+Poster: 1989-poster.jpg
+
+----
+
+Text: 
+
+Das Bauhaus-Kolloquium ist ein internationales Forum zur Geschichte, Theorie und Praxis des Städtebaus, der Architektur und industriellen Formgestaltung in unserer Epoche. Interdisziplinär angelegt, verbindet es die Diskussion aktueller Entwicklungsprobleme der Gesellschaft und des Bauens, der Architektur und Produktgestaltung mit der wissenschaftlichen Aufarbeitung progressiven Erbes. Unter diesem Thema sollen auf dem 5. Internationalen Bauhaus-Kolloquium Probleme erörtert werden, die sich aus der Revolutionierung der Produktivkräfte und den Veränderungen im Charakter der Arbeit in unserer Epoche für die Gestaltung der Arbeits- und Wohnumwelt und die Stadtplanung ergeben. Auch dieses Kolloquium wird der produktiven Erschließung des fortschrittlichen Bauhauserbes verpflichtet sein.
+
+–  Auszug aus dem Programm des Kolloquiums
+
+----
+
+Program: 
+
+- 
+  image: 1989_1.jpg
+  group: "2"
+  position: "1"
+  column: left
+- 
+  image: 1989_2.jpg
+  group: "2"
+  position: "1"
+  column: left
+- 
+  image: 1989_3.jpg
+  group: "2"
+  position: "1"
+  column: left
+- 
+  image: 1989_4.jpg
+  group: "2"
+  position: "1"
+  column: left
+
+----
+
+Gallery: 
+
+- 
+  group: "4"
+  image: bhk_05_15.jpg
+  position: "2"
+  column: right
+- 
+  group: "4"
+  image: bhk_05_170.jpg
+  position: "3"
+  column: right
+- 
+  group: "4"
+  image: bhk_05_23.jpg
+  position: "4"
+  column: right
+
+----
+
+Quotes: 
+
+- 
+  group: "1"
+  blockquote: >
+    „Die DDR hatte das Bauhaus spät
+    entdeckt – zu spät, in gewisser
+    Weise, denn der internationale Diskurs
+    war viel weiter gediehen. Und der war
+    gerade in den 80er Jahren einer der
+    Postmoderne. Und die ist gestartet mit
+    der massiven Kritik am Modernismus.
+    Jetzt muss man sich vorstellen, die DDR
+    entdeckt spät das Bauhaus und macht es
+    sich sofort zueigen und erklärt im
+    gleichen Moment – im alten Duktus der
+    anderen Doktrin – jetzt das Bauhaus
+    zur Doktrin. Da war ich strikt
+    dagegen.“
+  source: >
+    Gerd Zimmermann im Gespräch mit Annika
+    Eheim, 2015
+  blockquote_en: >
+    „The GDR discovered the Bauhaus quite
+    late, too late, in a way, because the
+    international discourse was much more
+    advanced. And it was, especially in the
+    ‘80s, about postmodernism. It started
+    with a criticism of modernism – in
+    fact, with a massive criticism of
+    modernism. Now you have to imagine, the
+    GDR discovers the Bauhaus late, takes
+    immediate ownership of it. To a certain
+    degree it explains – in the same style
+    as the other doctrine – the Bauhaus as
+    the new doctrine. I was strictly against
+    it.“
+  source_en: >
+    Gerd Zimmermann in conversation with
+    Annika Eheim, 2015
+  position: "1"
+  column: right
+
+----
+
+Text2: 
+
+----
+
+Text-intro: 
+
+#### Produktivkraftentwicklung und Umweltgestaltung.
+
+Sozialer und wissenschaftlich-technischer Fortschritt in ihren Wirkungen auf Architektur und industrielle Formgestaltung in unserer Zeit.
+Zum 100. Geburtstag von Hannes Meyer
+
+**Prof. Dr. Horst Siegel**
+Leiter des Kolloquiums
+
+----
+
+Text-intro-en: 
+
+#### Development of Productive Forces and Environmental Design.
+
+Social and scientific-technical progress in its effects on architecture and industrial design in our times.
+The 100th Anniversary of Hannes Meyer
+
+**Prof. Dr. Horst Siegel**
+Director of the Colloquium
+
+----
+
+Text-en: 
+
+The Bauhaus Colloquium is an international forum for the history, theory and practice of urban development, architecture and industrial design in our era. In an interdisciplinary manner, it connects the discussion about actual developmental problems of society and construction, of architecture and product design, with the scientific reappraisal of progressive heritage. At the 5th International Bauhaus Colloquium, issues arising from the revolutionary changes in productive forces will be discussed, along with changes in the nature of work in our era, and in the structure of work and living environments, as well as urban planning. The colloquium is also committed to the productive development of Bauhaus heritage.
+
+– Excerpt from the Programme
+
+----
+
+Album: IBHK-1989-Fotoalbum.pdf
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-1989.jpg

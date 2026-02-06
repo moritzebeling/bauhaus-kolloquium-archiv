@@ -1,0 +1,114 @@
+Title: Marco de Michelis
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme an allen Bauhaus-Kolloquien 1976-2007.
+Interview geführt von Lena Laine, 27. Juni 2016, Mailand (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation in all Bauhaus-Colloquia between 1976 and 2007.
+Interview conducted by Lena Laine, 27th June 2016, Milan (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_05_107.jpg
+
+----
+
+Biography: **Marco De Michelis** studierte Architektur am Institut di Architettura di Venezia und promovierte dort 1969. Er war zunächst als Assistent von Prof. Manfredo Tafuri tätig, bis er 1980 Professor für Baugeschichte an der IUAV, Venedig wurde, wo er später auch als Dekan der Fakultät Kunst und Design tätig war. Er hat zu Heinrich Tessenow, über das Bauhaus, zur Geschichte und Theorie der Moderne in Architektur und Design wie auch zur sowjetischen Architektur der 1920er und 30er Jahre publiziert und geforscht. Zwischen 1989 und 1991 war er Chefredakteur der Zeitschrift für Architektur und Design Ottagno. Von 1997 bis 2003 hatte er die Gropius-Professur an der Bauhaus-Universität Weimar inne und war auch an der Konzipierung des Kolloquiums *Medium Architektur* 2003 beteiligt.
+
+----
+
+Biography-en: **Marco De Michelis** studied architecture at the Institut di Architettura di Venezia, completing his doctorate in 1969. Next, he worked as an assistant to Prof. Manfredo Tafuri, until becoming Professor of Architectural History at the IUAV in Venice in 1980, and later Dean of the Faculty of Art and Design. He researched and published about Heinrich Tessenow, the Bauhaus, the history and theory of modernism in architecture and design, and Soviet architecture of the 1920s and ‘30s. From 1989 to 1991, he acted as editor-in-chief of the architecture and design magazine Ottagno. Between 1997 and 2003, he was the Gropius Professor at the Bauhaus-University Weimar and was also involved in the conception of the *Medium Architecture* Colloquium in 2003.
+
+----
+
+Quotes: 
+
+- 
+  blockquote: >
+    „Das Interesse für die DDR war an
+    meiner Hochschule in der Zeit lebendig,
+    weil man viel über Typisierung,
+    Industrialisierung, über Typologie und
+    Denkmal sprach. Die Theorie Aldo Rossis
+    war also einigermaßen sympathetisch mit
+    einer möglichen und kritischen
+    Interpretation der DDR-Architektur.“
+  source: >
+    Marco De Michelis im Interview mit Lena
+    Laine, 2016
+  blockquote_en: >
+    “At the time, interest in the GDR was
+    alive at my university, because a lot
+    was being said about typing,
+    industrialization, about typology and
+    monument. The theory of Aldo Rossi was
+    somehow conducive with a possible and
+    critical interpretation of GDR
+    architecture.”
+  source_en: >
+    Marco De Michelis in Interview with Lena
+    Laine, 2016
+  group: "1"
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Marco-DeMichelis.jpg
+  filename: retrospect-marco-demichelis
+  sizes: 720, 480, 360
+  duration_min: "31"
+  duration_sec: "02"

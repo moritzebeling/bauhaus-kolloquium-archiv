@@ -1,0 +1,87 @@
+Title: Peter Hahn
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme am Bauhaus-Kolloquium 1979, 1983, 1989.
+Interview geführt von Adrienne Michels, 22. Januar 2016, Berlin (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation in the Bauhaus-Colloquium in 1979, 1983, 1989.
+Interview conducted by Adrienne Michels, 22nd January 2016, Berlin (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_06_113.jpg
+
+----
+
+Biography: **Peter Hahn** studierte an der Freien Universität Berlin und promovierte dort 1969 mit einer philosophisch-sozialwissenschaftlichen Dissertation unter dem Titel *Kunst zwischen Ideologie und Utopie. Studien über die theoretischen Möglichkeiten eines gesellschaftsbezogenen Kunstbegriffs*. Von 1971 bis 1984 war Peter Hahn in Darmstadt und später in Berlin zunächst als wissenschaftlicher Mitarbeiter, und zwischen 1985 und 2002, als Direktor des Bauhaus-Archivs tätig. Große Ausstellungen wie beispielsweise *Fotografie am Bauhaus* (1990), *Die Metallwerkstatt am Bauhaus* (1992), *Das Bauhaus webt* (1998) und zuletzt *Bauhaus-Möbel* (2002) machten das Bauhaus-Archiv Berlin zu einer zentralen international anerkannten Institution für die Forschung und Vermittlung der Geschichte des Bauhauses. 2004 wurde Peter Hahn das Verdienstkreuz 1. Klasse des Verdienstordens der Bundesrepublik Deutschland für seine Tätigkeit als Direktor des Bauhaus-Archivs überreicht.
+
+----
+
+Biography-en: **Peter Hahn** studied at the Freie Universität Berlin, graduating in 1969 with a doctorate in philosophical and social sciences. His thesis was titled *Kunst zwischen Ideologie und Utopie. Studien über die theoretischen Möglichkeiten eines gesellschaftsbezogenen Kunstbegriffs* (Art Between Ideology and Utopia: Studies in the Theoretical Possibility of a Sociological Concept of Art). From 1971 to 1984, Peter Hahn was research assistant in Darmstadt, and later in Berlin. Between 1985 and 2002, he acted as director of the Bauhaus Archive. Key exhibitions, such as *Fotografie am Bauhaus* (1990), *Die Metallwerkstatt am Bauhaus* (1992), *Das Bauhaus webt* (1998) and *Bauhaus-Möbel* (2002) turned the Berlin Bauhaus Archive into a central and internationally-recognized institution for research and dissemination of Bauhaus history. 2004, Hahn was awarded the 1st class Order of Merit from the Federal Republic of Germany for his achievements as director of the Bauhaus Archive.
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Peter-Hahn.jpg
+  filename: retrospect-peter-hahn
+  sizes: 720, 480, 360
+  duration_min: "10"
+  duration_sec: "52"

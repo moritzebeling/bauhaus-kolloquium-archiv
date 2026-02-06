@@ -1,0 +1,87 @@
+Title: Michael Siebenbrodt
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme 1976-1989.
+Interview geführt von Annika Eheim, 9. Dezember 2015, Weimar (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation 1976-1989.
+Interview conducted by Annika Eheim, 9th December 2015, Weimar (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_02_65.jpg
+
+----
+
+Biography: **Michael Siebenbrodt** erhielt zwischen 1958 und 1970 eine künstlerische Ausbildung an der Martin-Luther-Universität Halle und an der Hochschule für industrielle Formgestaltung, Burg Giebichenstein Halle. Er studierte zwischen 1972 und 1976 Architektur an der HAB Weimar, wo er anschließend bis 1985 als wissenschaftlicher Mitarbeiter im Bereich Theorie und Geschichte der Architektur tätig war. Während seines Studiums beteiligte sich Michael Siebenbrodt an der Befragung von ehemaligen Bauhäuslern und beschäftigte sich in seiner Diplomarbeit gemeinsam mit Christine Engelmann, damals Christine Kutschke, mit Detailrecherchen zum Bauhaus-Gebäude in Dessau. Von 1985 bis 1988 war er Leiter des Wissenschaftlich-Kulturellen Zentrums Bauhaus Dessau. Von 1988 bis 1992 war er leitender Mitarbeiter im Kulturamt der Stadt Weimar, 1992 amtierender Direktor der Kunstsammlungen zu Weimar und seit 1993 Kustos der Bauhaus-Sammlungen an den Kunstsammlungen zu Weimar, der heutigen Klassik Stiftung Weimar.
+
+----
+
+Biography-en: **Michael Siebenbrodt** received his artistic education between 1958 and 1970, at both the Martin-Luther-Universität in Halle, and at the Hochschule für industrielle Formgestaltung at Halle’s Burg Giebichenstein. Between 1972 and 1976, he studied architecture at the Weimar HAB, where he then worked as a research assistant in the Department of the History and Theory of Architecture until 1985. As a student, Siebenbrodt participated in the interviews of former Bauhäusler, and while completing his master thesis, together with Christine Engelmann (formerly Christine Kutschke), he focused on conducting detailed research into the Dessau Bauhaus building. Between 1988 and 1992, he held a leading position at the culture department in the city of Weimar. In 1992 he became acting director of the Kunstsammlungen zu Weimar; and in 1993 he became curator of the Bauhaus collections at the Kunstsammlungen zu Weimar (later named Klassik Stiftung Weimar).
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Michael-Siebenbrodt.jpg
+  filename: retrospect-michael-siebenbrodt
+  sizes: 720, 480, 360
+  duration_min: "6"
+  duration_sec: "16"

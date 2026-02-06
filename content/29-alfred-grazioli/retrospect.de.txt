@@ -1,0 +1,132 @@
+Title: Alfred Grazioli
+
+----
+
+Subtitle: 1940–2018
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme 1976, 1986 und 1989.
+Interview geführt von Lena Laine, 21. Juni 2016, Berlin (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation 1976, 1986 and 1989.
+Interview conducted by Lena Laine, 21st June 2016, Berlin (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: CDA-Retrospect_Alfred-Grazioli.jpg
+
+----
+
+Duration-min: 10
+
+----
+
+Duration-sec: 00
+
+----
+
+Line2: 
+
+----
+
+Portrait: 
+
+----
+
+Biography: 
+
+**Alfred Grazioli** studierte, nach einer beruflichen Tätigkeit, zwischen 1966 und 1972 Architektur an der HFG in Ulm sowie an der Ecole d’Architecture der Université de Genève EAUG. Seit 1971 ist er als freischaffender Architekt in Basel und Berlin tätig. 1972 erhielt er den Ruf zur Professur Entwerfen und Städtebau an der Universität der Künste Berlin.
+Er gründete 2000 das Büro Grazioli und Muthesius, Architektur und Städtebau (Berlin, Basel, Zürich).
+
+----
+
+Biography-en: **Alfred Grazioli**, after completing some professional activities, studied architecture at the HFG in Ulm and the Ecole d’Architecture der Université de Genève EAUG between 1966 and 1972. Since 1971, he has worked as a freelance architect, based in Basel and Berlin. In 1972, he was appointed as Professor of Design and Urban Planning at the Universität der Künste in Berlin. In 2000, he founded the office Grazioli und Muthesius, Architektur und Städtebau (Berlin, Basel, Zürich).
+
+----
+
+Quotes: 
+
+- 
+  blockquote: >
+    „Mein Beitrag war inoffiziell über
+    den West-Berliner Wohnungsbau, weil der
+    sich damals in großer Schieflage
+    befand. Mir ist aufgefallen, dass die
+    DDR-Leute sehr glücklich darüber
+    waren, dass einer kritisch über
+    West-Berlin redete. Die saugten ja alles
+    auf, was da an Westkritik kam.“
+  source: >
+    Alfred Grazioli im Gespräch mit Lena
+    Laine, 2016
+  blockquote_en: >
+    “My contribution about housing in West
+    Berlin was unofficial, because at the
+    time the project was facing some
+    difficulties. I realized that the people
+    in the GDR were really happy that
+    someone was finally speaking critically
+    about West Berlin. They absorbed
+    everything that was critical of the
+    West.”
+  source_en: >
+    Alfred Grazioli in conversation with
+    Lena Laine, 2016
+  group: "2"
+
+----
+
+Video-source: 
+
+- 
+  host: cdn
+  source_1080: ""
+  source_720: >
+    retrospects/retrospect-alfred-grazioli/retrospect-alfred-grazioli-720.mp4
+  source_480: >
+    retrospects/retrospect-alfred-grazioli/retrospect-alfred-grazioli-480.mp4
+  source_360: >
+    retrospects/retrospect-alfred-grazioli/retrospect-alfred-grazioli-360.mp4
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Alfred-Grazioli.jpg
+  filename: retrospect-alfred-grazioli
+  sizes: 720, 480, 360
+  duration_min: "10"
+  duration_sec: "00"

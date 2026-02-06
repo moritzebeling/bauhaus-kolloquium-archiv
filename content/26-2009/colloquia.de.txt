@@ -1,0 +1,98 @@
+Year: 2009
+
+----
+
+Title: 2009
+
+----
+
+Name: XI. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 11
+
+----
+
+Date-start: 2009-04-01
+
+----
+
+Date-end: 2009-04-04
+
+----
+
+Poster: aufsteller7.jpg
+
+----
+
+Text-intro: 
+
+#### Die Architektur der neuen Weltordnung.
+
+**Prof. Dr. Gerd Zimmermann**
+Leitung des Kolloquiums
+
+In Zusammenarbeit mit
+**Prof. Dr. Kari Jormakka**
+
+----
+
+Text-intro-en: 
+
+#### Architecture in the Age of Empire.
+
+**Prof. Dr. Gerd Zimmermann**
+Director of the Colloquium
+
+In collaboration with
+**Prof. Dr. Kari Jormakka**
+
+----
+
+Text: 
+
+In der globalisierten Welt von heute bekommen Star-Architekten ihre spektakulärsten Aufträge von Staaten und Herrschern, die keine demokratischen Kommitees oder Planungsregeln berücksichtigen müssen. Unpassender Weise floriert also die progressive Architektur besonders in Staaten mit repressiven Regimes und Fragezeichen im Bereich der Menschenrechte.
+Dennoch neigen zeitgenössische Architekturkritiker dazu, ökonomische, politische, soziale und ethische Gesichtspunkte, die jegliche globale architektonische Praxis durchdringen, zu ignorieren, und sich stattdessen auf die ästhetischen Aspekte des Entwurfes, wie Ornament, Atmosphäre und Stimmungen, zu konzentrieren. Sie lehnen offen jede moralische Verantwortung ab und verneinen jede Möglichkeit des Widerstandes gegenüber ökonomischer oder politischer Macht.
+Selbstverständlich ist dies keine neue Haltung. In den frühen 20er Jahren deklarierte Walter Gropius, der erkannt hatte, dass die Zeit der kritischen, expressionistischen Praxis vorüber war, was gebraucht werde, sei „entschlossene Bejahung“ der neuen Bedingungen, und Ludwig Mies van der Rohe
+verlangte: „wir wollen die veränderten wirtschaftlichen und sozialen Verhältnisse als eine Tatsache hinnehmen. Alle diese Dinge gehen ihren schicksalhaften und wertblinden Gang.“ Sicherlich kann Theorie als Ideologie fungieren, aber kann sie auch eine konstruktivere, projektive Rolle der Einflussnahme auf zukünftige Praxis übernehmen? Dies ist eine der Fragen, die das 11. Bauhaus-Kolloquium untersuchen wird.
+
+– Auszug aus dem Programm
+
+----
+
+Text-en: 
+
+In the globalized world of today, star architects get their most spectacular commissions often from states and leaders who need not consult democratic committees or heed to planning regulations. Somewhat incongruously, progressive architecture flourishes in countries with repressive regimes. Still, economic, political, social and moral issues that pervade any globalized architectural practice tend to be ignored by contemporary critics. They refuse any political or moral responsibility and disclaim the very possibility of resistance to economic or political power. This is, of course, not a new attitude. In the early 1920s, realizing that the time of critical, expressionist practice was over, Walter Gropius declared that what is needed is “a resolute affirmation” of the new conditions, and Ludwig Mies van der Rohe demanded: “let us accept the changed economic and social conditions as a fact. All these things go their way guided by destiny and blind to values.” Certainly, theory can function as ideology but can it also assume a more constructive, projective role of influencing future practice? This is just one of the questions that will be examined by the 11th Bauhaus Colloquium.
+
+– Excerpt from the programme
+
+----
+
+Program: 
+
+----
+
+Gallery: 
+
+- 
+  image: 4338020662_7d204dc83d_o.jpg
+  group: "1"
+  position: "1"
+  column: right
+
+----
+
+Quotes: 
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-2009.jpg
+
+----
+
+Album: 

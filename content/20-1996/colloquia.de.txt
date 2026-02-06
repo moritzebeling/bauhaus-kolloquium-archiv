@@ -1,0 +1,112 @@
+Year: 1996
+
+----
+
+Title: 1996
+
+----
+
+Name: VII. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 7
+
+----
+
+Date-start: 1996-11-27
+
+----
+
+Date-end: 1996-11-29
+
+----
+
+Poster: plakat_1996.jpg
+
+----
+
+Text-intro: 
+
+#### Techno-Fiction. Zur Kritik der technologischen Utopien
+
+**Prof. Dr. Gerd Zimmermann**
+Leiter des Kolloquiums
+
+in Zusammenarbeit mit
+**Vertr.-Prof. Dr. Kari Jormakka**
+
+----
+
+Text-intro-en: 
+
+#### Techno-Fiction. Critiques of Technological Utopias
+
+**Prof. Dr. Gerd Zimmermann**
+Director of the Colloquium
+
+in collaboration with
+**Vertr.-Prof. Dr. Kari Jormakka**
+
+----
+
+Text: 
+
+Man könnte nun der Auffassung sein, dass unter dem Imperativ der neuen Technologien der Simulation und Fiktion –virtuelle Realität, Cyberspace – die Architektur verschwindet, daß sie ihre Rolle als gesellschaftlicher Mediator deshalb ausgespielt hat, weil die eigentlichen Botschaften der Gesellschaft nunmehr durch die elektronischen Medien übertragen werden. Wahrscheinlich ist, daß die Architektur nur in dem Sinne verschwindet, daß sie eine völlig andere sein wird – indem sie die Potentiale der Simulation und Fiktion von den elektronischen Medien vollständig übernimmt, jedoch – und das ist festzuhalten – wiederum als Fiktion. (...) Auch hier, nun allerdings im Sinne einer Retro-Utopie, erweist sich der post-moderne, post-industrielle Kerngedanke der vollständigen Austauschbarkeit aller Bilder und Räume. Die Räume büßen ihre Statik und Solidität ein, sie eskalieren dann zu virtuellen Bildräumen der dritten Art. Die Stadt verdoppelt sich. Die virtuelle Stadt der Mediennetze untersetzt und überlagert die geografisch-topografische Stadt. So wie das Internet die neue Heimat ist, so ist die virtuelle Stadt wahrscheinlich schon die eigentliche Stadt.
+
+– Gerd Zimmermann,
+Auszug aus der Einführung zum Kolloquium, 1996
+
+----
+
+Text-en: 
+
+One could think, that architecture vanishes under the imperative of the new technologies of simulation and fiction – virtual reality, cyber space –, that its role as social mediator is over, because the actual messages of society are transferred by electronic media. Presumably it is, that architecture only disappears in the sense of becoming a totally different one – by completely adapting to the potentials of simulation and fiction of electronic media, however – and that is important – again as a fiction. (…) Again, but now in a sense of a retro-utopia, the post-modern, post-industrial central idea encounters the complete exchangeability of all images and spaces. The spaces lose their statics and solidity, they escalate into virtual image spaces of the third kind. The city duplicates itself. The virtual city of media networks supports and overlays the geographic-topographical city. Just as the internet is the new home, probably the virtual city is already the actual city.
+
+– Gerd Zimmermann,
+Excerpt of the introduction to the Colloquium, 1996
+
+----
+
+Program: 
+
+----
+
+Gallery: 
+
+- 
+  image: bhk_07_12.jpg
+  group: "1"
+  position: "1"
+  column: right
+- 
+  image: bhk_07_1.jpg
+  group: "1"
+  position: "2"
+  column: right
+- 
+  image: bhk_07_10.jpg
+  group: "1"
+  position: "3"
+  column: right
+- 
+  image: bhk_07_7.jpg
+  group: "1"
+  position: "4"
+  column: right
+
+----
+
+Quotes: 
+
+----
+
+Album: IBHK-1996-Fotoalbum.pdf
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-1996.jpg

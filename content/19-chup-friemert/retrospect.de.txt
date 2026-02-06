@@ -1,0 +1,87 @@
+Title: Chup Friemert
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme seit 1979-1989.
+Interview geführt von Lena Laine, 16. Juni 2016, Süderstapel (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation 1976-1989.
+Interview conducted by Lena Laine, 16th June 2016, Süderstapel (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_05_124.jpg
+
+----
+
+Biography: **Chup Friemert** studierte an der Staatlichen Akademie der Bildenden Künste Stuttgart und an der Freien Universität Berlin. Er erhielt sein Diplom an der Staatlichen Hochschule für Bildende Künste Braunschweig und promovierte 1977 an der Universität Bremen. 1984 wurde er als Professor für Designgeschichte und Theorie an die Hochschule für Bildende Künste in Hamburg berufen. In dem Kolloquium 1983 trug Friemert zum Wohnungsbau in der Bundesrepublik Deutschland vor. 1986 und 1989 sprach er über industrielle Massenproduktion und Kultur. Auf einem der Kolloquien lernte Friemert Elmer López de León kennen. Es ist anzunehmen, dass er unter anderem auch dank dieses Kontaktes drei Jahre lang in den späten 1980ern als Gastprofessor am Instituto Superior de Diseño Industrial in Havanna, Kuba tätig war. Von 1989 bis 2010 war er Mitherausgeber und Redakteur der Zeitschrift *Form und Zweck*. Zu seinen Publikationen gehören Produktionsästhetik im Faschismus. *Das Amt‚ Schönheit der Arbeit von 1933 bis 1939* (Damnitz Verlag, München, 1980), *Weltausstellung 1889. Der Maschinenpalast* (Hg. mit Susanne Weiß, Textem Verlag, Hamburg, 2009), *Hegel. Philosophie der Kunst. Bearbeitete Mitschriften* (Materialverlag, Hamburg, 2012).
+
+----
+
+Biography-en: **Chup Friemert** studied at the Staatliche Akademie der Bildenden Künste Stuttgart and the Freie Universität Berlin. He graduated from the Staatliche Hochschule für Bildende Künste Braunschweig and completed his doctoral studies at the University of Bremen in 1977. In 1984, he was appointed Professor of History of Design and Theory at the Hochschule für Bildende Künste in Hamburg. At the 1983 colloquium, Friemert gave a presentation about housing in the Federal Republic of Germany; and in 1986 and 1989, he spoke about industrial mass production and culture. At one of the colloquia, Friemert met Elmer López de León, and among other reasons it’s likely due to this contact that he was appointed as guest professor at the Instituto Superior de Diseño Industrial in Havana, Cuba for three years in the late 1980s. Between 1989 and 2010, he acted as copublisher and editor of *Form und Zweck* magazine. His numerous publications include *Produktionsästhetik im Faschismus: Das Amt‚ Schönheit der Arbeit von 1933 bis 1939* (Damnitz Verlag, München, 1980), *Weltausstellung 1889: Der Maschinenpalast* (Hg. mit Susanne Weiß, Textem Verlag, Hamburg, 2009), and *Hegel: Philosophie der Kunst. Bearbeitete Mitschriften* (Materialverlag, Hamburg, 2012).
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Chup-Friemert.jpg
+  filename: retrospect-chup-friemert
+  sizes: 720, 480, 360
+  duration_min: "15"
+  duration_sec: "15"

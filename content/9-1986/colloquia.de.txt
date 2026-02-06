@@ -1,0 +1,304 @@
+Year: 1986
+
+----
+
+Title: 1986
+
+----
+
+Name: IV. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 4
+
+----
+
+Date-start: 1986-06-24
+
+----
+
+Date-end: 1986-06-26
+
+----
+
+Poster: poster_bhk_1986.jpg
+
+----
+
+Text: 
+
+Das 4. Internationale Bauhauskolloquium wurde gemeinsam mit der Bauakademie der DDR, dem Amt für industrielle Formgestaltung beim Ministerrat der DDR und dem Bund der Architekten der DDR veranstaltet. Es beschäftigte sich mit geschichtlichen und aktuellen Aspekten des wissenschaftlich-technischen Fortschritts in Beziehung zur sozialkulturellen Funktion von Architektur und industrieller Formgestaltung. Der historische Blick richtete sich diesmal vor allem auf das Wirken der Architekten Ludwig Mies van der Rohe und Ernst May aus Anlaß ihrer 100. Geburtstage. Am Kolloquium nahmen 318 Architekten, Formgestalter und Wissenschaftler aus 22 Ländern und Westberlin teil. Das Programm enthielt 44 Vorträge und ein Podiumsgespräch, eine Filmveranstaltung zum Frankfurter Wohnungsbau der zwanziger Jahre und drei abendliche Diskussionsrunden im FDJ-Studentenklub Kasseturm. Neun Ausstellungen in den Gebäuden der Hochschule verdeutlichen und vertieften das wissenschaftliche Anliegen des Kolloquiums.
+
+– Christian Schädlich, Auszug aus der Einführung des Tagungsbandes zum Kolloquium
+
+----
+
+Program: 
+
+- 
+  image: 1986-2.jpg
+  group: "1"
+  position: "2"
+  column: right
+- 
+  image: 1986-3.jpg
+  group: "1"
+  position: "2"
+  column: right
+- 
+  image: 1986-4.jpg
+  group: "1"
+  position: "2"
+  column: right
+- 
+  image: 1986-5.jpg
+  group: "1"
+  position: "2"
+  column: right
+- 
+  image: 1986-6.jpg
+  group: "1"
+  position: "2"
+  column: right
+- 
+  image: 1986_teilnehmer.jpg
+  position: "5"
+  column: left
+
+----
+
+Gallery: 
+
+- 
+  group: "3"
+  image: bhk_04_429.jpg
+  position: "1"
+  column: left
+- 
+  group: "3"
+  image: bhk_04_311.jpg
+  position: "2"
+  column: left
+- 
+  group: "3"
+  image: bhk_04_299.jpg
+  position: "3"
+  column: left
+- 
+  group: "4"
+  image: bhk_04_404.jpg
+  position: "5"
+  column: right
+- 
+  group: "4"
+  image: bhk_04_194.jpg
+  position: "4"
+  column: right
+
+----
+
+Quotes: 
+
+- 
+  group: "2"
+  blockquote: >
+    „Zum Bauhaus-Kolloquium nach Weimar zu
+    fahren, das war wie ein Geheimtipp. Man
+    musste ja eingeladen werden und da
+    musste man schon Leute kennen. Also da
+    Alfred Grazioli und Jonas Geist vorher
+    schon da waren, bekam ich die Einladung
+    – die hätte ich vielleicht sonst
+    privat gar nicht bekommen. Das war alles
+    nicht so ohne weiteres möglich – man
+    konnte ja nicht einfach hinfahren. ...
+    Ich muss sagen, es war ein absolutes
+    Abenteuer.“
+  source: >
+    Hilde Barz-Malfatti im Gespräch mit
+    Lena Laine, 2016
+  blockquote_en: >
+    “To go to the Bauhaus-Colloquium in
+    Weimar, that was an insider tip. You
+    needed an invitation, so you had to
+    already know people. So, because Alfred
+    Grazioli and Jonas Geist had already
+    been there, I got an invitation. I guess
+    I wouldn’t have received an invitation
+    as a private individual. That wasn’t
+    realy possible; you couldn’t just go
+    there. ... I must say, it was an
+    absolute adventure.“
+  source_en: >
+    Hilde Barz-Malfatti in conversation with
+    Lena Laine, 2016
+  position: "1"
+  column: right
+- 
+  blockquote: >
+    „Die Bauhaus-Kolloquien waren im
+    studentischen Leben auch wirklich
+    Höhepunkte. Das war nicht so
+    ‚nebenbei’, ‚irgendwie’, ‚da
+    waren auch mal’, ‚irgendwo tagte
+    jemand’, sondern die Studenten hatten
+    frei! Das war sozusagen für sie eine
+    Pflicht auch teilzunehmen, an diesen
+    Kolloquien. Wir hatten ja auch ein Fach
+    – Architekturtheorie – dafür
+    sollten wir hinterher über diese
+    Kolloquien schreiben. Viele Studenten
+    halfen dann mit, bei der Organisation
+    und bei allen Dingen des Ablaufs.
+    Dadurch war das auch sehr lebendig.
+    Viele junge Leuten waren in diesem
+    Kolloquium tätig und es war eine sehr
+    angenehme Atmosphäre und deshalb sind
+    die Leute auch gerne gekommen.“
+  source: >
+    Olaf Weber im Gespräch mit Annika
+    Eheim, 2016
+  blockquote_en: >
+    “The Bauhaus-Colloquia were real
+    highlights of student life. It wasn’t
+    just something incidental, somehow, it
+    wasn’t like someone just held a
+    meeting somewhere, sometime. Instead
+    students had the days off! It was sort
+    of a duty to participate in the
+    colloquium. We also had a subject –
+    architectural theory – that we were to
+    write about afterwards regarding the…
+    the colloquia; and they also worked as
+    volunteers, many students helped out
+    with the organization and the whole
+    process, there. As a result it was very
+    lively there. Many young people worked
+    on the colloquium, and it was a very
+    pleasant atmosphere, that, and that’s
+    why people liked to come.”
+  source_en: >
+    Olaf Weber in conversation with Annika
+    Eheim, 2016
+  group: "4"
+  position: "4"
+  column: left
+- 
+  blockquote: >
+    „Die bisherige, meist bürgerliche
+    Literatur über das Bauhaus
+    beschäftigte sich vorwiegend mit den
+    künstlerischen Resultaten. Oft
+    begnügte man sich damit, es zu feiern,
+    ihm den künstlerischen Rahm
+    abzuschöpfen und nur das darzustellen,
+    was sein Renommee ausmachte. Wenn
+    gesellschaftspolitische Zusammenhänge
+    erwähnt wurden, blieben sie vage.“
+  source: >
+    Karl-Heinz Hüter, Das Bauhaus in
+    Weimar, Akademie Verlag Berlin, 1976,
+    S.8
+  blockquote_en: >
+    “The previous, mostly bourgeois
+    literature about the Bauhaus dealt
+    mostly with its artistic achievements.
+    Often, they were content just to
+    celebrate it, to ‘skim the artistic
+    cream’, as it were, and only represent
+    what it was famous for. If
+    sociopolitical connections were
+    mentioned, they were vague.”
+  source_en: >
+    Karl-Heinz Hüter, Das Bauhaus in
+    Weimar, Akademie Verlag Berlin, 1976,
+    p.8
+  group: "4"
+  position: "3"
+  column: right
+- 
+  blockquote: >
+    „Ich habe in Weimar unter dem Schutz
+    des an Internationalität und Diskussion
+    interessierten Bernd Grönwald – so
+    erschien er uns jedenfalls – zweimal
+    Vorträge gehalten, die (in Berlin)
+    verboten worden waren! Die habe ich dann
+    dort gehalten und die sind in der
+    Hochschulzeitschrift veröffentlich
+    worden. Also wir haben ja nicht
+    aufgegeben, wir haben weitergemacht und
+    nicht konterrevolutionär, sondern wir
+    haben uns durchgesetzt und haben gesagt,
+    das muss der Sozialismus aushalten,
+    damit er richtig wird. So! Und das hat
+    dort stattgefunden. Vor internationalem
+    Publikum.“
+  source: >
+    Bruno Flierl im Gespräch mit Lena Laine
+    und Wolfgang Höhne, 2015
+  blockquote_en: >
+    “In Weimar, with the protection of
+    Bernd Grönwald – who was seemingly
+    interested in internationality and
+    discussion – I held two lectures,
+    which had been prohibited (in Berlin). I
+    held them there, and they were published
+    in the university journal. So, we
+    didn’t give up, we carried on. Not in
+    a counterrevolutionary way, but we
+    asserted ourselves and said that
+    socialism had to be able to withstand
+    it, and we have our contributions and we
+    must show them, now! That’s how it
+    was. And it happened there. In front of
+    international audience.”
+  source_en: >
+    Bruno Flierl in conversation with Lena
+    Laine and Wolfgang Höhne, 2015
+  group: "6"
+  position: "8"
+  column: left
+
+----
+
+Text2: 
+
+----
+
+Text-intro: 
+
+#### Der wissenschaftlich-technische Fortschritt und die sozialkulturellen Funktionen von Architektur und industrieller Formgestaltung in unserer Epoche.
+
+**Prof. Dr. Christian Schädlich**
+Leiter des Kolloquiums
+
+----
+
+Text-intro-en: 
+
+#### Scientific-technical Progress and the Sociocultural Functions of Architecture and Industrial Design in our Epoch.
+
+**Prof. Dr. Christian Schädlich**
+Director of the Colloquium
+
+----
+
+Text-en: 
+
+The 4th International Bauhaus Colloquium was organized jointly with the GDR Bauakademie, the Bureau for Industrial Design at the GDR Council of Ministers, and the GDR Association of Architects. It dealt with the present and historical aspects of the scientific and technical progress in relation to the sociocultural function of architecture and industrial design. This time, the historical aspect concentrated on the work of architects Ludwig Mies van der Rohe and Ernst May on the occasion of their 100th birthdays. 318 architects, designers and researchers from 22 countries, in addition to West Berlin, took part in the colloquium. The program included 44 presentations and one panel discussion, as well as a film event about housing in 1920s Frankfurt, and three evening round table discussions at the FDJ student club, Kasseturm. Nine exhibitions mounted in university buildings illustrated and advanced the colloquium’s scientific concerns.
+
+– Christian Schädlich, excerpt from the introduction of the colloquium
+
+----
+
+Album: IBHK-1986-Fotoalbum.pdf
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-1986.jpg

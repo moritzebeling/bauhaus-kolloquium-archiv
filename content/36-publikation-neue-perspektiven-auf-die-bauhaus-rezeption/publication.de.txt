@@ -1,0 +1,45 @@
+Title: Publikation "Neue Perspektiven auf die Bauhaus-Rezeption"
+
+----
+
+Gallery: 
+
+- 
+  position: "1"
+  image: cover.jpg
+
+----
+
+Text: 
+
+*100+* präsentiert neue Zugänge zur Geschichte und Bedeutung des Bauhauses: Das Jahr 1919 wird zum Ausgangspunkt einer mikrohistorischen Betrachtung der globalen Verflechtungen der Institution sowie bisher verdrängter Stimmen insbesondere queerer Protagonist\*innen. Die Avantgarde wird in ihrem Widerspruch zwischen Fortschrittsglauben und dem Anspruch auf eine überzeitliche Gültigkeit beleuchtet. Ein Blick auf die radikalen Manifeste und Positionen der Bauhäusler\*innen zur Gestaltung der Lebenswelt eröffnet neue Perspektiven, etwa auf deren Verhältnis zu staatlicher Intervention und der Wirkmacht privatwirtschaftlicher Interessen. Auf Basis dieser Überlegungen werden die soziotechnologischen Utopien des Bauhauses in all ihrer Ambivalenz auf ihre Nachhaltigkeit für die architektonischen, gesellschaftlichen und politischen Herausforderungen des 21. Jahrhunderts geprüft.
+
+----
+
+Text-en: 
+
+*100+* presents new approaches to the history and significance of the Bauhaus. The year 1919 serves as a starting point for a micro-historical consideration of the institution’s global reach, including previously repressed voices, particularly those of queer protagonists. The avant-garde is revealed to embody inherent tensions between belief in progress and a claim to timeless validity. A close look at radical Bauhaus manifestos and positions on lifestyle design also reveal new perspectives on the relationship to state intervention and the power of private interests. With such considerations in mind, the sociotechnological utopias of the Bauhaus in all their ambivalence are examined for their sustainability with regard to the architectural, social, and political challenges of the twenty-first century.
+
+----
+
+Website: https://www.jovis.de/en/books/architects/product/id-100.html
+
+----
+
+Publisher: Jovis
+
+----
+
+Info: 
+
+**Neue Perspektiven auf die Bauhaus-Rezeption**
+
+Herausgegeben vom Bauhaus-Institut für Geschichte und Theorie der Architektur und Planung
+Vorwort von Ines Weizman
+Jovis, Berlin, 2021
+ISBN: 9783868596939
+Deutsch
+
+Softcover, 272 Seiten
+17×24cm
+Design Felix Holler, Stoffers Graphik-Design

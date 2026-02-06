@@ -1,0 +1,91 @@
+Title: Charles Jencks
+
+----
+
+Subtitle: 1939–2019
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme am Bauhaus-Kolloquium 1992.
+Interview geführt von Lena Laine & Ines Weizman, 8. Juni 2016, London (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation in the Bauhaus-Colloquium in 1992.
+Interview conducted by Lena Laine & Ines Weizman, 8th June 2016, London (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_06_25.jpg
+
+----
+
+Biography: **Charles Jencks** studierte Englische Literatur an der Harvard University und Architektur an der Harvard Graduate School of Design. 1970 promovierte er über Architekturgeschichte am University College in London. Er wurde bekannt für seine Polemiken und Publikationen zur Postmoderne wie *Le Corbusier and the Tragic View of Architecture* (Harvard University Press, Cambridge, Mass.1974), *The Language of Post-Modern Architecture* (Rizzoli, New York, 1988), und *Critical Modernism* (John Wiley, London, 2007).
+
+----
+
+Biography-en: **Charles Jencks** studied English literature at Harvard University and architecture at the Harvard Graduate School of Design. He completed his doctoral thesis in architectural history at University College London in 1970. He’s known for his polemics and publications about postmodernism, such as *Le Corbusier and the Tragic View of Architecture* (Harvard University Press, Cambridge, Mass.1974), *The Language of Post-modern Architecture* (Rizzoli, New York, 1988), and *Critical Modernism* (John Wiley, London, 2007).
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Charles-Jencks.jpg
+  filename: retrospect-charles-jencks
+  sizes: 720, 480, 360
+  duration_min: "13"
+  duration_sec: "02"

@@ -1,0 +1,34 @@
+Title: Ausstellung „Das Internationale Bauhaus-Kolloquium in Weimar 1976 bis 2016: Ein Beitrag zur Bauhaus-Rezeption. Entwicklung“
+
+----
+
+Gallery: 
+
+- 
+  position: "2"
+  image: >
+    161106_ibhk-ausstellung_03_photo-ortrunbargholz.jpg
+- 
+  position: "3"
+  image: >
+    161106_ibhk-ausstellung_11_photo-ortrunbargholz.jpg
+- 
+  position: "4"
+  image: >
+    161106_ibhk-ausstellung_13_photo-ortrunbargholz.jpg
+- 
+  position: "5"
+  image: >
+    161106_ibhk-ausstellung_16_photo-ortrunbargholz.jpg
+- 
+  position: "6"
+  image: >
+    161106_ibhk-ausstellung_20_photo-ortrunbargholz.jpg
+- 
+  position: "7"
+  image: >
+    161106_ibhk-ausstellung_21_photo-ortrunbargholz.jpg
+- 
+  position: "7"
+  image: >
+    161106_ibhk-ausstellung_27_photo-ortrunbargholz.jpg

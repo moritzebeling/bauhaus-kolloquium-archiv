@@ -1,0 +1,146 @@
+Year: 1976
+
+----
+
+Title: 1976
+
+----
+
+Name: Wissenschaftliches Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 1
+
+----
+
+Date-start: 1976-10-27
+
+----
+
+Date-end: 1976-10-29
+
+----
+
+Poster: IBHK1976-Poster.jpg
+
+----
+
+Text1: 
+
+## 50 Jahre Bauhaus Dessau
+### Prof. Dr. Christian Schädlich
+Leiter des Kolloquiums
+****
+Anlässlich des 50. Jahrestages der Eröffnung des Bauhauses Dessau luden die Hochschule für Architektur und Bauwesen (HAB) Weimar, die Bauakademie der DDR und die Hochschule für Industrielle Formgestaltung Halle,
+Burg Giebichenstein zum Wissenschaftlichen Kolloquium vom 27.-29. Oktober 1976 nach Weimar ein. Die Konzeption für das Kolloquium erfolgte unter der Direktion von Christian Schädlich. Unter den Teilnehmern waren sowohl ehemalige Angehörige des Bauhauses, Wissenschaftler der DDR-Bauhausforschung, sowie prominente ausländische Gäste wie Max Bill, Edmund Goldzamt, Edith Horváth, Claude Schnaidt, Francesco Dal Co und Marco De Michelis. Begleitet wurde das Kolloquium von einer Ausstellung zum Werk des zweiten Bauhaus-Direktors Hannes Meyer, für die Lena Meyer-Bergner der Hochschule zahlreiche Dokumente überlassen hatte. Das erste wissenschaftliche Kolloquium an der Weimarer Hochschule sollte die wissenschaftliche Bearbeitung der Bauhausforschung begleiten. Zur Vorbereitung weiterer Kolloquien, Ausstellungen und Forschungsprojekte wurde im Nachgang des Kolloquiums ein Ständiger Arbeitskreis unter der Leitung von Christian Schädlich eingerichtet, der sich mit der Aufgabe der Aufarbeitung des Bauhauserbes beschäftigen sollte. Das Kolloquium wurde damit ein zentrales Forum für die nationale und internationale
+Bauhausforschung in der DDR.
+
+----
+
+Program: 
+
+- 
+  image: IBHK1976-Program-1.jpg
+  group: "2"
+  position: "2"
+  column: r
+- 
+  image: IBHK1976-Program-2.jpg
+  group: "2"
+  position: "2"
+  column: r
+- 
+  image: IBHK1976-Program-3.jpg
+  group: "2"
+  position: "2"
+  column: r
+
+----
+
+Gallery: 
+
+- 
+  group: "1"
+  image: BHK_01_8.jpg
+  position: "1"
+  column: r
+- 
+  group: "3"
+  image: BHK_01_12.jpg
+  position: "3"
+  column: l
+- 
+  group: "3"
+  image: BHK_01_103.jpg
+  position: "3"
+  column: l
+- 
+  group: "3"
+  image: BHK_01_86.jpg
+  position: "3"
+  column: l
+- 
+  group: "3"
+  image: BHK_01_53.jpg
+  position: "3"
+  column: l
+
+----
+
+Quotes: 
+
+----
+
+Text2: 
+
+#### Wiedereröffnung des Bauhausgebäudes Dessau<br />4. Dezember 1976</div>
+<div>
+
+Fünfzig Jahre nach der feierlichen Eröffnung des Bauhausgebäudes als neue Wirkungsstätte der Hochschule für Gestaltung am 4. Dezember 1926 wurde das Gebäude in Dessau nach einer umfangreichen **Renovierung** wiederöffnet. (Im **Prolog** dieser Ausstellung wird auf die Vorgeschichte detaillierter eingegangen.)
+Interessant ist hier der Umstand, dass das erste wissenschaftliche Kolloquium in Weimar einige Wochen vor der Wiedereröffnung des Bauhauses Dessau stattfand. In Vorträgen von Bernd Grönwald, Adalbert Behr, Hans Berger wurde die Rekonstruktion des Bauhausgebäudes in Dessau angesprochen, doch wurde noch keine genauere offizielle Positionierung zur historiographischen Einordnung und Aufarbeitung des „Bauhaus-Erbes“ in der DDR formuliert. Die gewisse Unsicherheit in der Neuausrichtung der Kulturpolitik der DDR zeigt sich in der Ausgestaltung des Programms zur Wiederöffnungsfeier in Dessau. Der westdeutsche Journalist Manfred Sack beschrieb in seinem Artikel in der ZEIT vom 10. Dezember 1976 die Eröffnungsfeier im Bauhausgebäude Dessau als „Feier ohne Fest“. Während die Eröffnung des Bauhauses am 4. Dezember 1926, an der fast tausend Gäste teilnahmen und dessen Feierlichkeiten bis in die Morgenstunden dauerte, von Bauhäuslern als „rauschendes Fest“ erinnert wurde, war die Jubiläumsfeier fünfzig Jahre später für den Journalisten eine „bitter- und bierernste Staatsaktion“. Er schrieb: „Und das Kammerorchester auf der Bühne geigte auch nicht, was Musiker der Zeit wie Paul Hindemith und Kurt Weill, Bartók oder Eisler zur Bauhaus-Zeit hervorgebracht haben, sondern etwas Bach und etwas Händel. (...) Es war kein Bauhaus-Fest wie es die Bauhäusler immer so träumerisch erzählt hatten – diesmal blieb das Bauhaus abends dunkel, das Volk zu Hause, während die 120 Prominenten im Hotel Stadt Dessau schlemmten, was morgens zwei Lieferwagen in versiegelten Kästen gebracht hatten.“
+
+----
+
+Text: 
+
+Anlässlich des 50. Jahrestages der Eröffnung des Bauhauses Dessau luden die Hochschule für Architektur und Bauwesen (HAB) Weimar, die Bauakademie der DDR und die Hochschule für Industrielle Formgestaltung Halle, Burg Giebichenstein zum Wissenschaftlichen Kolloquium vom 27.-29. Oktober 1976 nach Weimar ein. Die Konzeption für das Kolloquium erfolgte unter der Direktion von Christian Schädlich. Unter den Teilnehmern waren sowohl ehemalige Angehörige des Bauhauses, Wissenschaftler der DDR-Bauhausforschung, sowie prominente ausländische Gäste wie Max Bill, Edmund Goldzamt, Edith Horváth, Claude Schnaidt, Francesco Dal Co und Marco De Michelis. Begleitet wurde das Kolloquium von einer Ausstellung zum Werk des zweiten Bauhaus-Direktors Hannes Meyer, für die Lena Meyer-Bergner der Hochschule zahlreiche Dokumente überlassen hatte.
+Das erste wissenschaftliche Kolloquium an der Weimarer Hochschule sollte die wissenschaftliche Bearbeitung der Bauhausforschung begleiten. Zur Vorbereitung weiterer Kolloquien, Ausstellungen und Forschungsprojekte wurde im Nachgang des Kolloquiums ein Ständiger Arbeitskreis unter der Leitung von Christian Schädlich eingerichtet, der sich mit der Aufgabe der Aufarbeitung des Bauhauserbes beschäftigen sollte. Das Kolloquium wurde damit ein zentrales Forum für die nationale und internationale Bauhausforschung in der DDR.
+
+----
+
+Text-en: 
+
+On the occasion of the 50th anniversary of the opening of the Bauhaus Dessau, the “Hochschule für Architektur und Bauwesen” (HAB) Weimar, together with the “Bauakademie” of the GDR and the “Hochschule für Industrielle Formgestaltung” Halle, Burg Giebichenstein, organized a scientific colloquium from October 27-29, 1976 in Weimar. Among those present were former members of the Bauhaus, researchers of GDR-Bauhaus studies, as well as famous foreign guests such as Max Bill, Edmund Goldzamt, Edith Horváth, Claude Schnaidt, Francesco Dal Co, and Marco De Michelis. The colloquium was accompanied by an exhibition about the work of the second Bauhaus director, Hannes Meyer, as Lena Meyer-Bergner had provided numerous documents to the university.
+The first scientific colloquium about the Bauhaus at the Weimarer Hochschule clarified, also on an international level, the directional change in the cultural politics of the GDR, which was paralleled by the historical analysis of Bauhaus heritage. It also laid the foundations for the HAB as the centre of Bauhaus research in the GDR.
+In this context, in order to prepare for further colloquia, exhibitions and research projects, a permanent working group for Bauhaus research was established, which had the task to concentrate on Bauhaus research. As such die colloquium will become a central forum for national and international Bauhaus research in the GDR.
+
+----
+
+Text-intro: 
+
+#### 50 Jahre Bauhaus Dessau
+
+**Prof. Dr. Christian Schädlich**
+Leiter des Kolloquiums
+
+----
+
+Text-intro-en: 
+
+#### 50 Years Bauhaus Dessau
+
+**Prof. Dr. Christian Schädlich**
+Director of the Colloquium
+
+----
+
+Album: IBHK-1976-Fotoalbum.pdf
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-1976.jpg

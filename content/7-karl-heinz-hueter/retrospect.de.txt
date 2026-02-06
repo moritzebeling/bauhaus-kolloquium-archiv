@@ -1,0 +1,91 @@
+Title: Karl-Heinz Hüter
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme am Bauhaus-Kolloquium 1976.
+1979 Interview geführt von David Keogh, 11. Dezember 2015, Königswusterhausen (Ausschnitte)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-files: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_01_26.jpg
+
+----
+
+Biography: **Karl-Heinz Hüter** studierte Klassische Archäologie in Jena und schloss sein Studium mit einer Diplomarbeit zur *Entstehung des Raumsinns in der griechischen Kunst* ab. In den 1950er bis Anfang der 1960er Jahre war er als Assistent am Lehrstuhl für Baugeschichte unter der Leitung von Professor Christian Schädlich an der HAB Weimar tätig. 1962 promovierte er zu Henry van de Velde an der Humboldt-Universität zu Berlin. Zwischen 1964 und 1978 war er wissenschaftlicher Mitarbeiter an der Bauakademie der DDR. 1966 stellte er das Manuskript für sein Buch *Das Bauhaus in Weimar. Studie zur gesellschaftspolitischen Geschichte einer deutschen Kunstschule* fertig. Die Veröffentlichung des Buches, das sich intensiv mit den Quellen zum Bauhaus in Weimar beschäftigte, wurde zunächst in der DDR abgelehnt. Ein Grund für die Ablehnung mag gewesen sein, dass er das Manuskript auch an Walter Gropius nach Harvard geschickt hatte, mit der Bitte, seine Recherche zu verifizieren. Ein unautorisierter Austausch mit einer Persönlichkeit im kapitalistischen Ausland machte Hüter zu einem Systemkritiker in den Augen der Behörden. Das Buch wurde erst 1973 zur Publikation zugelassen. 1976 erschien es in zweiter Auflage im Akademie Verlag Berlin und wurde zu einem der wichtigsten Meilensteine in der Bauhaus-Forschung in der DDR. Seine Darstellung detaillierter gesellschaftspolitischer Umstände des Bauhauses in Weimar wurde auch international hoch geschätzt. Trotz der Anerkennung seines Buches kündigte Hüter seine Mitarbeit an der Bauakademie der DDR 1978 und entschied sich, freiberuflich als Architekturhistoriker und Publizist tätig zu sein, was auch in der DDR eine existenzielle Herausforderung darstellte. 1996 wurde ihm für seine Bemühungen um die Vermittlung bauhistorischen Wissens der Fritz-Schumacher Preis verliehen.
+
+----
+
+Production-en: 
+
+Participation and organization 1976-1989.
+Interview conducted by David Keogh, 11th December 2015, Königswusterhausen (Excerpts)
+
+----
+
+Video-thumbnail: 
+
+----
+
+Biography-en: **Karl-Heinz Hüter** studied classical archeology in Jena and graduated with his diploma thesis, *Entstehung des Raumsinns in der griechischen Kunst*. From the 1950s until the beginning of the 1960s, he worked as an assistant at the Department of Architectural Theory under the leadership of Professor Christian Schädlich at the Weimar HAB. He completed his doctoral thesis about Henry Van de Velde at the Humboldt-Universität zu Berlin in 1962. Between 1964 and 1978, he worked as a research assistant at the GDR Bauakademie. In 1966, he completed the manuscript for his book, *Das Bauhaus in Weimar: Studie zur gesellschaftspolitischen Geschichte einer deutschen Kunstschule*. The publication of the book, which dealt heavily with original sources from the Bauhaus in Weimar, was initially rejected in the GDR. One reason for this rejection could have been the fact that Hüter had sent the manuscript to Walter Gropius at Harvard beforehand, asking him to verify the research. In the eyes of the authorities, his unauthorized exchange with a personality living in a capitalist country made Hüter a critic of the system. The book was not published until 1973. In 1976, it appeared in its second edition at the Akademie Verlag Berlin and became a major milestone of Bauhaus research in the GDR. Hüter’s presentation of sociopolitical circumstances of the Bauhaus in Weimar was also highly acclaimed internationally. Despite of the recognition of his book, Hüter quit his job at the GDR Bauakademie in 1978, choosing instead to work as a freelance architectural historian and journalist, which, also in the GDR, represented an existential challenge. In 1996, he was awarded the Fritz Schumacher Prize for his efforts in the dissemination of architectural historical knowledge.
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Karl-Heinz-Hueter.jpg
+  filename: retrospect-karl-heinz-hueter
+  sizes: 720, 480, 360
+  duration_min: "8"
+  duration_sec: "45"

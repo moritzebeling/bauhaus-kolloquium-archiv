@@ -1,0 +1,91 @@
+Year: 1986
+
+----
+
+Text: 
+
+#### Der wissenschaftlichtechnische Fortschritt und die sozialkulturellen Funktionen von Architektur und industrieller Formgestaltung in unserer Epoche.
+
+**Prof. Dr. Christian Schädlich**
+Leiter des Kolloquiums
+
+</div><div>
+
+Das 4. Internationale Bauhauskolloquiums wurde gemeinsam mit der Bauakademie der DDR, dem Amt für industrielle Formgestaltung beim Ministerrat der DDR und dem Bund der Architekten der DDR veranstaltet. Es beschäftigte sich mit geschichtlichen und aktuellen Aspekten des wissenschaftlich-technischen Fortschritts in Beziehung zur sozialkulturellen Funktion von Architektur und industrieller Formgestaltung. Der historische Blick richtete sich diesmal vor allem auf das Wirken der Architekten Ludwig Mies van der Rohe und Ernst May aus Anlaß ihres 100. Geburtstages. Am Kolloquium nahmen 318 Architekten, Formgestalter und Wissenschaftler aus 22 Ländern und Westberlin teil. Das Programm erhielt 44 Vorträge und ein Podiumsgespräch, eine Filmveranstaltung zum Frankfurter Wohnungsbau der zwanziger Jahre und drei abendliche Diskussionsrunden im FDJ-Studentenklub Kasseturm. Neun Ausstellungen in den Gebäuden der Hochschule verdeutlichen und vertieften das wissenschaftliche Anliegen des Kolloquiums.
+
+– Christian Schädlich, Auszug aus der Einführung des Tagungsbandes zum Kolloquium
+
+----
+
+Quotes: 
+
+- 
+  group: "2"
+  blockquote: >
+    „Zum Bauhaus-Kolloquium nach Weimar zu
+    fahren, das war wie ein Geheimtipp. Man
+    musste ja eingeladen werden und da
+    musste man schon Leute kennen. Also da
+    Alfred Grazioli und Jonas Geist vorher
+    schon da waren, bekam ich die Einladung
+    – die hätte ich vielleicht sonst
+    privat gar nicht bekommen. Das war alles
+    nicht so ohne weiteres möglich – man
+    konnte ja nicht einfach hinfahren. ...
+    Ich muss sagen, es war ein absolutes
+    Abenteuer“
+  source: >
+    Hilde Barz-Malfatti im Gespräch mit
+    Lena Laine, 2016
+- 
+  group: "3"
+  blockquote: >
+    „Die Bauhaus-Kolloquien waren im
+    studentischen Leben auch wirklich
+    Höhepunkte. Das war nicht so
+    ‚nebenbei’, ‚irgendwie’, ‚da
+    waren auch mal’, ‚irgendwo tagte
+    jemand’, sondern die Studenten hatten
+    frei! Das war sozusagen für sie eine
+    Pflicht auch teilzunehmen, an diesen
+    Kolloquien. Wir hatten ja auch ein Fach
+    – Architekturtheorie – dafür
+    sollten wir hinterher über diese
+    Kolloquien schreiben. Viele Studenten
+    halfen dann mit, bei der Organisation
+    und bei allen Dingen des Ablaufs.
+    Dadurch war das auch sehr lebendig.
+    Viele junge Leuten waren in diesem
+    Kolloquium tätig und es war eine sehr
+    angenehme Atmosphäre und deshalb sind
+    die Leute auch gerne gekommen.“
+  source: >
+    Olaf Weber im Gespräch mit Annika
+    Eheim, 2016
+- 
+  group: "3"
+  blockquote: >
+    „Die bisherige, meist bürgerliche
+    Literatur über das Bauhaus
+    beschäftigte sich vorwiegend mit den
+    künstlerischen Resultaten. Oft
+    begnügte man sich damit, es zu feiern,
+    ihm den künstlerischen Rahm
+    abzuschöpfen und nur das darzustellen,
+    was sein Renommee ausmachte. Wenn
+    gesellschaftspolitische Zusammenhänge
+    erwähnt wurden, blieben sie vage.“
+  source: >
+    Karl-Heinz Hüter, Das Bauhaus in
+    Weimar., Akademie Verlag Berlin, 1976,
+    S.8
+- 
+  group: "4"
+  blockquote: '„Ich habe in Weimar unter dem Schutz des an Internationalität und Diskussion interessierten Bernd Grönwald – so erschien er uns jedenfalls - zweimal Vorträge gehalten, die (in Berlin) verboten worden waren! Die habe ich dann dort gehalten und die sind in der Hochschulzeitschrift veröffentlich worden. Also wir haben ja nicht aufgegeben, wir haben weitergemacht und nicht konterrevolutionär, sondern wir haben uns durchgesetzt und haben gesagt, das muss der Sozialismus aushalten, damit er richtig wird. So! Und das hat dort stattgefunden. Vor internationalem Publikum.“'
+  source: >
+    Bruno Flierl im Gespräch mit Lena Laine
+    und Wolfgang Höhne, 2015
+
+----
+
+Text2: 

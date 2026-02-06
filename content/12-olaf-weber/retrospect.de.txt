@@ -1,0 +1,87 @@
+Title: Olaf Weber
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme 1976–1989, später Organisation des Bauhaus-Kolloquiums.
+Interview geführt von Lena Laine & Annika Eheim, 3. Dezember 2015, Weimar (Ausschnitte)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_06_127.jpg
+
+----
+
+Biography: **Olaf Weber** studierte Architektur an der HAB Weimar und promovierte 1973 zum Thema Architektur als Kommunikationsmittel. Zwischen 1973 und 1980 war er wissenschaftlicher Mitarbeiter an der Bauakademie der DDR. Zwischen 1980 und 1984 war er als Aspirant und später Oberassistent auf dem Gebiet der Architekturtheorie tätig. 1984 habilitierte er in Weimar mit der Schrift *Die Funktion der Form*. Er arbeitete zunächst als wissenschaftlicher Assistent an der HAB Weimar und wurde 1992 Leiter einer Arbeitsgruppe zur Gründung der Fakultät Gestaltung. 1993 wurde Olaf Weber zum Professor für Ästhetik an die Bauhaus-Universität berufen.
+
+----
+
+Production-en: 
+
+Participation in 1976-1989, later organisation of the Bauhaus-Colloquium.
+Interview conducted by Lena Laine & Annika Eheim, 3rd December 2015, Weimar (Excerpts)
+
+----
+
+Biography-en: **Olaf Weber** studied architecture at the Weimar HAB, graduating in 1973 with a doctoral thesis on the topic of Architektur als Kommunikationsmittel (Architecture as a Means of Communication). Between 1973 and 1980, he worked as a research assistant at the GDR Bauakademie. From 1980 to 1984, he was a postgraduate and later senior assistant in the field of architectural theory. In 1984, he qualified as professor in Weimar with his thesis *Die Funktion der Form* (The Function of Form). In 1992, he started working as a research assistant at the Weimar HAB and, in 1992, became head of the working group for founding a Faculty of Design. In 1993, Weber was appointed Professor of Aesthetics at the Bauhaus-University.
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Olaf-Weber.jpg
+  filename: retrospect-olaf-weber
+  sizes: 720, 480, 360
+  duration_min: "15"
+  duration_sec: "51"

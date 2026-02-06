@@ -1,0 +1,87 @@
+Title: Bruno Flierl
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme am Kolloquium 1979-1992.
+Interview geführt von Lena Laine und Wolfram Höhne, 27. November 2015, Berlin (Ausschnitte)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_04_64.jpg
+
+----
+
+Biography: **Bruno Flierl** studierte Architektur an der Hochschule der Künste Berlin und an der HAB Weimar. Von 1952 bis 1961 und von 1965 bis 1979 war er wissenschaftlicher Mitarbeiter an der Bauakademie der DDR am Institut für Städtebau und Architektur in der Abteilung Theorie und Geschichte der Architektur. Von 1962 bis 1964 war er Chefredakteur der Zeitschrift *Deutsche Architektur*. In den 1970er Jahren war er Gastdozent an der Kunsthochschule Berlin und an der Humboldt-Universität zu Berlin. 1980-84 war er Dozent an der Humboldt-Universität zu Berlin. Nach seiner Emeritierung war er weiterhin als freischaffender Architektur- und Stadtkritiker tätig und veröffentlichte nach 1989 zahlreiche kritische Publikationen zu Problemen der Stadtplanung im Prozess der Ost-West-Vereinigung in Berlin.
+
+----
+
+Production-en: 
+
+Participation in the Colloquium 1979-1992
+Interview conducted by Lena Laine and Wolfram Höhne, 27th November 2015, Berlin (Excerpts)
+
+----
+
+Biography-en: **Bruno Flierl** studied architecture at the Hochschule der Künste Berlin and at the Weimar HAB. From 1952 to 1961, and 1965 to 1979, he worked as a research assistant at the Institute of Urban Development and Architecture in the GDR Bauakademie, in the Department of the History and Theory of Architecture. Between 1962 and 1964, he was the editor-in-chief of *Deutsche Architektur* magazine. Later, in the 1970s, he was a guest lecturer at the Kunsthochschule and Humboldt-Universität zu Berlin; and from 1980 to 1984, he was also an assistant professor at Humboldt. After retiring, he continued to work as an architecture and city critic, and published numerous works about the urban planning complications arising from the process of uniting east and west in Berlin.
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Bruno-Fierl.jpg
+  filename: retrospect-bruno-flierl
+  sizes: 720, 480, 360
+  duration_min: "17"
+  duration_sec: "00"

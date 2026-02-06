@@ -1,0 +1,107 @@
+Title: Gerd Zimmermann
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme 1983-2009, Direktion des Bauhaus-Kolloquiums 1992-2006.
+Interview geführt von Annika Eheim, 10. Dezember 2015, Weimar (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation 1983-2009, Direction of the Bauhaus-Colloquium 1992-2006.
+Interview conducted by Annika Eheim, 10th December 2015, Weimar (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_06_97.jpg
+
+----
+
+Biography: **Gerd Zimmermann** studierte Architektur an der HAB Weimar und hat 1974 auf dem Gebiet der Architekturtheorie promoviert. Seine Promotionsschrift zum Thema *Architektur als Kommunikationsmittel* entstand in Gemeinschaftsarbeit mit Olaf Weber und Friedrich Rogge. Von 1973 bis 1980 war er in der Abteilung Theorie und Geschichte der Architektur am Institut für Städtebau und Architektur der Bauakademie in Berlin tätig. Dort forschte und publizierte er zur Architekturpsychologie und Architektursemiotik sowie zur empirischen Wirkungsforschung in der Architektur. Ab 1980 übernahm er Lehrtätigkeiten an der HAB Weimar. Er wurde 1992 zum Universitätsprofessor an die HAB Weimar für das Fach Entwerfen und Architekturtheorie berufen. Im gleichen Jahr wurde er zum Rektor der Hochschule gewählt, ein Amt, das er, bis auf die Jahre 2000 bis 2004, bis 2011 innehielt. Gerd Zimmermann war von 1992 bis 2011 mit der Leitung der Bauhaus-Kolloquien betraut. In seiner Funktion als Rektor und Lehrstuhlinhaber prägte er maßgeblich die Ausrichtung der Architekturtheorie in Weimar und definierte das Profil der Entwicklung der Universität. Mit dem, nach der politischen Wende 1992 mit *Architektur und Macht* betitelten Bauhaus-Kolloquium, setzte er sich nicht nur für die Fortsetzung der Tradition der Bauhaus-Kolloquien ein, sondern versuchte auch, entsprechend seines Forschungsthemas und nicht zuletzt auch im Kontext des politischen Umbruchs, Architektur als Kommunikationsmittel und Instrument der Macht international zu diskutieren. Unter seiner Leitung sollten sich die nachfolgenden Kolloquien verstärkt auf die Architekturtheorie ausrichten.
+
+----
+
+Biography-en: **Gerd Zimmermann** studied architecture at the Weimar HAB, and completed his doctoral studies in the field of architectural theory. His doctoral thesis, titled *Architektur als Kommunikationsmittel*, was the result of a collaboration with Olaf Weber and Friedrich Rogge. Between 1973 and 1980, he worked at the Department of the History and Theory of Architecture at the Institute of Architecture and Urban Planning at the Bauakademie in Berlin. There, he researched and published in the fields of architectural psychology and semiotics, as well as conducting empirical research on architecture. From 1980 onward, he lectured at the Weimar HAB. In 1992, he was appointed Professor of Design and Architectural Theory at the Weimar HAB. That same year, he was also appointed rector of the university and, with the exception of the years 2000-2004, stayed in office until 2011. Between 1992 and 2011, Gerd Zimmermann headed up the Bauhaus colloquia. In his function as rector and professor, he had a significant impact in defining the orientation of architectural theory in Weimar, and also shaped the university’s development.
+
+----
+
+Quotes: 
+
+- 
+  blockquote: >
+    „Das erste Kolloquium war
+    symptomatisch, denn was ich wollte war,
+    dass dieses Kolloquium ein Kolloquium
+    der Architekturtheorie ist, ganz
+    klar.“
+  source: >
+    Gerd Zimmermann im Gespräch mit Annika
+    Eheim, 2015
+  blockquote_en: >
+    “The first colloquium was symptomatic,
+    because all I wanted was that this
+    colloquium would be about architectural
+    theory, absolutely.”
+  source_en: >
+    Gerd Zimmermann in conversation with
+    Annika Eheim, 2015
+  group: "1"
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Gerd-Zimmermann.jpg
+  filename: retrospect-gerd-zimmermann
+  sizes: 720, 480, 360
+  duration_min: "15"
+  duration_sec: "07"

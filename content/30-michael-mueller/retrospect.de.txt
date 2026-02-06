@@ -1,0 +1,131 @@
+Title: Michael Müller
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme am Bauhaus-Kolloquium 1992
+
+Interview geführt von Lena Laine, 28. Mai 2016, Bremen (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation in the Bauhaus-Colloquium 1992
+
+Interview conducted by Lena Laine, 28th May 2016, Bremen (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_06_64.jpg
+
+----
+
+Biography: **Michael Müller** studierte Kunstgeschichte, Archäologie, Philosophie und Soziologie in Wien, London und Frankfurt am Main. Er promovierte 1974 mit der Schrift *Die Verdrängung des Ornaments* an der Universität Frankfurt am Main. Zwischen 1977-2013 war er Professor für Kunst- und Kulturwissenschaft und Kunstpädagogik an der Universität Bremen, wo er auch das Institut für Kunstwissenschaft und Kunstpädagogik leitete. Zu seinen Publikationen gehören *Die Villa als Herrschaftsarchitektur* (Suhrkamp, Frankfurt am Main, 1970), *Funktionalität und Moderne* (mit Christoph Mohr, Edition Fricke, Köln, 1984) und *Architektur und Avantgarde* (Syndikat, Frankfurt am Main, 1984).
+
+----
+
+Biography-en: **Michael Müller** studied art history, archeology, philosophy and sociology in Vienna, London and Frankfurt am Main. He graduated with a doctoral thesis titled *Die Verdrängung des Ornaments* (The Displacement of Ornaments) at the University of Frankfurt am Main in 1974. Between 1977 and 2013 he was Professor of Aesthetic and Cultural Science and Art Education at the University of Bremen, where he acted as head of the Institute for Aesthetics and Art Education. His publications include *Die Villa als Herrschaftsarchitektur* (Suhrkamp, Frankfurt am Main, 1970), *Funktionalität und Moderne* (mit Christoph Mohr, Edition Fricke, Köln, 1984) und *Architektur und Avantgarde* (Syndikat, Frankfurt am Main, 1984).
+
+----
+
+Quotes: 
+
+- 
+  blockquote: >
+    „Ich selber komme politisch gesehen
+    aus dem sogenannten Nietz’schen
+    Kontext, aus der Frankfurter Schule und
+    für uns waren gewisse anarchische
+    Aspekte, oder überhaupt das Spiel mit
+    Fantasie, das Spiel mit Widersprüchen
+    nicht fremd und das war etwas, was man
+    mit DDR-Kollegen noch nicht einmal unter
+    der Hand besprechen konnte. Mich hat
+    auch offen gesagt dieses
+    „Herunterspulen“ der Essentials, des
+    dialektischen Materialismus gestört,
+    bevor man dann zum Teil eine recht
+    biedere und bürgerliche
+    Architekturgeschichte oder auch
+    Kunstgeschichte betrieb. Es war einfach
+    nicht kritisch genug.“
+  source: >
+    Michael Müller im Gespräch mit Lena
+    Laine, 2016
+  blockquote_en: >
+    “Politically, I come from the
+    so-called Nietzschean context, from the
+    Frankfurt School; and for us, certain
+    anarchistic aspects, or even the play
+    with fantasy, the play with
+    contradictions, were not alien. And that
+    was something you couldn’t even
+    discuss privately with colleagues in the
+    GDR. Frankly, I was disturbed by this
+    downplaying of the essentials, of the
+    dialectic materialism; while in fact
+    practicing a really conservative
+    architectural and art history. It was
+    just not critical enough.”
+  source_en: >
+    Michael Müller in conversation with
+    Lena Laine, 2016
+  group: "2"
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Michael-Mueller.jpg
+  filename: retrospect-michael-mueller
+  sizes: 720, 480, 360
+  duration_min: "11"
+  duration_sec: "28"

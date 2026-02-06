@@ -21,9 +21,7 @@ Recieving:
 	</section> -->
 
 	<section>
-		<table style="width:100%" id="participants-table">
-			<?= $page->file('list.html')->read() ?>
-		</table>
+		<?= $page->file('list.html')->read() ?>
 	</section>
 
 </article>

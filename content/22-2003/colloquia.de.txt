@@ -1,0 +1,104 @@
+Year: 2003
+
+----
+
+Title: 2003
+
+----
+
+Name: IX. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 9
+
+----
+
+Date-start: 2003-07-24
+
+----
+
+Date-end: 2003-04-27
+
+----
+
+Poster: 
+
+----
+
+Text-intro: 
+
+#### Medium Architektur.
+
+Zur Krise der Vermittlung
+
+**Prof. Dr. Gerd Zimmermann**
+Leiter des Kolloquiums
+
+in Zusammenarbeit mit
+**Prof. Dr. Marco De Michelis & Dr. Jörg H. Gleiter M.S.**
+
+----
+
+Text-intro-en: 
+
+#### Medium Architecture.
+
+The Crisis of Communication
+
+**Prof. Dr. Gerd Zimmermann**
+Director of the Colloquium
+
+in collaboration with
+**Prof. Dr. Marco De Michelis & Dr. Jörg H. Gleiter M.S.**
+
+----
+
+Text: 
+
+Das 9. Internationale Bauhaus-Kolloquium untersucht die Frage, ob und wie Architektur als Medium und als Sprache unter den gegenwärtigen kulturellen, sozialen, technologischen und ökonomischen Bedingungen funktioniert. Haben wir es also jetzt, nach einer Architektur als Zeichen Postmoderne und einer Architektur als Text Dekonstruktion mit einer Architektur als Medium Konstruktion, Repräsentation und Simulation zu tun? Als Medien verstehen wir all jene Instrumentarien, Techniken, Symboliken, die das Substrat des Austauschs bilden: Schrift, Bild, Zahl, Film, Fernsehen, Internet etc. Ist Architektur, die quasi unbewusst als Vehikel des Blicks, der Mitteilung und des Verhaltens fungiert, nicht der Inbegriff eines Mediums? Kann oder soll sich nun der architektonische Diskurs räuberisch gegenüber einer sich gerade etablierenden Medientheorie verhalten? Ja, denn die Medientheorie stellt aktuelle Verstehensmodelle zur Zirkulation von Information, zur Simulation, zur Virtualität etc. bereit. Nein, angesichts der Gefahr bloßer Analogien. Eine Medientheorie der Architektur muss natürlich anders verfahren als eine des Kinos, des Fernsehen, der Telegrafie, des Buches. Um vom Eigenen der Architektur her zu denken, von der Verräumlichung der Gesellschaft, sollten wir von einer Theorie der Architektur als Medium oder von einer Theorie der Medien der Architektur sprechen.
+
+– Auszug aus dem Programm
+
+----
+
+Text-en: 
+
+The 9th International Bauhaus Colloquium examines the question of whether and how architecture works as a medium and language within current cultural, social, technological and economic conditions. Do we now, after architecture as a sign – postmodern – and architecture as text – deconstruction – have to deal with architecture as medium, construction, representation, and simulation? As media, we understand all those tools, techniques, and symbolism that form the foundation of the exchange: text, image, number, film, television, Internet, etc. Is architecture, which functions as a virtually unconscious vehicle of the gaze, of communication and of behavior, not the epitome of a medium? Can or should architectural discourse now stand vigorously opposed to the pre-established media theory? Yes, because media theory provides current understanding models for the circulation of information, for simulation, for virtual reality, etc. No, considering the danger of mere analogies. A media theory of architecture must, of course, proceed differently than one for cinema, television, telegraphy, or books. To think of “the own” of architecture, in terms of the spatial organization of society, we should speak of a theory of architecture as a medium, or of a theory of the medium of architecture.
+
+– Excerpt from the programme
+
+----
+
+Program: 
+
+- 
+  image: p-2003-2.jpg
+  group: "1"
+  position: "2"
+  column: left
+- 
+  image: p-2003-1.jpg
+  group: "1"
+  position: "1"
+  column: left
+
+----
+
+Gallery: 
+
+----
+
+Quotes: 
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-2003.jpg
+
+----
+
+Album: 

@@ -1,0 +1,95 @@
+Title: „Geschichte vor Ort ...“
+
+----
+
+Is-retrospect: 0
+
+----
+
+Production: 
+
+Eine Produktion des Fernsehenes der DDR, vom 1. Dezember 1979. Regie von Eberhard Teichgräber
+
+© Deutsches Rundfunkarchiv, Frankfurt/ Main
+Übersetzung und Untertitel von Markus Schlaffke und Ines Weizman
+
+----
+
+Copyright: Deutsches Rundfunkarchiv, Frankfurt/ Main
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: 
+
+----
+
+Copyright-year: 1979
+
+----
+
+Line1: 
+
+----
+
+Video-files: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: 
+
+----
+
+Biography: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Production-en: 
+
+A production of the Television of the GDR, 1979 Directed by Eberhard Teichgräber
+
+© Deutsches Rundfunkarchiv, Frankfurt/ Main
+Translation and Subtitles by Markus Schlaffke and Ines Weizman
+
+----
+
+Video-thumbnail: 
+
+----
+
+Biography-en: 
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: Lokaltermin-1979-Bauhaus-Dessau.jpg
+  filename: lokaltermin-bauhaus-dessau-1979
+  sizes: 720, 480, 360
+  duration_min: "29"
+  duration_sec: "55"

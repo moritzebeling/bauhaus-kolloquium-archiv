@@ -1,0 +1,135 @@
+Title: Christian Schädlich
+
+----
+
+Subtitle: 1921–2021
+
+----
+
+Edition: 
+
+----
+
+Name: 
+
+----
+
+Date-start: 
+
+----
+
+Date-end: 
+
+----
+
+Website: 
+
+----
+
+Poster: 
+
+----
+
+Line1: 
+
+----
+
+Text1: 
+
+----
+
+Program: 
+
+----
+
+Gallery: 
+
+----
+
+Quotes: 
+
+----
+
+Line2: 
+
+----
+
+Text2: 
+
+----
+
+Production: 
+
+Teilnahme und Organisation 1976-1989.
+Interview geführt von Adrienne Michels, 19. November 2015, Weimar (Ausschnitte)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Video-files: 
+
+----
+
+Portrait: bhk_02_286.jpg
+
+----
+
+Biography: **Christian Schädlich** studierte, nach einer Maurerlehre, von 1947 bis 1952 Architektur unter Hermann Henselmann an der neugegründeten Staatlichen Hochschule für Baukunst und bildende Künste in Weimar. Sein für die Diplomarbeit entworfenes Projekt für einen Neubau der Kreisverwaltung in Bad Salzungen, wurde bereits kurz nach seinem Studium verwirklicht. Er promovierte 1957 mit der Schrift *Die Grundzüge der klassischen Architekturtheorie* an der HAB Weimar und wurde ebenda als Dozent berufen. 1967 verfasste er die Habilitationsschrift *Das Eisen in der Architektur des 19. Jahrhunderts*, die 2015 im Geymüller Verlag für Architektur veröffentlicht wurde. Von 1967 bis 1987 hatte er die Professur für Theorie und Geschichte der Architektur an der HAB Weimar inne. Unter seiner Leitung beschäftigten sich wissenschaftliche Mitarbeiter wie Karl-Heinz Hüter, Günter Steiger und Adalbert Behr in den 1960ern mit der Bauhausforschung. Er machte sich durch seine Forschungen sowohl zur Hochschulgeschichte sowie ab den 1970ern, durch seine Beiträge zur Bauhausforschung verdient. 1976 übernahm er den neuen durch den Minister für Hoch-und Fachschulwesen gegründeten Arbeitskreis Bauhausforschung, und leitete dessen Forschungsthemen, Publikationen, Ausstellungen und die Internationalen Bauhaus-Kolloquien der Jahre 1976, 1979, 1983 und 1986.
+
+----
+
+Is-retrospect: 1
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Production-en: 
+
+Participation and organization 1976-1989.
+Interview conducted by Adrienne Michels, 19th November 2015, Weimar (Excerpts)
+
+----
+
+Video-thumbnail: 
+
+----
+
+Biography-en: From 1947 to 1952, after an apprenticeship as a bricklayer, **Christian Schädlich** studied architecture under Hermann Henselmann at the newly-established Staatliche Hochschule für Baukunst und bildende Künste in Weimar. His thesis project, proposing a new building for the Bad Salzungen city council, was realized shortly after he completed his studies. He graduated from the Weimar HAB in 1957, with his dissertation titled *Die Grundzüge der klassischen Architekturtheorie*, and was appointed as a lecturer. In 1967, he completed his postdoctoral thesis, *Das Eisen in der Architektur des 19. Jahrhunderts*, which was then published by the architectural publishing house Geymüller in 2015. Between 1967 and 1987, Schädlich acted as Professor of the History and Theory of Architecture at the Weimar HAB. In the ‘60s, under his leadership, research assistants like Karl-Heinz Hüter, Günter Steiger, and Adalbert Behr dealt with Bauhaus research. Schädlich earned merit for his research about the university’s history and, from the 1970s onward, for his contribution to Bauhaus research. In 1976, he took over the working group for Bauhaus research, which was founded by the Minister for Higher Education. Schädlich was responsible for its research areas, publications, exhibitions and for the international Bauhaus-Colloquia of 1976, 1979, 1983 and 1986.
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Christian-Schaedlich.jpg
+  filename: retrospect-christian-schaedlich
+  sizes: 720, 480, 360
+  duration_min: "17"
+  duration_sec: "01"

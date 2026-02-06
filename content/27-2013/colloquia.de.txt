@@ -1,0 +1,124 @@
+Year: 2013
+
+----
+
+Title: 2013
+
+----
+
+Name: XII. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 12
+
+----
+
+Date-start: 2013-04-04
+
+----
+
+Date-end: 2013-04-07
+
+----
+
+Poster: plakat_bauhaus-kolloquium-2013_druck.jpg
+
+----
+
+Text-intro: 
+
+#### Henry van de Velde und die Idee des Gesamtkunstwerkes.
+
+Zum 150. Geburtstag Henry Van de Veldes
+
+**Prof. Dr. Carsten Ruhl**
+Direktor des Kolloquiums
+
+----
+
+Text-intro-en: 
+
+#### Henry van de Velde and the Total Work of Art.
+
+The 150th Anniversary of Henry van de Velde
+
+**Prof. Dr. Carsten Ruhl**
+Director of the Colloquium
+
+----
+
+Text: 
+
+Wenngleich der „Hang zum Gesamtkunstwerk“ bis heute ein ständiger Begleiter architektonischer und künstlerischer Konzepte ist, scheint der Begriff selbst im aktuellen Diskurs kaum mehr eine größere Rolle zu spielen. Seit den traumatischen Erfahrungen mit den totalitären Regimes des 20. Jahrhunderts besteht eine begründete Skepsis gegenüber dem Streben nach einer umfassenden oder gar monumentalen Gestaltung der Lebenswelt. Indessen lässt sich das Gesamtkunstwerk nicht ausschließlich auf bestimmte, tradierte Formen der politischen Repräsentation festlegen. Allgemein gesprochen, manifestiert sich darin weniger eine bestimmte Ästhetik, denn eine doppelte Strategie der Entgrenzung: Gegenüber der Gesellschaft behauptet es seit dem 19. Jahrhundert die Einheit von Kunst und Leben. Im Horizont der ästhetischen Moderne strebt es die Auflösung traditioneller Gattungsgrenzen an. Das Gesamtkunstwerk versteht sich damit einerseits als räumliche Gestaltung und andererseits als intermediale Konfiguration. Die Architektur ist für diesen Zusammenhang von zentraler Bedeutung. Als eine Kunst, die sich nolens volens mit dem Anspruch konfrontiert sieht, widersprüchliche Codes in eine gestalterische Einheit zu fassen, ist sie Bedingung und Form des Gesamtkunstwerks zugleich. Sie ist mit Henry van de Velde gesprochen „das Herz der wahren Einheitlichkeit der Künste“. Das 12. Internationale Bauhaus-Kolloquium der Universität Weimar nimmt den 150. Geburtstag des belgischen Architekten, Künstlers und Designers zum Anlass, nach der modernen Konzeption des Gesamtkunstwerks im 20. Jahrhundert und seiner Bedeutung für den jüngeren und gegenwärtigen Architekturdiskurs zu fragen.
+
+– Auszug aus dem Programm
+
+----
+
+Text-en: 
+
+Even though “The Tendency towards the Total Work of Art” still is a permanent companion of architectural as well as artistic concepts, it seems to be playing only a minor role in the current discourse. The traumatic experiences with totalitarian regimes in the early 20th century have raised a sound scepticism towards attempts of an all-encompassing, let alone monumental design of our Lebenswelt (lived world). However, the Total Work of Art cannot be identified exclusively with a certain, traditional form of political representation. Generally speaking, it manifests much less a certain aesthetic style then a twofold strategy of border removal: since the 19th century, it maintains the idea of a Unity of Art and Life within society. Within the horizon of aesthetic modernism, it blurs the boundaries of traditional disciplines. The Total Work of Art is thus regarded as spatial design as well as an intermediary configuration. In this association, architecture is of central importance. An art that is unwittingly confronted with the requirement to frame opposing codes into a creative unity, is at the same time prerequisite as well as stage for the Synthesis of the Arts. Architecture is, to speak with Henry van de Velde, “the heart of a true unity of the Arts”. The 12th International Bauhaus-Colloquium at the Bauhaus-University Weimar […] takes on the 150th birthday of the Belgian Architect, Artist and Designer as a chance to ask for modern conceptions of the Total Work of Art in the 20th century and its impact on more recent and current architectural discourse.
+
+– Excerpt from the programme
+
+----
+
+Program: 
+
+- 
+  image: 2013_1.jpg
+  group: "2"
+  position: "3"
+  column: right
+- 
+  image: 2013_2.jpg
+  group: "2"
+  position: "3"
+  column: right
+
+----
+
+Gallery: 
+
+- 
+  image: bauhaus-kolloquium-24.jpg
+  group: "1"
+  position: "1"
+  column: right
+- 
+  image: bauhaus-kolloquium-56.jpg
+  group: "1"
+  position: "2"
+  column: right
+- 
+  image: bauhaus-kolloquium-54.jpg
+  group: "3"
+  position: "2"
+  column: left
+- 
+  image: bauhaus-kolloquium-15.jpg
+  group: "3"
+  position: "3"
+  column: left
+- 
+  image: bauhaus-kolloquium-6.jpg
+  group: "3"
+  position: "1"
+  column: right
+
+----
+
+Quotes: 
+
+----
+
+Album: IBHK-2013-Fotoalbum.pdf
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-2013.jpg

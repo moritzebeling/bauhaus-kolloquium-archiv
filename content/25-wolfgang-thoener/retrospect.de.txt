@@ -1,0 +1,87 @@
+Title: Wolfgang Thöner
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme 1989.
+Interview geführt von Adrienne Michels, 15. Januar 2016, Dessau (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation in 1989.
+Interview conducted by Adrienne Michels, 15th January 2016, Dessau (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: 
+
+----
+
+Biography: **Wolfgang Thöner** studierte zwischen 1977 und 1981 Kunsterziehung und Germanistik an der Humboldt-Universität zu Berlin. Er ist seit 1986 am Wissenschaftlich-Kulturellen Zentrum Bauhaus Dessau, der heutigen Bauhaus-Stiftung Dessau, als Kurator und Forscher tätig. In dieser Funktion war er verantwortlich für zahlreiche Ausstellungen zur Bauhausgeschichte, zur Architektur, zu Personen und übergreifenden Themen und auch zu zeitgenössischen Künstlern am Bauhaus-Dessau. Er übernahm 2009 die Leitung des Bereichs Sammlung. Er ist Herausgeber und Autor zahlreicher Bücher, Essays, Aufsätze und Vorträge.
+
+----
+
+Biography-en: **Wolfgang Thöner** studied art education and German philology at Humboldt-Universität zu Berlin. Since 1986, he has worked at the Wissenschaftlich-Kulturelles Zentrum Bauhaus Dessau (now the Bauhaus-Stiftung Dessau), as a curator and researcher. In these roles, he has realized numerous exhibitions on the history of the Bauhaus, architecture, particular individuals and several overarching themes, as well as on contemporary artists at the Bauhaus Dessau. In 2009, he took over as head of collections. He is also the editor and author of numerous books, essays, papers and lectures.
+
+----
+
+Quotes: 
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Wolfgang-Thoener.jpg
+  filename: retrospect-wolfgang-thoener
+  sizes: 720, 480, 360
+  duration_min: "10"
+  duration_sec: "04"

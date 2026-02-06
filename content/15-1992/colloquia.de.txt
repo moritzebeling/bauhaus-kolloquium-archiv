@@ -1,0 +1,154 @@
+Year: 1992
+
+----
+
+Title: 1992
+
+----
+
+Name: VI. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 6
+
+----
+
+Date-start: 1992-06-18
+
+----
+
+Date-end: 1992-06-21
+
+----
+
+Poster: 1992_poster.jpg
+
+----
+
+Text: 
+
+Das Internationale Bauhaus-Kolloquium 1992 war nicht nur das 6. in der Reihe der wissenschaftlichen Veranstaltungen in Weimar, es war nach dem Fall der Mauer zugleich das erste Bauhaus-Kolloquium, das seine Themen im wissenschaftlichen Dialog frei wählen konnte. (...) Zum Kolloquium waren etwa 250 Architekten, Kunsthistoriker, Wirtschafts- und Sozialtheoretiker und Studenten eingeladen, um sich mit dem Verhältnis von Architektur und Macht auseinanderzusetzen. Es irrten zumindest jene, die wohl glaubten, das Thema wäre gewählt worden, um ausschließlich eine Abrechnung mit den architektonischen Folgen der Herrschaftsmechanismen in der DDR vorzunehmen, und auch jene, die mit dem Thema Macht nur die politische Repräsentationsarchitektur etwa im Dritten Reich verbinden. Natürlich spielten diese Themen eine Rolle. Das Kolloquium war demgegenüber so angelegt, dass die ganze Breite des Themas ins Blickfeld rückte, d.h. nicht nur die politischen Symbolwerte der Architektur, sondern auch die Wechselbeziehung von Architektur und Wirtschaftsmacht, nicht nur die aktuelle Szene, sondern auch die Geschichte. (...) In der Diskussion dominierten einige Grundthemen, vornehmlich der Disput über die Moderne und Postmoderne und die Affinität der jeweiligen Tendenz zum Problem der Macht. So gab es Plädoyers, in denen der Wert der sozialen Ziele und der kritischen Avantgarde in der frühen Moderne hervorgehoben wurde, während zugleich die Beliebigkeit und Unverbindlichkeit der Postmoderne kritisiert wurde. Dagegengesetzt wurde die Feststellung, dass die „Moderne“ gewissermaßen nach ihrer pluralistischen Frühphase dann zur Doktrin erstarrte, mit all den verheerenden Folgen für die moderne Stadt und Architektur, und dass die Postmoderne ihr Verdienst u.a. darin hatte, dass sie diese Doktrin durchbrach und eine Befreiung bedeutete.
+
+– Gerd Zimmermann, Auszug aus der Einführung zum Kolloquium
+
+----
+
+Program: 
+
+- 
+  image: 1992_1.jpg
+  group: "2"
+  position: "1"
+  column: right
+- 
+  image: 1992_2.jpg
+  group: "2"
+  position: "1"
+  column: right
+
+----
+
+Gallery: 
+
+- 
+  group: "4"
+  image: bhk_06_124.jpg
+  position: "2"
+  column: right
+- 
+  group: "4"
+  image: bhk_06_76.jpg
+  position: "3"
+  column: right
+- 
+  group: "4"
+  image: bhk_06_128.jpg
+  position: "3"
+  column: right
+
+----
+
+Quotes: 
+
+- 
+  group: "1"
+  blockquote: >
+    „Nach dem Mauerfall, also in dem
+    Moment, in dem sich die Verhältnisse
+    wirklich neu organisierten und neu
+    orientierten, gab es eine Öffnung, so
+    habe ich es persönlich empfunden, auch
+    gegenüber Positionen, mit denen man
+    sich in der Öffentlichkeit zuvor nicht
+    so gerne zeigte. Beispielsweise war ich
+    außerordentlich erstaunt, als ich bei
+    diesen Tagungen merkte, wie sich die
+    Leute in Weimar explizit mit
+    architekturtheoretischen Modellen
+    auseinandersetzten und sich sehr stark
+    für die postmoderne Entwicklung
+    interessierten.“
+  source: >
+    Karin Wilhelm im Gespräch mit Lena
+    Laine, 2016
+  blockquote_en: >
+    “After the fall of the Wall, right at
+    the moment when relationships were
+    really being reoriented and reorganized,
+    there was an opening, that’s what I
+    personally felt, also for contradictory
+    positions, which hadn’t been so
+    welcome in public before. For example, I
+    was extremely surprised when I realized
+    that at these conferences, people were
+    explicitly dealing with architectural
+    theoretical models and were particularly
+    interested in postmodernism.”
+  source_en: >
+    Karin Wilhelm in conversation with Lena
+    Laine, 2016
+  position: "2"
+  column: left
+
+----
+
+Text2: 
+
+----
+
+Text-intro: 
+
+#### Architektur und Macht.
+
+**Prof. Gerd Zimmermann**
+Leiter des Kolloquiums
+
+----
+
+Text-intro-en: 
+
+#### Architecture and Power.
+
+**Prof. Gerd Zimmermann**
+Director of the Colloquium
+
+----
+
+Text-en: 
+
+The international Bauhaus-Colloquium in 1992 was not only the sixth scientific event in a row in Weimar, it was also, after the fall of the Wall, the first Bauhaus-Colloquium, where topics within the scientific dialogue could be freely selected. (…) Around 250 architects, art historians, economic theorists, social theorists and students were invited to deal with the relationship between architecture and power. Those who thought that the topic was chosen just to get revenge on the architectural consequences of the GDR’s mechanisms of rule were wrong; as were those who just connected the topic of power with the political architecture of the Third Reich. Of course these issues played a role. The colloquium was organized so that the whole spectrum of the topic could be discussed; meaning, not just the politically symbolic value of architecture, but also the interaction between architecture and economic power. Not just the present, but also the history. (…) In the discussion, some basic topics dominated, especially the dispute about modernism and postmodernism and the affinity of each with the issue of power. There were speeches in which the value of the social objectives and the critical avantgarde in the earlier modern period were pointed out; while at the same time, the arbitrariness and the non-binding character of postmodernism was criticized. In contrast was the statement that modernism, after its early pluralistic stage, had somehow become a doctrine, with devastating consequences for the modern city and architecture, and that postmodernism had its merit in the fact that it broke this doctrine and signified liberation.
+
+– Gerd Zimmermann, excerpt from the introduction to the Colloquium
+
+----
+
+Album: IBHK-1992-Fotoalbum.pdf
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-1992.jpg

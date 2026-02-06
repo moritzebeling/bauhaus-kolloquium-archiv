@@ -1,0 +1,283 @@
+Title: Video-Dokumentation 2019
+
+----
+
+Videos-panel1: 
+
+----
+
+Videos-panel2: 
+
+----
+
+Videos-panel3: 
+
+----
+
+Videos-panel4: 
+
+----
+
+Panel1-title: 1919: Die Neuerfindung von Raum und Zeit
+
+----
+
+Panel1-subtitle: 
+
+----
+
+Panel1-videos: 
+
+- 
+  title: Introduction, Ines Weizman
+  thumbnail: panel-1a-keynote-ines-weizman.jpg
+  filename: panel-1a-keynote-Ines-weizman
+  sizes: 720, 480, 360
+  duration_min: "9"
+  duration_sec: "46"
+- 
+  title: >
+    Joyce Tsai, “László Moholy-Nagy and
+    the Epochal Traces of
+    Self-Portraiture”
+  thumbnail: panel-1a-joyce-tsai.jpg
+  filename: panel-1a-joyce-tsai
+  sizes: 720, 480, 360
+  duration_min: "28"
+  duration_sec: "47"
+- 
+  title: 'Zeynep Çelik Alexander, “1919: The Turning Point at which History failed to Turn”'
+  thumbnail: panel-1a-zeynep-alexander.jpg
+  filename: panel-1a-zeynep-alexander
+  sizes: 720, 480, 360
+  duration_min: "35"
+  duration_sec: "30"
+- 
+  title: 'Tracey Eve Winton, “Giorgio De Chirico’s Metaphysical City: Mystical Matters of Time and Space”'
+  thumbnail: panel-1b-tracey-eve-winton.jpg
+  filename: panel-1b-tracey-eve-winton
+  sizes: 720, 480, 360
+  duration_min: "20"
+  duration_sec: "55"
+- 
+  title: Elizabeth Otto, “Queer Bauhaus”
+  thumbnail: panel-1b-elizabeth-otto.jpg
+  filename: panel-1b-elizabeth-otto
+  sizes: 720, 480, 360
+  duration_min: "33"
+  duration_sec: "35"
+- 
+  title: Panel Discussion
+  thumbnail: panel-1b-panel-discussion.jpg
+  filename: panel-1b-panel-discussion
+  sizes: 720, 480, 360
+  duration_min: "42"
+  duration_sec: "40"
+
+----
+
+Panel2-title: Bauhaus, Reform der Lebenswelt und gesamtgesellschaftlicher Rationalisierung
+
+----
+
+Panel2-subtitle: 
+
+----
+
+Panel2-videos: 
+
+- 
+  title: Introduction, Max Welch Guerra
+  thumbnail: panel-2a-keynote-max-welch-guerra.jpg
+  filename: panel-2a-keynote-max-welch-guerra
+  sizes: 720, 480, 360
+  duration_min: "17"
+  duration_sec: "22"
+- 
+  title: >
+    Lutz Raphael, “Rationalization Plans
+    and Ideological Conflict in Europe
+    during the World Wars”
+  thumbnail: panel-2a-lutz-raphael.jpg
+  filename: panel-2a-lutz-raphael
+  sizes: 720, 480, 360
+  duration_min: "34"
+  duration_sec: "56"
+- 
+  title: 'Karin Wilhelm, “From Hand to Type: Gropius and the Bauhaus Weimar 1919–1924”'
+  thumbnail: panel-2a-karin-wilhelm.jpg
+  filename: panel-2a-karin-wilhelm
+  sizes: 720, 480, 360
+  duration_min: "41"
+  duration_sec: "32"
+- 
+  title: >
+    Christa Kamleithner, “Neues Bauen and
+    the Aesthetics of Rationalization”
+  thumbnail: panel-2b-christa-kamleithner.jpg
+  filename: panel-2b-christa-kamleithner
+  sizes: 720, 480, 360
+  duration_min: "33"
+  duration_sec: "21"
+- 
+  title: >
+    Harald Bodenschatz, “Bauhaus
+    Innovations in the Rear-View Mirror”
+  thumbnail: panel-2b-harald-bodenschatz.jpg
+  filename: panel-2b-harald-bodenschatz
+  sizes: 720, 480, 360
+  duration_min: "36"
+  duration_sec: "19"
+- 
+  title: 'Marquise Stillwell, “The New Bauhaus: How László Moholy-Nagy Brought a Movement to Chicago”'
+  thumbnail: panel-2b-marquise-stillwell.jpg
+  filename: panel-2b-marquise-stillwell
+  sizes: 720, 480, 360
+  duration_min: "39"
+  duration_sec: "41"
+- 
+  title: Panel Discussion
+  thumbnail: panel-2b-panel-discussion.jpg
+  filename: panel-2b-panel-discussion
+  sizes: 720, 480, 360
+  duration_min: "38"
+  duration_sec: "07"
+
+----
+
+Panel3-title: Bauhaus-Moderne: 100 Jahre Avantgarde?
+
+----
+
+Panel3-subtitle: 
+
+----
+
+Panel3-videos: 
+
+- 
+  title: Introduction, Eva von Engelberg
+  thumbnail: panel-3a-keynote-eva-von-engelberg.jpg
+  filename: panel-3a-keynote-eva-von-engelberg
+  sizes: 720, 480, 360
+  duration_min: "18"
+  duration_sec: "05"
+
+----
+
+Panel4-title: Entwürfe aus der Welt von morgen
+
+----
+
+Panel4-subtitle: 
+
+----
+
+Panel4-videos: 
+
+- 
+  title: Introduction, Johannes Warda
+  thumbnail: panel-4a-keynote-johannes-warda.jpg
+  filename: panel-4a-keynote-johannes-warda
+  sizes: 720, 480, 360
+  duration_min: "7"
+  duration_sec: "01"
+- 
+  title: 'Sebastian Löwe, “Disastrous Futures: Criticizing the Present through Dystopian Visions”'
+  thumbnail: panel-4a-sebastian-loewe.jpg
+  filename: panel-4a-sebastian-loewe
+  sizes: 720, 480, 360
+  duration_min: "17"
+  duration_sec: "49"
+- 
+  title: >
+    Ana Jeinić, “Which Speculation? Open
+    Questions of Future-Oriented Design”
+  thumbnail: panel-4a-anna-jeinic.jpg
+  filename: panel-4a-anna-jeinic
+  sizes: 720, 480, 360
+  duration_min: "25"
+  duration_sec: "15"
+- 
+  title: 'Daniel Grenz, “A World without Labor: Speculative Urban Planning as a Testing Ground for Technological Revolutions”'
+  thumbnail: panel-4a-daniel-grenz_1.jpg
+  filename: panel-4a-daniel-grenz
+  sizes: 720, 480, 360
+  duration_min: "16"
+  duration_sec: "32"
+- 
+  title: 'Agnes Cameron, “Internet as City, Network as Craft: Questions of Utopia in the Age of Decentralization”'
+  thumbnail: panel-4b-agnes-cameron.jpg
+  filename: panel-4b-agnes-cameron
+  sizes: 720, 480, 360
+  duration_min: "13"
+  duration_sec: "04"
+- 
+  title: >
+    Florian Bengert, “A Smarthome is Not a
+    Smart Home. Über das zukünftige
+    Zuhause”
+  thumbnail: panel-4b-florian-bengert.jpg
+  filename: panel-4b-florian-bengert
+  sizes: 720, 480, 360
+  duration_min: "16"
+  duration_sec: "39"
+- 
+  title: 'Marie Rosenkranz, “Future Architecture: The European Republic”'
+  thumbnail: panel-4b-marie-rosenkranz.jpg
+  filename: panel-4b-marie-rosenkranz
+  sizes: 720, 480, 360
+  duration_min: "15"
+  duration_sec: "40"
+- 
+  title: Panel Discussion
+  thumbnail: panel-4b-panel-discussion.jpg
+  filename: panel-4b-panel-discussion
+  sizes: 720, 480, 360
+  duration_min: "64"
+  duration_sec: "04"
+- 
+  title: Conference Resumé
+  thumbnail: panel-4b-conference-resume_1.jpg
+  filename: panel-4b-conference-resume
+  sizes: 720, 480, 360
+  duration_min: "19"
+  duration_sec: "37"
+
+----
+
+Production: 
+
+###### Dokumentation
+XIV. Internationales Bauhaus-Kolloquium
+10.–12. April 2019
+
+###### Produktion
+Markus Schlaffke, Eva-Maria Lisa Körber
+
+----
+
+Production-en: 
+
+###### Documentation
+XIV. International Bauhaus-Kolloquium
+10.–12. April 2019
+
+###### Production
+Markus Schlaffke, Eva-Maria Lisa Körber
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2019

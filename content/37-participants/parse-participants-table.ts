@@ -3,6 +3,11 @@ import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import * as cheerio from "cheerio";
 
+/**
+ * execute:
+ * npx tsx parse-participants-table.ts
+ */
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const YEARS = [

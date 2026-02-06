@@ -1,0 +1,107 @@
+Year: 2007
+
+----
+
+Title: 2007
+
+----
+
+Name: X. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 10
+
+----
+
+Date-start: 2007-04-19
+
+----
+
+Date-end: 2007-07-22
+
+----
+
+Poster: bauhaus_kolloquium_plakat-copy.jpg
+
+----
+
+Text-intro: 
+
+#### Die Realität des Imaginären.
+
+Architektur und das digitale Bild
+
+**Prof. Dr. Gerd Zimmermann**
+
+in Zusammenarbeit mit
+**Vertr.-Prof. Dr. Jörg H. Gleiter**
+
+----
+
+Text-intro-en: 
+
+#### The Reality of the Imaginary.
+
+Architecture and the digital image
+
+**Prof. Dr. Gerd Zimmermann**
+
+in collaboration with
+**Vertr.-Prof. Dr. Jörg H. Gleiter**
+
+----
+
+Text: 
+
+Schon seit einiger Zeit erschüttert die neue Realität der digitalen Welten die Architektur. Stetig, und mehr denn je, bilden diese die Welt nach ihrem Maß. Mit der Verschiebung von der Dominanz der Zeichen zur Dominanz der Bilder schien es Anfang der 90er Jahre noch so, als ob die räumliche Visionskraft gänzlich in die Imaginationsräume der digitalen Medien ausgelagert würde. Man glaubte an eine späte Erfüllung des postmodernen Postulats vom Ende der Architektur. Heute lassen sich jedoch die digitalen Bildverfahren nicht mehr so einfach auf die Rolle eines materielosen, ephemeren Mediums reduzieren. Vielmehr beobachten wir eine zunehmende Liquidisierung der Grenze zwischen der digitalen Bilderund der materialen Objektwelt. Tatsächlich kann heute nichts darüber hinwegtäuschen, dass die digitalen Bilder keineswegs einen autonomen Bereich darstellen. Die digitalen Bilderverfahren interpretieren die Welt nicht nur neu, sondern greifen aktiv in ihre materiale und räumliche, d.h. in ihre architektonische Konstitution ein. Vor dem Hintergrund, dass die Architektur mit Skizze, Grund-und Aufriss immer schon vom Bild her gedacht war, scheinen gerade heute die bildhaft-digitalen und die architektonisch-materialen Welten füreinander durchlässig zu werden. Im Zusammenhang mit dem digital turn stellt das 10. Bauhaus-Kolloquium die Frage nach dem Grenzgängertum der Architektur, nach der Wechselwirkung zwischen den räumlich architektonischen und den digitalen Bilderwelten.
+
+– Auszug aus dem Programm
+
+----
+
+Text-en: 
+
+It can be hardly overlooked but the new reality of the digital habitat has been unsettling architecture for quite some time. Steadily and increasingly the new image technologies are shaping the world on their terms. Since the early 1990‘s architecture theory has been shifting its theoretical focus from the linguistic sign to the digital image. For a while it even looked as if spatial imagination might be eventually absorbed by digital media. Some people even believed in a late fulfilment of the post-modern postulate of the end of architecture. But today the digital image techniques can no longer be reduced to a matterless, ephemeral and solely imaginary world. On the contrary, with the growing liquidification of the boundaries between digital images and the world of material objects, digital images do not any longer present an autonomous sphere. The new image techniques not only interpret the world anew but actively interfere with its material and spatial practices, i.e. with its architectural constitution. In the context of today‘s digital turn it seems as if especially today the imaginary digital world and the architectural material world are growing more permeable to each other. Therefore the 10th Bauhaus Colloquium proposes to discuss architecture as a cultural practice that is engaged in a permanent process of border crossing between image and space, between sign and material and between the reality of the architectural space and the imaginary world of the digital sphere.
+
+– Excerpt from the programme
+
+----
+
+Program: 
+
+----
+
+Gallery: 
+
+- 
+  image: l1010443.jpg
+  group: "1"
+  position: "1"
+  column: right
+- 
+  image: dscf4278.jpg
+  group: "1"
+  position: "2"
+  column: right
+- 
+  image: dscf4040.jpg
+  group: "1"
+  position: "3"
+  column: right
+
+----
+
+Quotes: 
+
+----
+
+Album: IBHK-2007-Fotoalbum.pdf
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-2007.jpg

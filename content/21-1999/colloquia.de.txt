@@ -1,0 +1,145 @@
+Year: 1999
+
+----
+
+Title: 1999
+
+----
+
+Name: VIII. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: 
+
+----
+
+Edition: 8
+
+----
+
+Date-start: 1999-11-14
+
+----
+
+Date-end: 1999-11-16
+
+----
+
+Poster: 1999_poster.jpg
+
+----
+
+Text-intro: 
+
+#### Global Village. Perspektiven der Architektur
+
+**Prof. Dr. Gerd Zimmermann**
+Leiter des Kolloquiums
+
+in Zusammenarbeit mit
+**Prof. Dr. Marco De Michelis**
+Gropius Professur, Bauhaus-Universität Weimar
+
+----
+
+Text-intro-en: 
+
+#### Global Village. Perspectives of Architecture
+
+**Prof. Dr. Gerd Zimmermann**
+Director of the Colloquium
+
+in collaboration with
+**Prof. Dr. Marco De Michelis**
+Gropius Professur, Bauhaus-Universität Weimar
+
+----
+
+Text: 
+
+Mehr noch als zu Beginn des Jahrhunderts sind heute mit dem elektronischen Paradigmenwechsel Fragen nach der Globalisierung und Universalisierung ins Zentrum des Bewusstseins gerückt. Wurden am Bauhaus der zwanziger Jahre noch afrikanische Masken, japanische Holzschnitte und Josephine Baker diskutiert, so stehen wir heute im Bann eines 24-Stunden-Aktienmarktes, virtual reality, cellular phone und Datenautobahn. Die Welt also als globales Dorf? Handelt es sich bei den Globalisierungsphänomenen wirklich nur um ein Kleinerwerden der Welt? Die Ansichten dazu sind zahlreich und konträr, euphorisch und pessimistisch. Ist die Globalisierung der späte Triumph des kapitalistischen Weltsystems oder verspricht sie im Gegenteil das Heraufdämmern eines einzigen harmonischen und einheitlichen „Weltsystems“? Globalisierung als Paradigmenwechsel? Oder stehen wir am Rande eines fundamentalen „Konflikts der Kulturen“? Schlägt die Globalisierung zurück? Führt sie nicht eher in eine mehrfach gewendete Reziprozität kultureller Aneignungs- und Identifikationsstrategien? Welches sind ihre kulturellen und architektonischen Perspektiven in einer neuen Weltordnung? Das 8. Internationale Bauhaus-Kolloquium Weimar 1999 stellt ein kritisches Forum zur interdisziplinären Diskussion der kulturellen Implikationen der Globalisierung der Architektur dar. Es vereinigt Architekturtheoretiker und -historiker, Philosophen, Sozial- und Kulturwissenschaftler, aber auch praktizierende Architekten. Architektur soll dabei den kritischen Rahmen für einen die Spezialgebiete übergreifenden Gedankenaustausch bieten.
+
+– Auszug aus dem Programm
+
+----
+
+Text-en: 
+
+Even more now than at the turn of the century, with the electronic paradigm shifts, we are moved to ask questions about globalization and universalization in the very center of consciousness. At the Bauhaus of the 1920s, African masks, Japanese woodcuts and Josephine Baker were discussed. Now, we are under the spell of a 24-hour stock market, virtual reality, cell phones and the information superhighway. The world as a global village? Do the phenomena of globalization really mean a kind of shrinking of the world? Views on this are numerous and contradictory, euphoric and pessimistic. Is globalization the late triumph of the capitalist worldview, or on the contrary, does it promise the dawn of a single, harmonious and unified „world system“? Is globalization a paradigm shift? Or we are on the verge of a fundamental „conflict of cultures“? Is globalization striking back? Is it not, rather, moving towards a repeatedly flipped reciprocity of cultural appropriation and identification strategies? What are the cultural and architectural perspectives in a new world order? The 8th Weimar International Bauhaus-Colloquium in 1999 constitutes a critical forum for interdisciplinary discussion about the cultural implications of the globalization of architecture. It brings together architectural theorists and historians, philosophers, social and cultural scientists, as well as practicing architects. Here, architecture provides a critical framework for a specialized, comprehensive exchange of ideas.
+
+– Excerpt from the programme
+
+----
+
+Program: 
+
+----
+
+Gallery: 
+
+----
+
+Quotes: 
+
+- 
+  blockquote: >
+    „Das war dann zum ersten Mal möglich,
+    dass Westler auch an einer solchen
+    Tagung in Weimar teilgenommen haben. Es
+    war für uns einfach eine Frage der
+    Neugierde. Ich kann mich noch daran
+    erinnern wie mit großem Respekt die
+    Delegation aus der Sowjetunion Einzug
+    hielt. Und das war schon klar, dass da
+    der „Große Bruder“ anwesend ist,
+    der auch sorgfältig darauf achtete,
+    dass da nichts in einem
+    antisozialistischen Sinne aus dem Ruder
+    läuft. Bei uns war das anders. Wir
+    waren ja kein sozialistisches
+    Bruderland, sondern wir waren, wenn man
+    so will, aus dem kapitalistischen
+    Ausland. Wir waren aber Fachleute im
+    Verständnis des Bauhauses und es sind
+    solche geladen gewesen und wir sind auch
+    freundlich und höflich behandelt
+    worden.“
+  source: >
+    Peter Hahn im Gespräch mit Adrienne
+    Michels, 2016
+  blockquote_en: >
+    “And so it was then possible, for the
+    first time, for West Germans to
+    participate in such a conference in
+    Weimar. For us, it was simply a matter
+    of curiosity. There were several groups
+    of foreigners invited there. For a
+    start, there were some from the
+    socialist countries. I can clearly
+    remember how they welcomed the Soviet
+    delegates with great respect. It was
+    very clear, that “Big Brother” was
+    present, making sure that nothing got
+    out of hand, in the anti-socialist
+    sense. With us it was different. We were
+    no socialist brotherland, but rather, if
+    you like, coming from a foreign
+    capitalist country. But we were experts
+    in the understanding of the Bauhaus, and
+    we were invited as such, and we were
+    treated cordially and politely.”
+  source_en: >
+    Peter Hahn in conversation with Adrienne
+    Michels, 2016
+  group: "1"
+  position: "1"
+  column: right
+
+----
+
+Album-cover: IBHK_Cover-Fotoalbum-1999.jpg
+
+----
+
+Album: 

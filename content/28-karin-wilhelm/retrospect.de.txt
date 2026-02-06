@@ -1,0 +1,127 @@
+Title: Karin Wilhelm
+
+----
+
+Is-retrospect: 1
+
+----
+
+Production: 
+
+Teilnahme am Bauhaus-Kolloquium 1992, 1996 und 2009.
+Interview geführt von Lena Laine, 22. Mai 2016, Berlin (Ausschnitte)
+
+----
+
+Production-en: 
+
+Participation in the Bauhaus-Colloquium in 1992, 1996 and 2009.
+Interview conducted by Lena Laine, 22nd May 2016, Berlin (Excerpts)
+
+----
+
+Copyright: Centre for Documentary Architecture
+
+----
+
+Copyright-url: 
+
+----
+
+Copyright-city: Weimar
+
+----
+
+Copyright-year: 2016
+
+----
+
+Line1: 
+
+----
+
+Video-thumbnail: 
+
+----
+
+Duration-min: 
+
+----
+
+Duration-sec: 
+
+----
+
+Line2: 
+
+----
+
+Portrait: bhk_06_68.jpg
+
+----
+
+Biography: **Karin Wilhelm** studierte Soziologie, Psychologie und Kunstgeschichte an den Universitäten Heidelberg, München und Berlin. Sie promovierte bei Heinrich Klotz in Marburg. 1991 wurde sie als Professorin für Kunst und Architekturgeschichte im Fachbereich Architektur an die Technische Universität Graz berufen. 2001 wechselte sie an die TU Braunschweig, an der sie bis 2012 als Professorin für Geschichte und Theorie der Architektur und Stadt tätig war. Zu ihren Publikationen gehören *Walter Gropius – Industriearchitekt* (Vieweg Verlag, DAM, 1983), *Portrait Frei Otto. Architekten heute.* (Berlin, 1985), *Kunst als Revolte* (Anabas-Verlag Giessen, 1996) und *Neue Städte für einen neuen Staat – die städtebauliche Erfindung des modernen Israel und der Wiederaufbau in der BRD. Eine Annäherung* (hg. mit Kerstin Gust, transcript-Verlag, Bielefeld, 2013). Sie sprach im Bauhaus-Kolloquium 1992 über Technik und Herrschaft in der Metropolenarchitektur des 20. Jahrhunderts und nahm an einer Podiumsdiskussion mit Heinrich Klotz, Charles Jencks, Gerd Zimmermann und Michael Müller über *Architektur und Macht* teil, in der es zu einer, letztlich kontrovers geführten Debatte zu den politischen Wirkungsweisen einer pluralistischen und marktorientierten Postmoderne kam.
+
+----
+
+Biography-en: **Karin Wilhelm** studied sociology, psychology and art history at the universities of Heidelberg, Munich and Berlin. During her doctorate, she was mentored by Heinrich Klotz in Marburg. In 1991, Wilhelm was appointed Professor of Art and Architectural History in the Department of Architecture at Graz University of Technology. In 2001, she moved to the Braunschweig University of Technology, where she worked as Professor of History and Theory of Architecture and the City. Her publications include *Walter Gropius – Industriearchitekt* (Vieweg Verlag, DAM, 1983), *Portrait Frei Otto: Architekten heute* (Berlin, 1985), *Kunst als Revolte* (Anabas-Verlag Giessen, 1996) und *Neue Städte für einen neuen Staat – die städtebauliche Erfindung des modernen Israel und der Wiederaufbau in der BRD: Eine Annäherung* (hg. mit Kerstin Gust, transcript-Verlag, Bielefeld, 2013). At the 1992 Bauhaus-Colloquium, she spoke about technology and dominance in the architecture of 20th-century metropolises, and also took part in the *Architecture and Power* panel discussion with Heinrich Klotz, Charles Jencks, Gerd Zimmermann and Michael Müller. During this discussion, a controversial debate arose about the political mechanisms of pluralistic and market-oriented postmodernism.
+
+----
+
+Quotes: 
+
+- 
+  blockquote: >
+    „1992, das war toll. Erst einmal
+    wohnte man in einem der schönsten
+    Hotels, in dem man immer wohnen wollte,
+    dem Elephanten. Das machte man nicht
+    jeden Tag! Dann war natürlich die
+    Begegnung mit Goethes Gartenhaus ein
+    Erlebnis. Also ein Erlebnisfeld jagte
+    das nächste und ich empfand das als
+    sehr anregend. Obwohl es, das muss ich
+    sagen, immer auch bestimmte
+    Distanzierungen zwischen Ostlern und
+    Westlern gab. Man wusste noch nicht
+    genau, wer wo stand und wie man sich
+    gegenseitig einzuschätzen hatte. Dieses
+    Gefühl ist mir geblieben.“
+  source: >
+    Karin Wilhelm im Gespräch mit Lena
+    Laine, 2016
+  blockquote_en: >
+    “1992, that was great. First, we
+    stayed in one of the most beautiful
+    hotels, in which you have always wanted
+    to stay, the Elephant. That doesn’t
+    happen everyday! Then, the encounter
+    with Goethe’s garden house was a
+    highlight. So one highlight followed the
+    other and I found it very exciting.
+    Although, I have to admit that there was
+    always a certain distance between the
+    ones coming from east and the ones from
+    the west. Nobody knew exactly, where the
+    other was standing and how to assess
+    each other. This feeling has stayed.”
+  source_en: >
+    Karin Wilhelm in conversation with Lena
+    Laine, 2016
+  group: "2"
+
+----
+
+Video-source: 
+
+----
+
+Videosource: 
+
+- 
+  title: ""
+  thumbnail: CDA-Retrospect_Karin-Wilhelm.jpg
+  filename: retrospect-karin-wilhelm
+  sizes: 720, 480, 360
+  duration_min: "14"
+  duration_sec: "18"

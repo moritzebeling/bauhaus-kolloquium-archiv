@@ -1,0 +1,102 @@
+Year: 2016
+
+----
+
+Title: 2016
+
+----
+
+Name: XIII. Internationales Bauhaus-Kolloquium
+
+----
+
+Website: https://www.bauhaus-kolloquium.de/ibhk13/
+
+----
+
+Edition: 13
+
+----
+
+Date-start: 2016-10-26
+
+----
+
+Date-end: 2016-10-29
+
+----
+
+Poster: ibhk13-poster-a.jpg
+
+----
+
+Text: 
+
+Das Internationale Bauhaus-Kolloquium der Bauhaus-Universität Weimar ist eine der ältesten und renommiertesten Konferenzen zu Fragen der Theorie und Geschichte der Architektur im deutschsprachigen Raum.
+Das Kolloquium wurde 1976 etabliert, um die Rekonstruktion des Bauhaus-Gebäudes in Dessau – eine Initiative, die ganz wesentlich von Architekten und Professoren an der Hochschule für Architektur und Bauwesen in Weimar vorbereitet und begleitet wurde – zu feiern. Sowohl die Wiedereröffnung des Bauhaus-Gebäudes in Dessau als auch die Einladung internationaler Gäste aus Ost und West nach Weimar markierte einen wichtigen Moment in der mittlerweile vermehrt öffentlich diskutierten Bauhausrezeption der ehemaligen DDR. Jedes dieser Treffen in Weimar, die etwa alle drei bis vier Jahre mit Forschern, Theoretikern, Künstlern, Architekten und früheren Mitgliedern des Bauhauses stattfanden, testeten in ihren Vorträgen und Äußerungen, was unter den damaligen politischen Verhältnissen gesagt werden durfte und was man über den Verbleib der Objekte und Personen des Bauhauses, sowie über Sammlungs- und Denkmalschutzinitiativen wusste.
+
+----
+
+Text-intro: 
+
+#### Dust and Data
+
+**Prof. Dr. Ines Weizman**
+Direktorin des Kolloquiums
+
+----
+
+Text-intro-en: 
+
+#### Dust and Data
+
+**Prof. Dr. Ines Weizman**
+Director of the Colloquium
+
+----
+
+Text-en: 
+
+The International Bauhaus Colloquium is one of the oldest and renowned conferences on questions of theory and history of architecture.
+The Colloquium was first held in Weimar in 1976 to celebrate the restoration of the derelict Bauhaus building in Dessau and discuss the legacy of the school, and was staged every three or four years thereafter. The invitation of international guests to the GDR (East Germany) marked not only the relative openness of the start of the meltdown years of the Soviet bloc but also an important shift in the reception of Bauhaus history, a legacy previously ignored in East Germany as too individualistic. Each of the meetings in Weimar brought together scholars, theorists, artists, architects and former students from both the East and the West. Given the political climate, presentations necessarily tested the limits of political speech and laid the foundation for an imagined, and indeed fragmented, collection constrained by geopolitical and ideological divisions. The discussion was conditioned by the different ideological positions and offered divergent readings of the school in a conference room that has become one of the heated, if tamed, arenas for Cold-War encounter. It was only when the Iron Curtain was fully drawn aside that a set of historical black boxes, locked up in state and private archives, was opened, allowing for new light to be shed on the period and the ideological colouring of the divergent stories. The conference has become one of the most important institutional events in the international academic landscape – an important site of academic experimentation and reflection upon not only the history of the Bauhaus but also that of modernism, within which it is situated.
+
+----
+
+Program: 
+
+- 
+  image: ibhk13-poster-b.jpg
+  position: "1"
+  column: right
+
+----
+
+Gallery: 
+
+- 
+  image: >
+    161026_ybrc_photo-sebastian_arzet-003.jpg
+  position: "1"
+  column: right
+- 
+  image: 161026_ybrc_photo-tobias_adam-014.jpg
+  position: "1"
+  column: right
+- 
+  image: >
+    161027_ibhk_photo-jonas_zukauskas-013.jpg
+  position: "2"
+  column: left
+- 
+  image: 161028_ibhk_photo-tobias_adam-044.jpg
+  position: "3"
+  column: left
+- 
+  image: >
+    161029_ibhk_photo-jonas_zukauskas-104.jpg
+  position: "4"
+  column: left
+
+----
+
+Quotes: 
