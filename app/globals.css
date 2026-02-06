@@ -1,26 +1,777 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ─── Web Fonts ──────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "SimplonNorm";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/SimplonNorm.woff2") format("woff2");
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "SimplonNorm";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/SimplonNorm-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SimplonMono";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/SimplonMono.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SimplonMono";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/SimplonMono-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* ─── Tailwind Theme ─────────────────────────────────────────── */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-norm: "SimplonNorm", Arial, sans-serif;
+  --font-mono: "SimplonMono", "SimplonNorm", monospace;
+  --color-wall: #f8f8f8;
+  --color-border: #000;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ─── Reset ──────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1em;
+  color: #000;
+}
+
+::selection {
+  color: #fff;
+  background-color: #000;
+}
+
+/* ─── Base Typography ────────────────────────────────────────── */
+
+body {
+  font-family: var(--font-norm);
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  background-color: var(--color-wall);
+  padding-top: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 8rem;
+  line-height: 0.75;
+  margin-top: 0.03em;
+  margin-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 2.2rem;
+  line-height: 1;
+  margin-bottom: 0.2em;
+}
+
+h4 {
+  font-size: 1.7rem;
+  line-height: 1;
+  margin-bottom: 0.2em;
+}
+
+h5 {
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+h6 {
+  font-size: 0.78rem;
+  line-height: 1.3;
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+p + h5,
+p + h6 {
+  margin-top: 1.25em;
+}
+
+h4 + p {
+  margin-top: 1em;
+}
+
+blockquote {
+  font-weight: 700;
+  text-indent: 0;
+}
+
+/* ─── Links ──────────────────────────────────────────────────── */
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p a {
+  border-bottom: 1px solid #ccc;
+}
+
+p a:hover {
+  border-bottom: 2px solid #000;
+}
+
+/* ─── English Text ───────────────────────────────────────────── */
+
+.en {
+  font-style: italic;
+}
+
+.en strong,
+.en h3,
+.en h4,
+.en h5,
+.en h6,
+.en blockquote {
+  font-style: italic;
+}
+
+/* ─── Mono Text ──────────────────────────────────────────────── */
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.mono strong,
+.mono h4,
+.mono h5,
+.mono h6 {
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
+
+/* ─── Small Text ─────────────────────────────────────────────── */
+
+.small,
+.small p,
+.small h5,
+figcaption,
+.video-player,
+.source,
+footer {
+  font-size: 0.78rem;
+}
+
+/* ─── Large Text ─────────────────────────────────────────────── */
+
+.large p {
+  font-size: 1.26rem;
+}
+
+/* ─── Horizontal Scroll Layout (Desktop) ─────────────────────── */
+
+@supports (display: grid) {
+  html {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  main {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    display: grid;
+    align-content: start;
+    justify-content: start;
+    align-items: start;
+    grid-auto-flow: column;
+    grid-template-rows: 100%;
+    grid-auto-columns: 100vw;
+    grid-template-columns: 100vw;
+  }
+
+  main > article {
+    display: block;
+    height: 100%;
+    grid-column-end: span 1;
+    grid-row: 1 / 2;
+    justify-self: stretch;
+    align-self: start;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 3rem;
+  }
+
+  @media (min-width: 900px) {
+    main {
+      grid-auto-columns: 33.33vw;
+      grid-template-columns: 33.33vw;
+    }
+
+    main > article.span2 {
+      grid-column-end: span 2;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ─── Figure / Image ─────────────────────────────────────────── */
+
+figure {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-family: var(--font-mono);
+  break-inside: avoid;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-color: #000;
+}
+
+figure figcaption {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-family: var(--font-mono);
+}
+
+figure.protect img,
+figure.protect .img {
+  pointer-events: none;
+  user-select: none;
+}
+
+figure .protection {
+  position: relative;
+}
+
+figure .protection > div {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 200ms ease;
+  font-size: 0.78rem;
+}
+
+figure:hover .protection > div {
+  opacity: 1;
+}
+
+/* ─── Quotes ─────────────────────────────────────────────────── */
+
+.quotes-section {
+  padding: 3rem;
+  break-inside: avoid;
+}
+
+.quotes-section > div + div {
+  margin-top: 3rem;
+}
+
+.source {
+  padding-left: 3rem;
+  padding-right: 2rem;
+  margin-top: 1em;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+/* ─── Box ────────────────────────────────────────────────────── */
+
+.box > div {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.box > a {
+  display: block;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: color 200ms ease, background-color 200ms ease;
+}
+
+.box > a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.box > div + div {
+  margin-top: 1rem;
+}
+
+/* ─── Black Section (Retrospect Info) ────────────────────────── */
+
+.section-black {
+  color: #fff;
+  background-color: #000;
+  padding: 1rem;
+}
+
+/* ─── Video Player ───────────────────────────────────────────── */
+
+.video-player {
+  text-transform: uppercase;
+  font-family: var(--font-mono);
+}
+
+.video-screen {
+  background-color: #000;
+  border: 1px solid #000;
+  border-bottom: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.video-controls {
+  padding: 0.6em 1rem 0.5em;
+  border: 1px solid #000;
+  background-color: #fff;
+  display: flex;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+/* ─── Navigation ─────────────────────────────────────────────── */
+
+nav {
+  position: fixed;
+  min-width: 100vw;
+  height: 3rem;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  white-space: nowrap;
+  user-select: none;
+  font-family: var(--font-mono);
+}
+
+nav .index {
+  position: absolute;
+  width: auto;
+  top: 0;
+  padding: 0 4rem;
+}
+
+nav .index a {
+  display: inline-block;
+  padding: 0.5rem 0;
+  margin-top: 0.4rem;
+  margin-right: 0.4em;
+  font-size: 1rem;
+}
+
+nav .index a:hover,
+nav .index a.active {
+  font-weight: 700;
+}
+
+nav .arrow {
+  position: fixed;
+  z-index: 100;
+  top: 0.2rem;
+  height: 2.6rem;
+  width: 3.2rem;
+  display: block;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+nav .arrow.prev {
+  left: 0;
+  background-position: 70% center;
+  background-image: url(/images/arrow-prev.svg);
+  box-shadow: 15px 0px 10px -5px rgba(255, 255, 255, 1);
+}
+
+nav .arrow.next {
+  right: 0;
+  background-position: 30% center;
+  background-image: url(/images/arrow-next.svg);
+  box-shadow: -15px 0px 10px -5px rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 900px) {
+  nav .index {
+    padding: 0 6rem;
+  }
+
+  nav .index a {
+    margin-right: 0.8em;
+  }
+
+  nav .arrow {
+    width: 5rem;
+    background-size: 30%;
+  }
+
+  nav .arrow.prev {
+    background-position: 80% center;
+  }
+
+  nav .arrow.next {
+    background-position: 20% center;
+  }
+}
+
+/* ─── Grid Layout (2 columns within an article) ──────────────── */
+
+.grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-content: start;
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  article#start .grid-2col {
+    gap: 3rem;
+  }
+}
+
+/* ─── Article Wrapper ────────────────────────────────────────── */
+
+article .wrapper {
+  padding: 0 1rem 5rem 1rem;
+}
+
+@media (min-width: 900px) {
+  article .wrapper {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* ─── Content Section Spacing ────────────────────────────────── */
+
+section + section {
+  margin-top: 1rem;
+}
+
+section.program + section.program {
+  margin-top: 0;
+}
+
+header + section {
+  margin-top: 3rem;
+}
+
+/* ─── Colloquia Specifics ────────────────────────────────────── */
+
+.colloquia header + section {
+  margin-top: 8rem;
+}
+
+.colloquia header + section.gallery-section {
+  margin-top: 2rem;
+}
+
+.colloquia header .date {
+  display: block;
+}
+
+.colloquia header .official-page-link {
+  float: right;
+}
+
+.official-page-link a {
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 2rem;
+  border: 1px solid #000;
+  border-radius: 10em;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+.official-page-link a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* ─── Poster & Program ───────────────────────────────────────── */
+
+section.poster figure,
+section.program figure {
+  border: 1px solid #000;
+}
+
+section.program + section.program figure {
+  border-top: none;
+}
+
+section.poster figcaption,
+section.program figcaption {
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+/* ─── Album ──────────────────────────────────────────────────── */
+
+.album-download {
+  display: block;
+  border: 1px solid #000;
+  background-color: #fff;
+  transition: color 200ms ease, background-color 200ms ease;
+}
+
+.album-download:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.album-download figure {
+  border-bottom: 1px solid #000;
+  margin-bottom: 0.5rem;
+}
+
+.album-download span {
+  display: block;
+  padding: 0.2rem 1rem;
+}
+
+/* ─── Start Page ─────────────────────────────────────────────── */
+
+article#start {
+  background-color: #fff;
+  border-right: 1px solid #000;
+}
+
+#start .center {
+  text-align: center;
+}
+
+#start .center .button {
+  border: 1px solid #000;
+  padding: 1rem 2rem;
+  border-radius: 10em;
+  display: inline-block;
+  margin-top: 4rem;
+  background-color: #fff;
+  font-size: 1rem;
+  font-family: var(--font-mono);
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+#start .center .button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#start .logos img {
+  height: auto;
+  width: 35%;
+  display: block;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+/* ─── Credits ────────────────────────────────────────────────── */
+
+.wrapper.credits,
+.wrapper.literature {
+  border-top: 1px solid #000;
+  padding-top: 3rem;
+}
+
+.credits h5 {
+  margin-bottom: 1em;
+}
+
+.credits h6 {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.credits li {
+  list-style: none;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.credits ul {
+  padding-bottom: 1rem;
+}
+
+/* ─── Retrospect ─────────────────────────────────────────────── */
+
+.retrospect .title {
+  margin-bottom: 1rem;
+  padding-right: 1.5em;
+}
+
+.retrospect .title h4 {
+  margin-bottom: 0.1em;
+}
+
+/* ─── Publication ────────────────────────────────────────────── */
+
+article.publication {
+  background-color: #fff;
+  border-left: 1px solid #000;
+}
+
+article.publication .wrapper {
+  padding: 0;
+}
+
+article.publication header,
+article.publication section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 900px) {
+  article.publication header,
+  article.publication section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+article.publication section.box {
+  border-top: 1px solid #000;
+  padding: 0;
+  margin-top: 3rem;
+}
+
+article.publication section.box div {
+  border: none;
+  padding: 1rem;
+}
+
+@media (min-width: 900px) {
+  article.publication section.box div {
+    padding: 3rem;
+  }
+}
+
+/* ─── Video Gallery ──────────────────────────────────────────── */
+
+.video-gallery .sektion + .sektion {
+  margin-top: 4rem;
+}
+
+.video-gallery header h3 {
+  padding-right: 1rem;
+}
+
+/* ─── Participants ───────────────────────────────────────────── */
+
+article.participants {
+  background-color: #fff;
+  border-left: 1px solid #000;
+}
+
+/* ─── Footer ─────────────────────────────────────────────────── */
+
+footer {
+  border-top: 1px solid #000;
+  background-color: #fff;
+  padding: 1rem;
+  font-family: var(--font-mono);
+}
+
+@media (min-width: 900px) {
+  footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+footer a {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+footer a:hover {
+  font-weight: 700;
+}
+
+/* ─── Lazy Load Placeholder ──────────────────────────────────── */
+
+img[data-src] {
+  background-color: #eee;
+}
+
+/* ─── Hyphens ────────────────────────────────────────────────── */
+
+p,
+blockquote,
+figcaption {
+  hyphens: auto;
+}
+
+/* ─── Portrait in Retrospect Box ─────────────────────────────── */
+
+.retrospect-portrait {
+  width: 50%;
+  margin-left: 50%;
+  margin-bottom: 0;
+}
+
+.retrospect-portrait figcaption {
+  border-bottom: none;
+}
+
+/* ─── Empty spacer article ───────────────────────────────────── */
+
+article.empty {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  article.empty {
+    display: block;
+  }
 }
