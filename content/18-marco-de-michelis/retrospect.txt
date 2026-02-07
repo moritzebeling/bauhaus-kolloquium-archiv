@@ -99,10 +99,6 @@ Quotes:
 
 ----
 
-Video-source: 
-
-----
-
 Videosource: 
 
 - 

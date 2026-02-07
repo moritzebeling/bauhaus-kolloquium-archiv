@@ -107,20 +107,6 @@ Quotes:
 
 ----
 
-Video-source: 
-
-- 
-  host: cdn
-  source_1080: ""
-  source_720: >
-    retrospects/retrospect-alfred-grazioli/retrospect-alfred-grazioli-720.mp4
-  source_480: >
-    retrospects/retrospect-alfred-grazioli/retrospect-alfred-grazioli-480.mp4
-  source_360: >
-    retrospects/retrospect-alfred-grazioli/retrospect-alfred-grazioli-360.mp4
-
-----
-
 Videosource: 
 
 - 

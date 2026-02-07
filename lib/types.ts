@@ -36,6 +36,7 @@ export interface VideoItem {
   sizes: string;
   duration_min: string;
   duration_sec: string;
+  aspect_ratio?: string;
 }
 
 export interface LogoItem {

@@ -28,7 +28,7 @@ export function RetrospectPage({ page }: RetrospectPageProps) {
   const videos = (de.videosource || []) as VideoItem[];
   const isRetrospect = de.is_retrospect === "1";
 
-  const cdnBase = "https://bhk-video.fra1.cdn.digitaloceanspaces.com/retrospects/";
+  const cdnBase = "https://documentary-architecture.fra1.cdn.digitaloceanspaces.com/ibhk/retrospects/";
 
   return (
     <article

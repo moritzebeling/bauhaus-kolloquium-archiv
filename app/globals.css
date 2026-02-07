@@ -408,31 +408,31 @@ section.black {
   border-bottom: none;
   position: relative;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .video-screen video,
 .video-screen img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .video-screen::after {
   content: "Play";
   text-transform: uppercase;
   text-align: center;
-  padding: 1em;
+  display: flex;
+  padding: 1rem;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
   z-index: 10;
   opacity: 0;
   transition: opacity 200ms ease;
   font-family: var(--font-mono);
   font-size: 0.78rem;
   color: #fff;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
 }
 
 .video-screen:hover::after {
@@ -462,49 +462,48 @@ section.black {
 }
 
 .video-controls {
-  padding: 0.6em 1rem 0.5em;
   border: 1px solid #000;
   background-color: #fff;
-  display: flex;
-  align-items: center;
-  gap: 0.8em;
+  position: relative;
   cursor: pointer;
   font-family: var(--font-mono);
   font-size: 0.78rem;
+  overflow: hidden;
 }
 
-.video-controls-left {
+.video-controls .video-progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #000;
+  transition: width 100ms linear;
+  pointer-events: none;
+}
+
+.video-controls .video-controls-content {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   gap: 0.5em;
+  padding: 0.6em 1rem 0.5em;
+  color: #fff;
+  mix-blend-mode: difference;
   white-space: nowrap;
 }
 
-.video-controls-right {
-  white-space: nowrap;
+.video-controls .flex-spacer {
+  flex: 1;
 }
 
 .video-controls .button {
   cursor: pointer;
 }
 
-.video-controls .button:hover,
-.video-player.play .video-controls .button {
+.video-controls .button:hover {
   font-weight: 700;
-}
-
-.video-progress {
-  flex: 1;
-  height: 3px;
-  background-color: #ccc;
-  position: relative;
-  cursor: pointer;
-}
-
-.video-progress-bar {
-  height: 100%;
-  background-color: #000;
-  transition: width 100ms linear;
 }
 
 /* ─── Navigation ─────────────────────────────────────────────── */
@@ -544,7 +543,7 @@ nav .index::-webkit-scrollbar {
 
 nav .index a {
   display: inline-block;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.4rem;
   margin-top: 0.4rem;
   font-size: 1rem;
   flex-shrink: 0;
@@ -589,6 +588,10 @@ nav .arrow.next {
 @media (min-width: 900px) {
   nav .index {
     padding: 0 6rem;
+  }
+
+  nav .index a {
+    padding: 0.5rem 0.5rem;
   }
 
   nav .arrow {

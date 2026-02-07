@@ -84,10 +84,6 @@ Quotes:
 
 ----
 
-Video-source: 
-
-----
-
 Videosource: 
 
 - 

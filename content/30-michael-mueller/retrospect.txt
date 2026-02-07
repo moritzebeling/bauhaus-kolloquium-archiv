@@ -116,10 +116,6 @@ Quotes:
 
 ----
 
-Video-source: 
-
-----
-
 Videosource: 
 
 - 

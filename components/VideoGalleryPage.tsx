@@ -14,7 +14,7 @@ interface VideoGalleryPageProps {
 export function VideoGalleryPage({ page }: VideoGalleryPageProps) {
   const de = page.de;
 
-  const cdnBase = "https://bhk-video.fra1.cdn.digitaloceanspaces.com/2019/";
+  const cdnBase = "https://documentary-architecture.fra1.cdn.digitaloceanspaces.com/ibhk/2019/";
 
   const panels = [
     { title: de.panel1_title, videos: de.panel1_videos },

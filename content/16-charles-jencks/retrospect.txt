@@ -76,10 +76,6 @@ Quotes:
 
 ----
 
-Video-source: 
-
-----
-
 Videosource: 
 
 - 

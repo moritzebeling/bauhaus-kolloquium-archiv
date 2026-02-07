@@ -17,7 +17,14 @@ interface VideoPlayerProps {
   cdnBase?: string;
 }
 
-const CDN_BASE = "https://bhk-video.fra1.cdn.digitaloceanspaces.com/";
+const CDN_BASE =
+  "https://documentary-architecture.fra1.cdn.digitaloceanspaces.com/ibhk/retrospects/";
+
+/** Media queries for smaller video sizes (largest size gets no media attr) */
+const SIZE_MEDIA: Record<string, string> = {
+  "360": "all and (max-width:640)",
+  "480": "all and (max-width:854)",
+};
 
 export function VideoPlayer({
   video,
@@ -26,7 +33,7 @@ export function VideoPlayer({
   cdnBase = CDN_BASE,
 }: VideoPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const progressRef = useRef<HTMLDivElement>(null);
+  const controlsRef = useRef<HTMLDivElement>(null);
   const [state, setState] = useState<"ready" | "play" | "pause" | "please-wait">("ready");
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -39,10 +46,16 @@ export function VideoPlayer({
   const durationSec = parseInt(video.duration_sec || "0", 10);
   const staticDuration = `${durationMin}:${String(durationSec).padStart(2, "0")}`;
 
-  // Build video sources from sizes
+  // Build video sources from sizes, sorted ascending (smallest first)
   const sizes = video.sizes
-    ? video.sizes.split(",").map((s) => s.trim())
+    ? video.sizes
+        .split(",")
+        .map((s) => s.trim())
+        .sort((a, b) => parseInt(a) - parseInt(b))
     : [];
+
+  // Aspect ratio: default 16:9, can be overridden per video (e.g. "4:3")
+  const aspectRatio = video.aspect_ratio || "16:9";
 
   const formatTime = (seconds: number) => {
     const m = Math.floor(seconds / 60);
@@ -55,6 +68,10 @@ export function VideoPlayer({
     if (!vid) return;
 
     if (vid.paused || vid.ended) {
+      // Notify all other players to pause
+      document.dispatchEvent(
+        new CustomEvent("videoplayer:play", { detail: vid })
+      );
       setState("please-wait");
       vid.play().then(() => {
         setState("play");
@@ -69,13 +86,30 @@ export function VideoPlayer({
 
   const handleProgress = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
     const vid = videoRef.current;
-    const bar = progressRef.current;
+    const bar = controlsRef.current;
     if (!vid || !bar || !vid.duration) return;
 
     const rect = bar.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const fraction = Math.max(0, Math.min(1, x / rect.width));
     vid.currentTime = fraction * vid.duration;
+  }, []);
+
+  // Pause this player when another player starts
+  useEffect(() => {
+    const onOtherPlay = (e: Event) => {
+      const vid = videoRef.current;
+      const active = (e as CustomEvent).detail as HTMLVideoElement;
+      if (vid && active !== vid && !vid.paused) {
+        vid.pause();
+        setState("pause");
+      }
+    };
+
+    document.addEventListener("videoplayer:play", onOtherPlay);
+    return () => {
+      document.removeEventListener("videoplayer:play", onOtherPlay);
+    };
   }, []);
 
   useEffect(() => {
@@ -111,13 +145,18 @@ export function VideoPlayer({
   }, [state]);
 
   const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
+  const hasStarted = state !== "ready";
   const timeNow = duration > 0 ? formatTime(currentTime) : "0:00";
   const timeTotal = duration > 0 ? formatTime(duration) : staticDuration;
 
   return (
     <section className="video">
       <div className={`video-player ${state}`} data-filename={video.filename}>
-        <div className="video-screen" onClick={togglePlay}>
+        <div
+          className="video-screen"
+          onClick={togglePlay}
+          style={{ aspectRatio: aspectRatio.replace(":", " / ") }}
+        >
           {sizes.length > 0 ? (
             <video
               ref={videoRef}
@@ -130,8 +169,9 @@ export function VideoPlayer({
               {sizes.map((size) => (
                 <source
                   key={size}
-                  src={`${cdnBase}${video.filename}-${size}p.mp4`}
+                  src={`${cdnBase}${video.filename}/${video.filename}-${size}.mp4`}
                   type="video/mp4"
+                  media={SIZE_MEDIA[size] || undefined}
                 />
               ))}
               {/* Fallback image for browsers without video support */}
@@ -158,27 +198,27 @@ export function VideoPlayer({
             )
           )}
         </div>
-        <div className="video-controls">
-          <div className="video-controls-left">
+        <div
+          className="video-controls"
+          ref={controlsRef}
+          onClick={handleProgress}
+        >
+          <div
+            className="video-progress-bar"
+            style={{ width: `${progress}%` }}
+          />
+          <div className="video-controls-content">
             <span
               className="button play"
-              onClick={togglePlay}
+              onClick={(e) => {
+                e.stopPropagation();
+                togglePlay();
+              }}
             >
               {state === "play" ? "Pause" : "Play"}
             </span>
-            <span className="time-now">{timeNow}</span>
-          </div>
-          <div
-            className="video-progress"
-            ref={progressRef}
-            onClick={handleProgress}
-          >
-            <div
-              className="video-progress-bar"
-              style={{ width: `${progress}%` }}
-            />
-          </div>
-          <div className="video-controls-right">
+            {hasStarted && <span className="time-now">{timeNow}</span>}
+            <span className="flex-spacer" />
             <span className="time-total">{timeTotal}</span>
           </div>
         </div>

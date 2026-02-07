@@ -80,10 +80,6 @@ Quotes:
 
 ----
 
-Video-source: 
-
-----
-
 Videosource: 
 
 - 
@@ -93,3 +89,4 @@ Videosource:
   sizes: 720, 480, 360
   duration_min: "29"
   duration_sec: "55"
+  aspect_ratio: "16:9"
