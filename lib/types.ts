@@ -202,10 +202,8 @@ export interface Page<T extends PageContent = PageContent> {
   sortOrder: number;
   /** Template name derived from content filename, e.g. "colloquia" */
   template: PageTemplate;
-  /** German content (always present) */
+  /** Content (from .de.txt file, includes both DE and EN fields) */
   de: T;
-  /** English content (may be partial or absent) */
-  en?: Partial<T>;
   /** Image metadata keyed by filename */
   images: Record<string, ImageMeta>;
   /** Directory path relative to content root */
@@ -215,7 +213,6 @@ export interface Page<T extends PageContent = PageContent> {
 export interface SiteData {
   site: {
     de: SiteContent;
-    en?: Partial<SiteContent>;
   };
   pages: Page[];
 }

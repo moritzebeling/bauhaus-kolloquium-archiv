@@ -60,14 +60,12 @@ export function extractTemplate(filename: string): string | null {
 }
 
 /**
- * Extract language from a content filename.
- * "colloquia.de.txt" → "de"
- * "start.en.txt" → "en"
+ * Check if a content filename is a German content file.
+ * "colloquia.de.txt" → true
+ * "start.en.txt" → false
  */
-export function extractLang(filename: string): "de" | "en" | null {
-  const match = filename.match(/\.(?:de|en)\.txt$/);
-  if (!match) return null;
-  return filename.includes(".de.txt") ? "de" : "en";
+export function isDeFile(filename: string): boolean {
+  return filename.endsWith(".de.txt");
 }
 
 /**
@@ -123,32 +121,24 @@ function loadPage(dirName: string): Page | null {
 
   const files = fs.readdirSync(dirPath);
 
-  // Find content files (template.lang.txt)
+  // Find the .de.txt content file
   let template: PageTemplate | null = null;
   let deContent: Record<string, string | Record<string, string>[]> | null =
-    null;
-  let enContent: Record<string, string | Record<string, string>[]> | null =
     null;
 
   for (const file of files) {
     if (isImageMetaFile(file)) continue;
+    if (!isDeFile(file)) continue;
 
     const tpl = extractTemplate(file);
-    const lang = extractLang(file);
 
-    if (tpl && lang && VALID_TEMPLATES.has(tpl)) {
+    if (tpl && VALID_TEMPLATES.has(tpl)) {
       template = tpl as PageTemplate;
       const filePath = path.join(dirPath, file);
       const raw = fs.readFileSync(filePath, "utf-8");
       const structuredHints = STRUCTURED_FIELDS[tpl];
       const parsed = parseKirbyFileTyped(raw, structuredHints);
-      const withKirbytext = applyKirbytext(parsed);
-
-      if (lang === "de") {
-        deContent = withKirbytext;
-      } else {
-        enContent = withKirbytext;
-      }
+      deContent = applyKirbytext(parsed);
     }
   }
 
@@ -179,33 +169,25 @@ function loadPage(dirName: string): Page | null {
     sortOrder: extractSortOrder(dirName),
     template,
     de: deContent as unknown as PageContent,
-    en: enContent ? (enContent as unknown as Partial<PageContent>) : undefined,
     images,
     dirPath: dirName,
   };
 }
 
 /**
- * Load site-level content (site.de.txt / site.en.txt).
+ * Load site-level content (site.de.txt).
  */
-function loadSiteContent(): { de: SiteContent; en?: Partial<SiteContent> } {
+function loadSiteContent(): { de: SiteContent } {
   const dePath = path.join(CONTENT_DIR, "site.de.txt");
-  const enPath = path.join(CONTENT_DIR, "site.en.txt");
 
   let de: SiteContent = { title: "" };
-  let en: Partial<SiteContent> | undefined;
 
   if (fs.existsSync(dePath)) {
     const raw = fs.readFileSync(dePath, "utf-8");
     de = parseKirbyFile(raw) as unknown as SiteContent;
   }
 
-  if (fs.existsSync(enPath)) {
-    const raw = fs.readFileSync(enPath, "utf-8");
-    en = parseKirbyFile(raw) as unknown as Partial<SiteContent>;
-  }
-
-  return { de, en };
+  return { de };
 }
 
 // ─── Public API ──────────────────────────────────────────────────

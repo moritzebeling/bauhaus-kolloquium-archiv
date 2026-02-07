@@ -22,7 +22,6 @@ interface AddonPageProps {
 
 export function AddonPage({ page }: AddonPageProps) {
   const de = page.de;
-  const en = page.en as Partial<AddonContent> | undefined;
 
   const galleryColumns = de.gallery
     ? sortIntoColumns(de.gallery as (GalleryItem & { column?: string; position?: string })[], "gallery", 2)
@@ -79,16 +78,14 @@ export function AddonPage({ page }: AddonPageProps) {
           {/* Right column — English */}
           <div className="column">
             <section className="text box en">
-              {(en?.text_intro_en || de.text_intro_en) && (
+              {de.text_intro_en && (
                 <div>
-                  <Markdown
-                    content={(en?.text_intro_en || de.text_intro_en) as string}
-                  />
+                  <Markdown content={de.text_intro_en} />
                 </div>
               )}
-              {(en?.text_en || de.text_en) && (
+              {de.text_en && (
                 <div>
-                  <Markdown content={(en?.text_en || de.text_en) as string} />
+                  <Markdown content={de.text_en} />
                 </div>
               )}
             </section>

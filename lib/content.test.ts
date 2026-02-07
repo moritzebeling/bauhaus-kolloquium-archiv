@@ -9,7 +9,7 @@ import assert from "node:assert/strict";
 import {
   extractSortOrder,
   extractTemplate,
-  extractLang,
+  isDeFile,
   isImageMetaFile,
   extractImageFilename,
   applyKirbytext,
@@ -68,23 +68,23 @@ describe("extractTemplate", () => {
   });
 });
 
-// ─── extractLang ────────────────────────────────────────────────
+// ─── isDeFile ────────────────────────────────────────────────
 
-describe("extractLang", () => {
-  it("should extract 'de' from German content files", () => {
-    assert.equal(extractLang("colloquia.de.txt"), "de");
-    assert.equal(extractLang("start.de.txt"), "de");
+describe("isDeFile", () => {
+  it("should return true for German content files", () => {
+    assert.equal(isDeFile("colloquia.de.txt"), true);
+    assert.equal(isDeFile("start.de.txt"), true);
   });
 
-  it("should extract 'en' from English content files", () => {
-    assert.equal(extractLang("colloquia.en.txt"), "en");
-    assert.equal(extractLang("start.en.txt"), "en");
+  it("should return false for English content files", () => {
+    assert.equal(isDeFile("colloquia.en.txt"), false);
+    assert.equal(isDeFile("start.en.txt"), false);
   });
 
-  it("should return null for non-matching filenames", () => {
-    assert.equal(extractLang("photo.jpg"), null);
-    assert.equal(extractLang("readme.txt"), null);
-    assert.equal(extractLang("file.fr.txt"), null);
+  it("should return false for non-matching filenames", () => {
+    assert.equal(isDeFile("photo.jpg"), false);
+    assert.equal(isDeFile("readme.txt"), false);
+    assert.equal(isDeFile("file.fr.txt"), false);
   });
 });
 

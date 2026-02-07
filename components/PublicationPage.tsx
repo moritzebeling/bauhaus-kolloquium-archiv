@@ -13,7 +13,6 @@ interface PublicationPageProps {
 
 export function PublicationPage({ page }: PublicationPageProps) {
   const de = page.de;
-  const en = page.en as Partial<PublicationContent> | undefined;
 
   const galleryItems = (de.gallery || []) as GalleryItem[];
 
@@ -57,10 +56,10 @@ export function PublicationPage({ page }: PublicationPageProps) {
         )}
 
         {/* English text */}
-        {(en?.text_en || de.text_en) && (
+        {de.text_en && (
           <section className="text en">
             <div>
-              <Markdown content={(en?.text_en || de.text_en) as string} />
+              <Markdown content={de.text_en} />
             </div>
           </section>
         )}

@@ -28,7 +28,6 @@ interface ColloquiaPageProps {
 
 export function ColloquiaPage({ page }: ColloquiaPageProps) {
   const de = page.de;
-  const en = page.en as Partial<ColloquiaContent> | undefined;
 
   // Sort program, gallery, and quote items into columns
   const programColumns = de.program
@@ -164,16 +163,14 @@ export function ColloquiaPage({ page }: ColloquiaPageProps) {
           {/* Right column — English text + content */}
           <div className="column">
             <section className="text box en">
-              {(en?.text_intro_en || de.text_intro_en) && (
+              {de.text_intro_en && (
                 <div>
-                  <Markdown
-                    content={(en?.text_intro_en || de.text_intro_en) as string}
-                  />
+                  <Markdown content={de.text_intro_en} />
                 </div>
               )}
-              {(en?.text_en || de.text_en) && (
+              {de.text_en && (
                 <div>
-                  <Markdown content={(en?.text_en || de.text_en) as string} />
+                  <Markdown content={de.text_en} />
                 </div>
               )}
             </section>

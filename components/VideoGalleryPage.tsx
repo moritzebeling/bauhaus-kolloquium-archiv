@@ -13,7 +13,6 @@ interface VideoGalleryPageProps {
 
 export function VideoGalleryPage({ page }: VideoGalleryPageProps) {
   const de = page.de;
-  const en = page.en as Partial<VideoGalleryContent> | undefined;
 
   const cdnBase = "https://bhk-video.fra1.cdn.digitaloceanspaces.com/2019/";
 
@@ -63,10 +62,8 @@ export function VideoGalleryPage({ page }: VideoGalleryPageProps) {
                   {de.production && <Markdown content={de.production} />}
                 </div>
                 <div className="en">
-                  {(en?.production_en || de.production_en) && (
-                    <Markdown
-                      content={(en?.production_en || de.production_en) as string}
-                    />
+                  {de.production_en && (
+                    <Markdown content={de.production_en} />
                   )}
                 </div>
                 <div>

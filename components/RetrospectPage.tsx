@@ -15,7 +15,6 @@ interface RetrospectPageProps {
 
 export function RetrospectPage({ page }: RetrospectPageProps) {
   const de = page.de;
-  const en = page.en as Partial<RetrospectContent> | undefined;
 
   // Quotes grouped by their group field
   const quotes = (de.quotes || []) as QuoteItem[];
@@ -82,8 +81,8 @@ export function RetrospectPage({ page }: RetrospectPageProps) {
           </div>
           <div className="en">
             <h6>{de.title}</h6>
-            {(en?.production_en || de.production_en) && (
-              <Markdown content={(en?.production_en || de.production_en) as string} />
+            {de.production_en && (
+              <Markdown content={de.production_en} />
             )}
           </div>
 
@@ -125,10 +124,10 @@ export function RetrospectPage({ page }: RetrospectPageProps) {
         )}
 
         {/* Biography (EN) */}
-        {(en?.biography_en || de.biography_en) && (
+        {de.biography_en && (
           <section className="box en">
             <div>
-              <Markdown content={(en?.biography_en || de.biography_en) as string} />
+              <Markdown content={de.biography_en} />
             </div>
           </section>
         )}
