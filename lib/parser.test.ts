@@ -347,15 +347,6 @@ Poster: ibhk1979-poster.jpg
 
 ----
 
-Text1: 
-
-## 60 Jahre Gründung des Bauhauses
-### Prof. Dr. Christian Schädlich
-****
-Some text content here.
-
-----
-
 Program: 
 
 - 
@@ -377,7 +368,6 @@ Text: Main text content`;
     assert.equal(result.date_start, "1979-06-27");
     assert.equal(result.date_end, "1979-06-29");
     assert.equal(result.poster, "ibhk1979-poster.jpg");
-    assert.ok(result.text1.includes("60 Jahre"));
     assert.ok(result.program.includes("IBHK1979-Program-1.jpg"));
     assert.equal(result.text, "Main text content");
   });

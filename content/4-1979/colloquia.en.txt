@@ -6,16 +6,6 @@ Name: II. Bauhaus-Kolloquium
 
 ----
 
-Text1: 
-
-## 60 Jahre Gründung des Bauhauses
-### Prof. Dr. Christian Schädlich
-Leiter des Kolloquiums
-****
-Die Tradition der Internationalen Bauhaus-Kolloquien, die bis heute als wissenschaftliche Konferenzen Bestand haben, wurde gewissermaßen durch das zweite Bauhaus-Kolloquium begründet. Anlässlich des 60. Jahrestages der Eröffnung des Bauhauses richtete sich das Kolloquium stärker auf die Erforschung der Geschichte des Bauhauses aus. So behandelte Bernd Grönwalds Vortrag die Bedeutung der Pflege des Bauhauserbes in der DDR und Christian Schädlich verfasste eine Abhandlung zur Geschichte des Weimarer Bauhauses. Unter den Teilnehmern waren auch ehemaligen Bauhausangehörige sowie internationale Wissenschaftler. Zum ersten Mal war auch das Bauhaus-Archiv Berlin durch seinen Direktor Hans Maria Wingler und Peter Hahn vertreten. Die Ausstellung mit dem Titel Bauhaus 1919-1933, welche gemeinsam mit den Kunstsammlungen zu Weimar kuratiert und in der Kunsthalle am Theaterplatz eröffnet wurde, begleitete das wissenschaftliche Programm. Sie ermöglichte zum ersten Mal in der Geschichte der DDR, historische Standorte sowie die künstlerischen und pädagogischen Leistungen des Bauhauses einer breiten Öffentlichkeit zu präsentieren. Die Weimarer Hochschule versuchte durch dieses Kolloquium und die dazugehörigen Ausstellung an die internationale Bauhausforschung anknüpfen und ein eigenständiges Geschichtsbild vom Bauhaus zu entwickeln.
-
-----
-
 Quotes: 
 
 - 

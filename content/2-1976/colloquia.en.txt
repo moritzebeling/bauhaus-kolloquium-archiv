@@ -6,18 +6,6 @@ Name: Wissenschaftliches Kolloquium
 
 ----
 
-Text1: 
-
-## 50 Jahre Bauhaus Dessau
-### Prof. Dr. Christian Schädlich
-Leiter des Kolloquiums
-****
-Anlässlich des 50. Jahrestages der Eröffnung des Bauhauses Dessau luden die Hochschule für Architektur und Bauwesen (HAB) Weimar, die Bauakademie der DDR und die Hochschule für Industrielle Formgestaltung Halle,
-Burg Giebichenstein zum Wissenschaftlichen Kolloquium vom 27.-29. Oktober 1976 nach Weimar ein. Die Konzeption für das Kolloquium erfolgte unter der Direktion von Christian Schädlich. Unter den Teilnehmern waren sowohl ehemalige Angehörige des Bauhauses, Wissenschaftler der DDR-Bauhausforschung, sowie prominente ausländische Gäste wie Max Bill, Edmund Goldzamt, Edith Horváth, Claude Schnaidt, Francesco Dal Co und Marco De Michelis. Begleitet wurde das Kolloquium von einer Ausstellung zum Werk des zweiten Bauhaus-Direktors Hannes Meyer, für die Lena Meyer-Bergner der Hochschule zahlreiche Dokumente überlassen hatte. Das erste wissenschaftliche Kolloquium an der Weimarer Hochschule sollte die wissenschaftliche Bearbeitung der Bauhausforschung begleiten. Zur Vorbereitung weiterer Kolloquien, Ausstellungen und Forschungsprojekte wurde im Nachgang des Kolloquiums ein Ständiger Arbeitskreis unter der Leitung von Christian Schädlich eingerichtet, der sich mit der Aufgabe der Aufarbeitung des Bauhauserbes beschäftigen sollte. Das Kolloquium wurde damit ein zentrales Forum für die nationale und internationale
-Bauhausforschung in der DDR.
-
-----
-
 Quotes: 
 
 - 

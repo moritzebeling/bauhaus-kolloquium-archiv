@@ -95,7 +95,6 @@ export interface ColloquiaContent {
   text_intro_en?: string;
   text?: string;
   text_en?: string;
-  text1?: string;
   program?: ProgramItem[];
   gallery?: GalleryItem[];
   quotes?: QuoteItem[];
