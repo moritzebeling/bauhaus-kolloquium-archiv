@@ -22,7 +22,7 @@ const renderer = {
 marked.use({
   async: false,
   gfm: true,
-  breaks: false,
+  breaks: true,
   renderer,
 });
 
