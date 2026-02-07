@@ -267,10 +267,6 @@ Quotes:
 
 ----
 
-Text2: 
-
-----
-
 Text-intro: 
 
 #### Der wissenschaftlich-technische Fortschritt und die sozialkulturellen Funktionen von Architektur und industrieller Formgestaltung in unserer Epoche.

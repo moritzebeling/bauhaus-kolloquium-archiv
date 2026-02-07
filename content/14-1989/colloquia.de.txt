@@ -128,10 +128,6 @@ Quotes:
 
 ----
 
-Text2: 
-
-----
-
 Text-intro: 
 
 #### Produktivkraftentwicklung und Umweltgestaltung.

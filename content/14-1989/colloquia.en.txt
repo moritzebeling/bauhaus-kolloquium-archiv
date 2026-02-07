@@ -41,7 +41,3 @@ Quotes:
   source: >
     Gerd Zimmermann in conversation with
     Annika Eheim, 2015
-
-----
-
-Text2: 

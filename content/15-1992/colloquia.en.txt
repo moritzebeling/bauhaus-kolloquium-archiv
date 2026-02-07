@@ -37,7 +37,3 @@ Quotes:
   source: >
     Karin Wilhelm in conversation with Lena
     Laine, 2016
-
-----
-
-Text2: 

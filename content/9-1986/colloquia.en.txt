@@ -85,7 +85,3 @@ Quotes:
   source: >
     Bruno Flierl im Gespräch mit Lena Laine
     und Wolfgang Höhne, 2015
-
-----
-
-Text2: 

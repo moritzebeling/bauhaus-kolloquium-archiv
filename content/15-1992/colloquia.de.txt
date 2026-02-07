@@ -117,10 +117,6 @@ Quotes:
 
 ----
 
-Text2: 
-
-----
-
 Text-intro: 
 
 #### Architektur und Macht.
