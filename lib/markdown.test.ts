@@ -38,7 +38,7 @@ describe("renderMarkdown", () => {
 
   it("should render standard markdown links", () => {
     const result = renderMarkdown("[Example](http://example.com)");
-    assert.ok(result.includes('<a href="http://example.com">Example</a>'));
+    assert.ok(result.includes('<a href="http://example.com" target="_blank" rel="noreferrer">Example</a>'));
   });
 
   it("should process Kirby link syntax before markdown", () => {

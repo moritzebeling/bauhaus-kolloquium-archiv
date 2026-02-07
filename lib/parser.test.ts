@@ -180,7 +180,7 @@ describe("parseKirbyLinks", () => {
   it("should parse a link with text", () => {
     const input = "(link: http://example.com text: Example Site)";
     const result = parseKirbyLinks(input);
-    assert.equal(result, '<a href="http://example.com">Example Site</a>');
+    assert.equal(result, '<a href="http://example.com" target="_blank" rel="noreferrer">Example Site</a>');
   });
 
   it("should parse a link with text and target", () => {
@@ -189,7 +189,7 @@ describe("parseKirbyLinks", () => {
     const result = parseKirbyLinks(input);
     assert.equal(
       result,
-      '<a href="http://example.com" target="_blank">Example Site</a>'
+      '<a href="http://example.com" target="_blank" rel="noreferrer">Example Site</a>'
     );
   });
 
@@ -199,7 +199,7 @@ describe("parseKirbyLinks", () => {
     const result = parseKirbyLinks(input);
     assert.equal(
       result,
-      'Visit <a href="http://a.com">A</a> and <a href="http://b.com" target="_blank">B</a>'
+      'Visit <a href="http://a.com" target="_blank" rel="noreferrer">A</a> and <a href="http://b.com" target="_blank" rel="noreferrer">B</a>'
     );
   });
 
@@ -209,7 +209,7 @@ describe("parseKirbyLinks", () => {
     const result = parseKirbyLinks(input);
     assert.equal(
       result,
-      '*<a href="http://spectorbooks.com/dust-data" target="_blank">Dust & Data</a>*'
+      '*<a href="http://spectorbooks.com/dust-data" target="_blank" rel="noreferrer">Dust & Data</a>*'
     );
   });
 });
