@@ -9,7 +9,7 @@ import assert from "node:assert/strict";
 import {
   extractSortOrder,
   extractTemplate,
-  isDeFile,
+  isContentFile,
   isImageMetaFile,
   extractImageFilename,
   applyKirbytext,
@@ -40,51 +40,38 @@ describe("extractSortOrder", () => {
 // ─── extractTemplate ────────────────────────────────────────────
 
 describe("extractTemplate", () => {
-  it("should extract template from German content files", () => {
-    assert.equal(extractTemplate("colloquia.de.txt"), "colloquia");
-    assert.equal(extractTemplate("start.de.txt"), "start");
-    assert.equal(extractTemplate("retrospect.de.txt"), "retrospect");
-  });
-
-  it("should extract template from English content files", () => {
-    assert.equal(extractTemplate("colloquia.en.txt"), "colloquia");
-    assert.equal(extractTemplate("start.en.txt"), "start");
+  it("should extract template from content files", () => {
+    assert.equal(extractTemplate("colloquia.txt"), "colloquia");
+    assert.equal(extractTemplate("start.txt"), "start");
+    assert.equal(extractTemplate("retrospect.txt"), "retrospect");
   });
 
   it("should handle template names with hyphens", () => {
-    assert.equal(extractTemplate("video-gallery.de.txt"), "video-gallery");
+    assert.equal(extractTemplate("video-gallery.txt"), "video-gallery");
   });
 
   it("should return null for non-matching filenames", () => {
     assert.equal(extractTemplate("photo.jpg"), null);
-    assert.equal(extractTemplate("readme.txt"), null);
-    assert.equal(extractTemplate("file.fr.txt"), null);
   });
 
   it("should match image meta files (filtered separately by isImageMetaFile)", () => {
     // extractTemplate matches the pattern; image meta files are
     // excluded via isImageMetaFile() before calling extractTemplate()
-    assert.equal(extractTemplate("photo.jpg.de.txt"), "photo.jpg");
+    assert.equal(extractTemplate("photo.jpg.txt"), "photo.jpg");
   });
 });
 
-// ─── isDeFile ────────────────────────────────────────────────
+// ─── isContentFile ────────────────────────────────────────────────
 
-describe("isDeFile", () => {
-  it("should return true for German content files", () => {
-    assert.equal(isDeFile("colloquia.de.txt"), true);
-    assert.equal(isDeFile("start.de.txt"), true);
+describe("isContentFile", () => {
+  it("should return true for content files", () => {
+    assert.equal(isContentFile("colloquia.txt"), true);
+    assert.equal(isContentFile("start.txt"), true);
   });
 
-  it("should return false for English content files", () => {
-    assert.equal(isDeFile("colloquia.en.txt"), false);
-    assert.equal(isDeFile("start.en.txt"), false);
-  });
-
-  it("should return false for non-matching filenames", () => {
-    assert.equal(isDeFile("photo.jpg"), false);
-    assert.equal(isDeFile("readme.txt"), false);
-    assert.equal(isDeFile("file.fr.txt"), false);
+  it("should return false for non-txt filenames", () => {
+    assert.equal(isContentFile("photo.jpg"), false);
+    assert.equal(isContentFile("readme.md"), false);
   });
 });
 
@@ -92,23 +79,21 @@ describe("isDeFile", () => {
 
 describe("isImageMetaFile", () => {
   it("should detect image metadata files", () => {
-    assert.equal(isImageMetaFile("photo.jpg.de.txt"), true);
-    assert.equal(isImageMetaFile("photo.jpg.en.txt"), true);
-    assert.equal(isImageMetaFile("image.png.de.txt"), true);
-    assert.equal(isImageMetaFile("graphic.svg.de.txt"), true);
-    assert.equal(isImageMetaFile("pic.gif.de.txt"), true);
-    assert.equal(isImageMetaFile("photo.webp.en.txt"), true);
+    assert.equal(isImageMetaFile("photo.jpg.txt"), true);
+    assert.equal(isImageMetaFile("image.png.txt"), true);
+    assert.equal(isImageMetaFile("graphic.svg.txt"), true);
+    assert.equal(isImageMetaFile("pic.gif.txt"), true);
+    assert.equal(isImageMetaFile("photo.webp.txt"), true);
   });
 
   it("should be case-insensitive for extensions", () => {
-    assert.equal(isImageMetaFile("photo.JPG.de.txt"), true);
-    assert.equal(isImageMetaFile("photo.Png.en.txt"), true);
+    assert.equal(isImageMetaFile("photo.JPG.txt"), true);
+    assert.equal(isImageMetaFile("photo.Png.txt"), true);
   });
 
   it("should not match regular content files", () => {
-    assert.equal(isImageMetaFile("colloquia.de.txt"), false);
-    assert.equal(isImageMetaFile("start.en.txt"), false);
-    assert.equal(isImageMetaFile("readme.txt"), false);
+    assert.equal(isImageMetaFile("colloquia.txt"), false);
+    assert.equal(isImageMetaFile("start.txt"), false);
   });
 
   it("should not match image files themselves", () => {
@@ -121,26 +106,24 @@ describe("isImageMetaFile", () => {
 
 describe("extractImageFilename", () => {
   it("should extract image filename from metadata filename", () => {
-    assert.equal(extractImageFilename("photo.jpg.de.txt"), "photo.jpg");
-    assert.equal(extractImageFilename("photo.jpg.en.txt"), "photo.jpg");
-    assert.equal(extractImageFilename("image.png.de.txt"), "image.png");
-    assert.equal(extractImageFilename("graphic.svg.en.txt"), "graphic.svg");
+    assert.equal(extractImageFilename("photo.jpg.txt"), "photo.jpg");
+    assert.equal(extractImageFilename("image.png.txt"), "image.png");
+    assert.equal(extractImageFilename("graphic.svg.txt"), "graphic.svg");
   });
 
   it("should handle filenames with underscores and hyphens", () => {
     assert.equal(
-      extractImageFilename("BHK_02_150.jpg.de.txt"),
+      extractImageFilename("BHK_02_150.jpg.txt"),
       "BHK_02_150.jpg"
     );
     assert.equal(
-      extractImageFilename("panel-1a-thumb.jpg.en.txt"),
+      extractImageFilename("panel-1a-thumb.jpg.txt"),
       "panel-1a-thumb.jpg"
     );
   });
 
   it("should return null for non-image metadata files", () => {
-    assert.equal(extractImageFilename("colloquia.de.txt"), null);
-    assert.equal(extractImageFilename("readme.txt"), null);
+    assert.equal(extractImageFilename("colloquia.txt"), null);
     assert.equal(extractImageFilename("photo.jpg"), null);
   });
 });

@@ -314,7 +314,7 @@ Title: Test`;
     assert.equal(result.title, "Test");
   });
 
-  it("should parse the colloquia.de.txt format", () => {
+  it("should parse the colloquia.txt format", () => {
     const input = `Year: 1979
 
 ----

@@ -51,38 +51,36 @@ export function extractSortOrder(dirName: string): number {
 
 /**
  * Extract template name from a content filename.
- * "colloquia.de.txt" → "colloquia"
- * "start.en.txt" → "start"
+ * "colloquia.txt" → "colloquia"
  */
 export function extractTemplate(filename: string): string | null {
-  const match = filename.match(/^(.+?)\.(?:de|en)\.txt$/);
+  const match = filename.match(/^(.+?)\.txt$/);
   return match ? match[1] : null;
 }
 
 /**
- * Check if a content filename is a German content file.
- * "colloquia.de.txt" → true
- * "start.en.txt" → false
+ * Check if a content filename is a content file (.txt).
+ * "colloquia.txt" → true
  */
-export function isDeFile(filename: string): boolean {
-  return filename.endsWith(".de.txt");
+export function isContentFile(filename: string): boolean {
+  return filename.endsWith(".txt");
 }
 
 /**
  * Check if a filename is an image metadata file.
- * "photo.jpg.de.txt" → true (metadata for photo.jpg)
+ * "photo.jpg.txt" → true (metadata for photo.jpg)
  */
 export function isImageMetaFile(filename: string): boolean {
-  return /\.(jpg|jpeg|png|gif|svg|webp)\.(de|en)\.txt$/i.test(filename);
+  return /\.(jpg|jpeg|png|gif|svg|webp)\.txt$/i.test(filename);
 }
 
 /**
  * Extract the image filename from an image metadata filename.
- * "photo.jpg.de.txt" → "photo.jpg"
+ * "photo.jpg.txt" → "photo.jpg"
  */
 export function extractImageFilename(metaFilename: string): string | null {
   const match = metaFilename.match(
-    /^(.+\.(jpg|jpeg|png|gif|svg|webp))\.(de|en)\.txt$/i
+    /^(.+\.(jpg|jpeg|png|gif|svg|webp))\.txt$/i
   );
   return match ? match[1] : null;
 }
@@ -121,14 +119,14 @@ function loadPage(dirName: string): Page | null {
 
   const files = fs.readdirSync(dirPath);
 
-  // Find the .de.txt content file
+  // Find the .txt content file
   let template: PageTemplate | null = null;
   let deContent: Record<string, string | Record<string, string>[]> | null =
     null;
 
   for (const file of files) {
     if (isImageMetaFile(file)) continue;
-    if (!isDeFile(file)) continue;
+    if (!isContentFile(file)) continue;
 
     const tpl = extractTemplate(file);
 
@@ -175,10 +173,10 @@ function loadPage(dirName: string): Page | null {
 }
 
 /**
- * Load site-level content (site.de.txt).
+ * Load site-level content (site.txt).
  */
 function loadSiteContent(): { de: SiteContent } {
-  const dePath = path.join(CONTENT_DIR, "site.de.txt");
+  const dePath = path.join(CONTENT_DIR, "site.txt");
 
   let de: SiteContent = { title: "" };
 

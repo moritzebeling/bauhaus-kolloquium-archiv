@@ -202,7 +202,7 @@ export interface Page<T extends PageContent = PageContent> {
   sortOrder: number;
   /** Template name derived from content filename, e.g. "colloquia" */
   template: PageTemplate;
-  /** Content (from .de.txt file, includes both DE and EN fields) */
+  /** Content (from .txt file, includes both DE and EN fields) */
   de: T;
   /** Image metadata keyed by filename */
   images: Record<string, ImageMeta>;
