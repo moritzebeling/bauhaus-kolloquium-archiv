@@ -31,15 +31,27 @@ export function ColloquiaPage({ page }: ColloquiaPageProps) {
 
   // Sort program, gallery, and quote items into columns
   const programColumns = de.program
-    ? sortIntoColumns(de.program as (ProgramItem & { column?: string; position?: string })[], "program", 1)
+    ? sortIntoColumns(
+        de.program as (ProgramItem & { column?: string; position?: string })[],
+        "program",
+        1
+      )
     : { left: [], right: [] };
 
   const galleryColumns = de.gallery
-    ? sortIntoColumns(de.gallery as (GalleryItem & { column?: string; position?: string })[], "gallery", 2)
+    ? sortIntoColumns(
+        de.gallery as (GalleryItem & { column?: string; position?: string })[],
+        "gallery",
+        2
+      )
     : { left: [], right: [] };
 
   const quoteColumns = de.quotes
-    ? sortIntoColumns(de.quotes as (QuoteItem & { column?: string; position?: string })[], "quote", 3)
+    ? sortIntoColumns(
+        de.quotes as (QuoteItem & { column?: string; position?: string })[],
+        "quote",
+        3
+      )
     : { left: [], right: [] };
 
   const leftItems = mergeColumnItems(
@@ -57,10 +69,7 @@ export function ColloquiaPage({ page }: ColloquiaPageProps) {
   const dateRange = formatDateRange(de.date_start, de.date_end);
 
   return (
-    <article
-      id={`ibhk-${de.edition}`}
-      className="colloquia span2 add-nav"
-    >
+    <article id={`ibhk-${de.edition}`} className="colloquia span2 add-nav">
       <div className="wrapper">
         <header>
           {de.website && (
@@ -151,10 +160,8 @@ export function ColloquiaPage({ page }: ColloquiaPageProps) {
                       images={page.images}
                     />
                   )}
-                  <span>
-                    Fotoalbum Kolloquiums&nbsp;{de.title}
-                  </span>
-                  <span className="small mono opacity-60">Download PDF</span>
+                  <span>Fotoalbum Kolloquiums&nbsp;{de.title}</span>
+                  <span className="small mono">Download PDF</span>
                 </a>
               </section>
             )}

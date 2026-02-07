@@ -216,7 +216,8 @@ footer {
 
 /* ─── Large Text ─────────────────────────────────────────────── */
 
-.large p {
+.large p,
+.large h5 {
   font-size: 1.26rem;
 }
 
@@ -367,7 +368,9 @@ figure:hover .protection > div {
   padding: 1rem;
   background-color: #fff;
   border: 1px solid #000;
-  transition: color 200ms ease, background-color 200ms ease;
+  transition:
+    color 200ms ease,
+    background-color 200ms ease;
 }
 
 .box > a:hover {
@@ -447,9 +450,15 @@ section.black {
 }
 
 @keyframes pulsate {
-  0% { opacity: 0.4; }
-  50% { opacity: 1; }
-  100% { opacity: 0.4; }
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
 }
 
 .video-controls {
@@ -677,7 +686,9 @@ header + .grid-2col {
   border-radius: 10em;
   font-family: var(--font-mono);
   font-size: 0.78rem;
-  transition: background-color 200ms ease, color 200ms ease;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
 }
 
 .official-page-link a:hover {
@@ -717,7 +728,9 @@ section.program figcaption {
   display: block;
   border: 1px solid #000;
   background-color: #fff;
-  transition: color 200ms ease, background-color 200ms ease;
+  transition:
+    color 200ms ease,
+    background-color 200ms ease;
 }
 
 .album-download:hover {
@@ -755,7 +768,9 @@ article#start {
   background-color: #fff;
   font-size: 1rem;
   font-family: var(--font-mono);
-  transition: background-color 200ms ease, color 200ms ease;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
 }
 
 #start .center .button:hover {

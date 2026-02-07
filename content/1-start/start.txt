@@ -5,7 +5,7 @@ Title: Das Internationale Bauhaus-Kolloquium in Weimar 1976–2019
 Text: 
 
 Das Internationale Bauhaus-Kolloquium der Bauhaus-Universität Weimar ist heute eine renommierte internationale Konferenz zu aktuellen Fragen der Theorie und Geschichte der Architektur mit besonderem Hinblick auf die Geschichte des Bauhauses und seiner Wirkungsgeschichte. 
- Das Kolloquium wurde 1976 etabliert, um die Rekonstruktion des Bauhaus-Gebäudes in Dessau – eine Initiative, die ganz wesentlich von Architekten und Professoren an der Hochschule für Architektur und Bauwesen in Weimar vorbereitet und begleitet wurde – zu feiern. Sowohl die Wiedereröffnung des Bauhaus-Gebäudes in Dessau, als auch die Einladung internationaler Gäste aus Ost und West nach Weimar, markierte einen wichtigen Moment in der Ende der 1970er Jahre langsam einsetzenden Bauhaus-Rezeption der ehemaligen DDR. Diese Treffen in Weimar, die etwa alle drei bis vier Jahre mit Forschern, Theoretikern, Künstlern, Architekten und früheren Mitgliedern des Bauhauses stattfanden, testeten in ihren Vorträgen und Äußerungen, was unter den damaligen politischen Verhältnissen gesagt werden durfte und was man über den Verbleib der Objekte und Personen des Bauhauses, sowie über Sammlungs- und Denkmalschutzinitiativen wusste.
+Das Kolloquium wurde 1976 etabliert, um die Rekonstruktion des Bauhaus-Gebäudes in Dessau – eine Initiative, die ganz wesentlich von Architekten und Professoren an der Hochschule für Architektur und Bauwesen in Weimar vorbereitet und begleitet wurde – zu feiern. Sowohl die Wiedereröffnung des Bauhaus-Gebäudes in Dessau, als auch die Einladung internationaler Gäste aus Ost und West nach Weimar, markierte einen wichtigen Moment in der Ende der 1970er Jahre langsam einsetzenden Bauhaus-Rezeption der ehemaligen DDR. Diese Treffen in Weimar, die etwa alle drei bis vier Jahre mit Forschern, Theoretikern, Künstlern, Architekten und früheren Mitgliedern des Bauhauses stattfanden, testeten in ihren Vorträgen und Äußerungen, was unter den damaligen politischen Verhältnissen gesagt werden durfte und was man über den Verbleib der Objekte und Personen des Bauhauses, sowie über Sammlungs- und Denkmalschutzinitiativen wusste.
 
 In den 1960er Jahren, als das Bauhaus in der DDR noch ein Tabu war, verlief die Diskussion an der Hochschule für Architektur und Bauwesen (HAB) Weimar über die Aufarbeitung der Bauhaus-Geschichte in zwei Richtungen. In Dessau wurden praktische Arbeiten zur Erhaltung des architektonischen Erbes des Bauhauses unternommen, während in Weimar die wissenschaftliche Bewertung der hundertjährigen Geschichte der Universität langsam begann. Die ohnehin schon komplexe Geschichte des Staatlichen Bauhauses in Weimar zwischen 1919 und 1925 ließ sich nicht ohne die Geschichte seiner Nachfolgeeinrichtungen erforschen und erzählen. Nach dem Wegzug des Staatlichen Bauhauses nach Dessau übernahm 1926 der sozialdemokratisch gesinnte Direktor Otto Bartning die Leitung der Staatlichen Akademie für Handwerk und Architektur, die jedoch 1930 unter dem nationalsozialistischen Druck zur Schließung gezwungen wurde. Ihr folgte 1930 die Staatliche Akademie für Architektur, Bildende Kunst und Kunsthandwerk in Weimar unter der Leitung des Nationalsozialisten Paul Schultze-Naumburg, der bis 1945 die Schule auf die nationalsozialistische Kulturpolitik ausrichtete. Nach dem Krieg fand die 1946 neugegründete Hochschule für Baukunst und Bildende Künste unter der stalinistischen Politik der sowjetischen Besatzungszone und später in der jungen DDR keinen Weg zur Aufarbeitung und Beschäftigung mit der Geschichte des Bauhauses. Es sollte noch einige Jahre dauern, bis sich an der 1954 gegründeten Hochschule für Architektur und Bauwesen Weimar (HAB), unter anderem auch durch Lehr-und Forschungsprojekte von Dozenten, die ehemals am Bauhaus studierten hatten, ein öffentlicheres Interesse an der Bauhaus-Geschichte entwickelte. 
 
@@ -62,8 +62,8 @@ Credits:
 - Wolfram Höhne
 
 ###### Regie und Aufnahme Interviews
--  Lena Laine
--  David Keogh 
+- Lena Laine
+- David Keogh 
 - Annika Eheim
 - Adrienne Michels
 
@@ -71,7 +71,7 @@ Credits:
 - Lena Laine
 - Sonja Kettel
 
-###### Fotorecherche und Zusammenstellung der Fotoalben 
+###### Fotorecherche und Zusammenstellung der Fotoalben
 - Anna Luise Schubert 
 
 ###### Bearbeitung Film Rundfunkarchiv
@@ -113,7 +113,7 @@ Credits:
 - Archiv der Stiftung Bauhaus Dessau
 - Bauhaus-Archiv Berlin
 
-###### Dank für die Genehmigung der Reproduktion von Fotografien an: 
+###### Dank für die Genehmigung der Reproduktion von Fotografien an:
 - Claus Bach 
 - Tobias Adam
 - Jens Hauspurg
