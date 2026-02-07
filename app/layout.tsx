@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Das Internationale Bauhaus-Kolloquium in Weimar 1976–2019",
   description:
     "Das Internationale Bauhaus-Kolloquium der Bauhaus-Universität Weimar – Ein Beitrag zur Wiederaneignung des Bauhauses",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export default function RootLayout({
@@ -14,9 +17,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-      </head>
       <body>{children}</body>
     </html>
   );

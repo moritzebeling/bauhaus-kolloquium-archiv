@@ -20,7 +20,7 @@ export function GallerySection({
   fallbackTitle,
 }: GallerySectionProps) {
   return (
-    <section className="gallery-section">
+    <section className="gallery">
       <Figure
         filename={item.image}
         dirPath={dirPath}

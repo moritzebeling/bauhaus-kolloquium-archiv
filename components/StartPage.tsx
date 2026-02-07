@@ -18,36 +18,25 @@ export function StartPage({ page, site }: StartPageProps) {
   return (
     <article id="start" className="span2 add-nav">
       <div className="wrapper start">
-        <section className="grid-2col">
-          {/* German header */}
+        <section>
           <header>
             <h3>{de.title}</h3>
-            {de.subtitle && <h3 className="font-normal">{de.subtitle}</h3>}
+            {de.subtitle && <h3 className="regular">{de.subtitle}</h3>}
           </header>
 
-          {/* English header */}
-          <header className="en">
-            <h3>{page.en?.title_en || de.title_en || ""}</h3>
-            {(page.en?.subtitle_en || de.subtitle_en) && (
-              <h3 className="font-normal">
-                {page.en?.subtitle_en || de.subtitle_en}
-              </h3>
-            )}
-          </header>
-
-          {/* German text */}
+          {/* German text (single column, matching legacy) */}
           {de.text && (
             <div className="large">
               <Markdown content={de.text} />
             </div>
           )}
 
-          {/* English text */}
-          {(page.en?.text_en || de.text_en) && (
-            <div className="large en">
-              <Markdown content={(page.en?.text_en || de.text_en) as string} />
-            </div>
-          )}
+          {/* "Impressionen" button */}
+          <div className="center">
+            <a href="#32-2016-exhibition" className="button">
+              Impressionen der Ausstellung
+            </a>
+          </div>
         </section>
       </div>
 

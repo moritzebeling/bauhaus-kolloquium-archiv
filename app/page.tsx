@@ -9,11 +9,12 @@
 import { loadAllContent } from "@/lib/content";
 import { PageRenderer } from "@/components/PageRenderer";
 import { Navigation } from "@/components/Navigation";
-import type { ColloquiaContent, RetrospectContent, StartContent } from "@/lib/types";
+import { WallBackground } from "@/components/WallBackground";
+import type { ColloquiaContent } from "@/lib/types";
 
 /**
  * Build navigation items from page data.
- * Navigation shows: Start, year numbers, interview names, participants.
+ * Navigation shows: Start, year numbers, and Teilnehmer (participants).
  */
 function buildNavItems(
   pages: ReturnType<typeof loadAllContent>["pages"]
@@ -40,40 +41,10 @@ function buildNavItems(
         break;
       }
 
-      case "retrospect": {
-        const content = page.de as RetrospectContent;
-        // Use the person's last name for nav, cleaning special chars
-        const clean = content.title.replace(/[„"…"\.]/g, "").trim();
-        const parts = clean.split(" ");
-        const label = parts.length > 1 ? parts[parts.length - 1] : clean;
-        items.push({
-          id: `inter-${page.slug}`,
-          label,
-          template: page.template,
-        });
-        break;
-      }
-
-      case "video-gallery":
-        items.push({
-          id: `videos-${page.slug}`,
-          label: "Videos",
-          template: page.template,
-        });
-        break;
-
       case "participants":
         items.push({
           id: `participants-${page.slug}`,
           label: "Teilnehmer",
-          template: page.template,
-        });
-        break;
-
-      case "publication":
-        items.push({
-          id: `pub-${page.slug}`,
-          label: "Publikation",
           template: page.template,
         });
         break;
@@ -95,12 +66,21 @@ export default function Home() {
     <>
       <Navigation items={navItems} />
       <main>
-        {pages.map((page) => (
-          <PageRenderer key={page.slug} page={page} site={site} />
-        ))}
-        {/* Empty spacer at the end (like legacy) */}
-        <article className="empty" />
+        {pages.map((page, i) => {
+          const el = <PageRenderer key={page.slug} page={page} site={site} />;
+          // Add empty spacer column after the start page (like legacy)
+          if (page.template === "start") {
+            return (
+              <>
+                {el}
+                <article key="spacer-start" className="empty" />
+              </>
+            );
+          }
+          return el;
+        })}
       </main>
+      <WallBackground />
     </>
   );
 }

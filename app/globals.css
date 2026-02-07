@@ -56,6 +56,8 @@
 html {
   font-size: 1em;
   color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
@@ -94,6 +96,11 @@ h3 {
   font-size: 2.2rem;
   line-height: 1;
   margin-bottom: 0.2em;
+}
+
+h3 + h3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 h4 {
@@ -148,6 +155,12 @@ p a:hover {
   border-bottom: 2px solid #000;
 }
 
+/* ─── Regular (non-bold) ─────────────────────────────────────── */
+
+.regular {
+  font-weight: 400;
+}
+
 /* ─── English Text ───────────────────────────────────────────── */
 
 .en {
@@ -177,6 +190,18 @@ p a:hover {
   font-weight: 700;
 }
 
+.mono .en,
+.mono.en,
+.mono .en p,
+.mono i,
+.mono em {
+  font-style: italic;
+}
+
+.mono .en h6 {
+  font-style: italic;
+}
+
 /* ─── Small Text ─────────────────────────────────────────────── */
 
 .small,
@@ -200,8 +225,7 @@ footer {
 @supports (display: grid) {
   html {
     height: 100%;
-    overflow-y: hidden;
-    overflow-x: scroll;
+    overflow: hidden;
   }
 
   body {
@@ -212,7 +236,8 @@ footer {
   main {
     height: 100%;
     width: auto;
-    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
     display: grid;
     align-content: start;
     justify-content: start;
@@ -221,6 +246,12 @@ footer {
     grid-template-rows: 100%;
     grid-auto-columns: 100vw;
     grid-template-columns: 100vw;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  main::-webkit-scrollbar {
+    display: none;
   }
 
   main > article {
@@ -300,13 +331,19 @@ figure:hover .protection > div {
 
 /* ─── Quotes ─────────────────────────────────────────────────── */
 
-.quotes-section {
+.quotes {
   padding: 3rem;
   break-inside: avoid;
 }
 
-.quotes-section > div + div {
+.quotes > div + div {
   margin-top: 3rem;
+}
+
+@media (max-width: 400px) {
+  .quotes {
+    padding: 1.5rem;
+  }
 }
 
 .source {
@@ -338,15 +375,20 @@ figure:hover .protection > div {
   background-color: #000;
 }
 
+.box.album > a {
+  padding: 0 0 0.5rem 0;
+}
+
 .box > div + div {
   margin-top: 1rem;
 }
 
 /* ─── Black Section (Retrospect Info) ────────────────────────── */
 
-.section-black {
+section.black {
   color: #fff;
   background-color: #000;
+  border: none;
   padding: 1rem;
 }
 
@@ -365,14 +407,95 @@ figure:hover .protection > div {
   cursor: pointer;
 }
 
+.video-screen video,
+.video-screen img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.video-screen::after {
+  content: "Play";
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 200ms ease;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: #fff;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+}
+
+.video-screen:hover::after {
+  opacity: 1;
+}
+
+.video-player.play .video-screen::after {
+  content: "Pause";
+}
+
+.video-player.please-wait .video-screen::after {
+  content: "Bitte warten";
+  opacity: 1;
+  animation: pulsate 2s linear infinite both;
+}
+
+@keyframes pulsate {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
 .video-controls {
   padding: 0.6em 1rem 0.5em;
   border: 1px solid #000;
   background-color: #fff;
   display: flex;
+  align-items: center;
+  gap: 0.8em;
   cursor: pointer;
   font-family: var(--font-mono);
   font-size: 0.78rem;
+}
+
+.video-controls-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  white-space: nowrap;
+}
+
+.video-controls-right {
+  white-space: nowrap;
+}
+
+.video-controls .button {
+  cursor: pointer;
+}
+
+.video-controls .button:hover,
+.video-player.play .video-controls .button {
+  font-weight: 700;
+}
+
+.video-progress {
+  flex: 1;
+  height: 3px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer;
+}
+
+.video-progress-bar {
+  height: 100%;
+  background-color: #000;
+  transition: width 100ms linear;
 }
 
 /* ─── Navigation ─────────────────────────────────────────────── */
@@ -393,17 +516,29 @@ nav {
 
 nav .index {
   position: absolute;
-  width: auto;
   top: 0;
+  left: 0;
+  right: 0;
+  min-width: 100%;
   padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+nav .index::-webkit-scrollbar {
+  display: none;
 }
 
 nav .index a {
   display: inline-block;
   padding: 0.5rem 0;
   margin-top: 0.4rem;
-  margin-right: 0.4em;
   font-size: 1rem;
+  flex-shrink: 0;
 }
 
 nav .index a:hover,
@@ -422,6 +557,10 @@ nav .arrow {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fff;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 nav .arrow.prev {
@@ -441,10 +580,6 @@ nav .arrow.next {
 @media (min-width: 900px) {
   nav .index {
     padding: 0 6rem;
-  }
-
-  nav .index a {
-    margin-right: 0.8em;
   }
 
   nav .arrow {
@@ -492,6 +627,10 @@ article .wrapper {
 
 /* ─── Content Section Spacing ────────────────────────────────── */
 
+header {
+  margin-bottom: 1rem;
+}
+
 section + section {
   margin-top: 1rem;
 }
@@ -504,13 +643,21 @@ header + section {
   margin-top: 3rem;
 }
 
+header + .grid-2col {
+  margin-top: 3rem;
+}
+
 /* ─── Colloquia Specifics ────────────────────────────────────── */
 
 .colloquia header + section {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
-.colloquia header + section.gallery-section {
+.colloquia header + .grid-2col {
+  margin-top: 4rem;
+}
+
+.colloquia header + section.gallery {
   margin-top: 2rem;
 }
 
@@ -536,6 +683,14 @@ header + section {
 .official-page-link a:hover {
   background-color: #000;
   color: #fff;
+}
+
+section .official-page-link {
+  text-align: center;
+}
+
+section .official-page-link a {
+  width: 100%;
 }
 
 /* ─── Poster & Program ───────────────────────────────────────── */
@@ -643,7 +798,16 @@ article#start {
   padding-bottom: 1rem;
 }
 
+.credits a:hover {
+  color: #888;
+}
+
 /* ─── Retrospect ─────────────────────────────────────────────── */
+
+article.retrospect .wrapper {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
 .retrospect .title {
   margin-bottom: 1rem;
@@ -685,13 +849,13 @@ article.publication section.box {
   margin-top: 3rem;
 }
 
-article.publication section.box div {
+article.publication section.box > div {
   border: none;
   padding: 1rem;
 }
 
 @media (min-width: 900px) {
-  article.publication section.box div {
+  article.publication section.box > div {
     padding: 3rem;
   }
 }
@@ -720,6 +884,7 @@ footer {
   background-color: #fff;
   padding: 1rem;
   font-family: var(--font-mono);
+  font-size: 0.78rem;
 }
 
 @media (min-width: 900px) {
@@ -762,6 +927,29 @@ figcaption {
 
 .retrospect-portrait figcaption {
   border-bottom: none;
+}
+
+/* ─── Wall Background (Parallax) ─────────────────────────────── */
+
+#wall-container {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+#wall {
+  position: absolute;
+  height: 100vh;
+  width: auto;
+  max-width: none;
+  top: 0;
+  left: 0;
 }
 
 /* ─── Empty spacer article ───────────────────────────────────── */

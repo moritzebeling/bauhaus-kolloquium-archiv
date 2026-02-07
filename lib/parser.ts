@@ -96,8 +96,13 @@ export function parseKirbyLinks(text: string): string {
   return text.replace(
     /\(link:\s*([^\s)]+)\s+text:\s*([^)]*?)(?:\s+target:\s*([^)]*?))?\)/g,
     (_match, url: string, linkText: string, target?: string) => {
-      const targetAttr = target ? ` target="${target.trim()}"` : "";
-      return `<a href="${url.trim()}"${targetAttr}>${linkText.trim()}</a>`;
+      const href = url.trim();
+      const isExternal =
+        href.startsWith("http://") || href.startsWith("https://");
+      const targetVal = target?.trim() || (isExternal ? "_blank" : "");
+      const targetAttr = targetVal ? ` target="${targetVal}"` : "";
+      const relAttr = targetVal === "_blank" ? ' rel="noreferrer"' : "";
+      return `<a href="${href}"${targetAttr}${relAttr}>${linkText.trim()}</a>`;
     }
   );
 }

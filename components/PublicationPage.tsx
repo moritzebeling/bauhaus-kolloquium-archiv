@@ -18,7 +18,7 @@ export function PublicationPage({ page }: PublicationPageProps) {
   const galleryItems = (de.gallery || []) as GalleryItem[];
 
   return (
-    <article className="publication span1">
+    <article id={`pub-${page.slug}`} className="publication span1">
       <div className="wrapper">
         <header>
           <h3>{de.title}</h3>
@@ -26,7 +26,7 @@ export function PublicationPage({ page }: PublicationPageProps) {
 
         {/* Gallery images */}
         {galleryItems.map((item, i) => (
-          <section key={i} className="gallery-section">
+          <section key={i} className="gallery">
             <Figure
               filename={item.image}
               dirPath={page.dirPath}

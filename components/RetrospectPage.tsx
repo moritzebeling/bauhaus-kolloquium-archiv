@@ -60,7 +60,7 @@ export function RetrospectPage({ page }: RetrospectPageProps) {
         ))}
 
         {/* Production info */}
-        <section className="section-black grid-2col small mono">
+        <section className="black grid-2col small mono">
           {isRetrospect && (
             <>
               <div>

@@ -11,7 +11,7 @@ interface QuoteProps {
 
 export function Quote({ item }: QuoteProps) {
   return (
-    <section className="quotes-section grid-2col">
+    <section className="quotes">
       <div className="quote">
         <blockquote>{item.blockquote}</blockquote>
         {item.source && <p className="source">{item.source}</p>}

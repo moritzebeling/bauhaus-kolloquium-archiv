@@ -25,7 +25,7 @@ export function VideoGalleryPage({ page }: VideoGalleryPageProps) {
   ];
 
   return (
-    <article className="span2 video-gallery">
+    <article id={`videos-${page.slug}`} className="span2 video-gallery">
       <div className="wrapper">
         <header>
           <h3>{de.title}</h3>
@@ -43,7 +43,7 @@ export function VideoGalleryPage({ page }: VideoGalleryPageProps) {
                 <h4>
                   Panel {panelIdx + 1}
                   <br />
-                  <span className="font-normal">{panel.title}</span>
+                  <span className="regular">{panel.title}</span>
                 </h4>
               </header>
 
@@ -58,7 +58,7 @@ export function VideoGalleryPage({ page }: VideoGalleryPageProps) {
               ))}
 
               {/* Production info (shown after each panel) */}
-              <section className="section-black grid-2col small mono">
+              <section className="black grid-2col small mono">
                 <div>
                   {de.production && <Markdown content={de.production} />}
                 </div>

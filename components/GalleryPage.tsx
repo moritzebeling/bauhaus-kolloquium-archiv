@@ -15,14 +15,14 @@ export function GalleryPage({ page }: GalleryPageProps) {
   const galleryItems = (de.gallery || []) as GalleryItem[];
 
   return (
-    <article className="colloquia span2 addon">
+    <article id={page.slug} className="colloquia span2 addon">
       <div className="wrapper">
         <header>
           <h3>{de.title}</h3>
         </header>
 
         {galleryItems.map((item, i) => (
-          <section key={i} className="gallery-section">
+          <section key={i} className="gallery">
             <Figure
               filename={item.image}
               dirPath={page.dirPath}
