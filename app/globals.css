@@ -893,6 +893,216 @@ article.publication section.box > div {
 article.participants {
   background-color: #fff;
   border-left: 1px solid #000;
+  padding-top: 0;
+}
+
+article.participants .wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+article.participants header {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+article.participants section {
+  margin-bottom: 0;
+}
+
+/* Load button */
+.load-participants {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  background: none;
+  border: 1px solid #000;
+  padding: 0.5em 1em;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
+}
+
+.load-participants:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ─── Participants Table ─────────────────────────────────────── */
+
+.participants-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+/* All cells: baseline styles */
+.participants-table th,
+.participants-table td {
+  padding: 0.3em 1px;
+  border-bottom: 1px solid #000;
+}
+
+/* Edge padding on first/last cells */
+.participants-table tr th:first-child,
+.participants-table tr td:first-child {
+  padding-left: 1rem;
+}
+
+.participants-table tr th:last-child,
+.participants-table tr td:last-child {
+  padding-right: 1rem;
+}
+
+/* ─── Sticky Header ──────────────────────────────────────────── */
+
+.participants-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  vertical-align: middle;
+  border-bottom: 1px solid #000;
+}
+
+.participants-table thead,
+.participants-table tfoot {
+  font-weight: 700;
+}
+
+.participants-table tfoot th {
+  border: none;
+}
+
+/* Sortable header cells */
+.participants-table thead th.c,
+.participants-table thead th.n {
+  cursor: pointer;
+  user-select: none;
+}
+
+.participants-table thead th.c:hover,
+.participants-table thead th.n:hover {
+  text-decoration: underline;
+}
+
+.participants-table thead th.active {
+  text-decoration: underline;
+}
+
+/* ─── Rotated Year Headers ───────────────────────────────────── */
+
+.participants-table th.r {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.participants-table th.r span {
+  display: block;
+  padding: 1.2em 0;
+  text-align: center;
+  transform: rotate(270deg);
+}
+
+/* ─── Country & Name Cells ────────────────────────────────────── */
+
+.participants-table .c {
+  text-align: left;
+}
+
+.participants-table .n {
+  text-align: left;
+}
+
+.participants-table td {
+  text-align: center;
+}
+
+/* ─── Year Dot Cells ──────────────────────────────────────────── */
+
+.participants-table td.y {
+  font-size: 0;
+}
+
+.participants-table td.y::after {
+  content: "●";
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* ─── Anzahl Besucher Row ─────────────────────────────────────── */
+
+.participants-table tr.num th {
+  vertical-align: middle;
+}
+
+/* ─── Group Header & Separator ────────────────────────────────── */
+
+.participants-table tbody th {
+  font-weight: 700;
+  text-align: left;
+}
+
+.participants-table tr.group-sep td {
+  border: none;
+  height: 0.5em;
+  padding: 0;
+}
+
+.participants-table tr.group-header th {
+  padding-top: 0;
+  color: #fff;
+}
+
+/* ─── Responsive: wider edge padding ─────────────────────────── */
+
+@media (min-width: 900px) {
+  article.participants header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .load-participants {
+    margin-left: 3rem;
+  }
+
+  .participants-table tr th:first-child,
+  .participants-table tr td:first-child {
+    padding-left: 3rem;
+  }
+
+  .participants-table tr th:last-child,
+  .participants-table tr td:last-child {
+    padding-right: 3rem;
+  }
+}
+
+/* ─── Responsive: hide country column on narrow screens ──────── */
+
+@media (max-width: 1200px) {
+  .participants-table tbody th.n {
+    padding-top: 2em;
+  }
+
+  .participants-table .c {
+    display: none;
+  }
+
+  .participants-table .n {
+    padding-left: 1rem;
+  }
+}
+
+/* ─── Responsive: hide entire table on mobile ─────────────────── */
+
+@media (max-width: 650px) {
+  article.participants {
+    display: none;
+  }
 }
 
 /* ─── Footer ─────────────────────────────────────────────────── */
