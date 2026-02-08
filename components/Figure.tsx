@@ -1,8 +1,10 @@
 /**
  * Figure — displays an image with optional copyright protection overlay
- * and caption. Based on legacy b_figure.php snippet.
+ * and caption. Uses next/image for automatic optimization (srcset, WebP/AVIF)
+ * on bitmap images, and plain <img> for SVGs.
  */
 
+import Image from "next/image";
 import type { ImageMeta } from "@/lib/types";
 import {
   getImageUrl,
@@ -24,6 +26,10 @@ interface FigureProps {
   className?: string;
 }
 
+function isBitmap(filename: string): boolean {
+  return /\.(jpg|jpeg|png|gif|webp)$/i.test(filename);
+}
+
 export function Figure({
   filename,
   dirPath,
@@ -40,17 +46,32 @@ export function Figure({
 
   const isProtected = !!copyright;
 
+  // Use next/image for bitmap images (automatic srcset, WebP/AVIF, CDN optimization)
+  // SVGs are already resolution-independent and don't need optimization
+  const imageElement = isBitmap(filename) ? (
+    <Image
+      src={src}
+      alt={alt}
+      width={2000}
+      height={1500}
+      sizes="(max-width: 900px) 100vw, 33vw"
+      style={{ width: "100%", height: "auto" }}
+      loading="lazy"
+    />
+  ) : (
+    /* eslint-disable-next-line @next/next/no-img-element */
+    <img alt={alt} width="100%" height="auto" loading="lazy" src={src} />
+  );
+
   return (
     <figure className={`${isProtected ? "protect" : ""} ${className || ""}`}>
       {isProtected ? (
         <div className="img protection">
           <div>&copy; {copyright}</div>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img alt={alt} width="100%" height="auto" loading="lazy" src={src} />
+          {imageElement}
         </div>
       ) : (
-        /* eslint-disable-next-line @next/next/no-img-element */
-        <img alt={alt} width="100%" height="auto" loading="lazy" src={src} />
+        imageElement
       )}
 
       {caption && <figcaption>{caption}</figcaption>}

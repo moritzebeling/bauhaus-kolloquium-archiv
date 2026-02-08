@@ -221,9 +221,13 @@ export function loadAllContent(): SiteData {
 }
 
 /**
- * Get the public URL path for a content image.
- * Images are served from /content/[dirPath]/[filename]
+ * Get the public URL for a content image.
+ * Uses Vercel Blob CDN in production, local files in development.
  */
 export function getImageUrl(dirPath: string, filename: string): string {
+  const blobUrl = process.env.NEXT_PUBLIC_BLOB_URL;
+  if (blobUrl) {
+    return `${blobUrl}/content/${dirPath}/${filename}`;
+  }
   return `/content/${dirPath}/${filename}`;
 }
