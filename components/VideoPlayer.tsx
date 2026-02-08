@@ -29,12 +29,14 @@ const SIZE_MEDIA: Record<string, string> = {
 export function VideoPlayer({
   video,
   dirPath,
-  images,
+  // images,
   cdnBase = CDN_BASE,
 }: VideoPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const controlsRef = useRef<HTMLDivElement>(null);
-  const [state, setState] = useState<"ready" | "play" | "pause" | "please-wait">("ready");
+  const [state, setState] = useState<
+    "ready" | "play" | "pause" | "please-wait"
+  >("ready");
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
 
@@ -73,11 +75,14 @@ export function VideoPlayer({
         new CustomEvent("videoplayer:play", { detail: vid })
       );
       setState("please-wait");
-      vid.play().then(() => {
-        setState("play");
-      }).catch(() => {
-        setState("ready");
-      });
+      vid
+        .play()
+        .then(() => {
+          setState("play");
+        })
+        .catch(() => {
+          setState("ready");
+        });
     } else {
       vid.pause();
       setState("pause");

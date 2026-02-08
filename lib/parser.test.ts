@@ -12,7 +12,6 @@ import {
   parseStructuredField,
   parseKirbyLinks,
   parseKirbyHr,
-  parseKirbytext,
   parseKirbyFile,
   parseKirbyFileTyped,
   STRUCTURED_FIELDS,
@@ -63,7 +62,10 @@ describe("isStructuredField", () => {
   it("should NOT detect simple markdown lists as structured", () => {
     // Simple markdown lists should NOT be detected as structured YAML
     assert.equal(isStructuredField("- item one\n- item two"), false);
-    assert.equal(isStructuredField("- Ines Weizman\n- Robin Weißenborn"), false);
+    assert.equal(
+      isStructuredField("- Ines Weizman\n- Robin Weißenborn"),
+      false
+    );
   });
 });
 
@@ -180,7 +182,10 @@ describe("parseKirbyLinks", () => {
   it("should parse a link with text", () => {
     const input = "(link: http://example.com text: Example Site)";
     const result = parseKirbyLinks(input);
-    assert.equal(result, '<a href="http://example.com" target="_blank" rel="noreferrer">Example Site</a>');
+    assert.equal(
+      result,
+      '<a href="http://example.com" target="_blank" rel="noreferrer">Example Site</a>'
+    );
   });
 
   it("should parse a link with text and target", () => {
@@ -218,7 +223,10 @@ describe("parseKirbyLinks", () => {
 
 describe("parseKirbyHr", () => {
   it("should replace **** with <hr>", () => {
-    assert.equal(parseKirbyHr("text\n****\nmore text"), "text\n<hr>\nmore text");
+    assert.equal(
+      parseKirbyHr("text\n****\nmore text"),
+      "text\n<hr>\nmore text"
+    );
   });
 
   it("should handle multiple ****", () => {
@@ -432,10 +440,7 @@ Title: Test`;
 
 Text: Regular text`;
 
-    const result = parseKirbyFileTyped(
-      input,
-      STRUCTURED_FIELDS["colloquia"]
-    );
+    const result = parseKirbyFileTyped(input, STRUCTURED_FIELDS["colloquia"]);
     assert.ok(Array.isArray(result.quotes));
     const quotes = result.quotes as Record<string, string>[];
     assert.equal(quotes.length, 1);
@@ -532,10 +537,7 @@ Text-intro:
 
 Text: Main content here`;
 
-    const result = parseKirbyFileTyped(
-      input,
-      STRUCTURED_FIELDS["colloquia"]
-    );
+    const result = parseKirbyFileTyped(input, STRUCTURED_FIELDS["colloquia"]);
 
     // Simple fields
     assert.equal(result.year, "1979");

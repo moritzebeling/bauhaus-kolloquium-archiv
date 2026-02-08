@@ -66,7 +66,7 @@ export default function Home() {
     <>
       <Navigation items={navItems} />
       <main>
-        {pages.map((page, i) => {
+        {pages.map((page) => {
           const el = <PageRenderer key={page.slug} page={page} site={site} />;
           // Add empty spacer column after the start page (like legacy)
           if (page.template === "start") {

@@ -4,13 +4,7 @@
  * Similar to ColloquiaPage but without header year/dates.
  */
 
-import type {
-  Page,
-  AddonContent,
-  GalleryItem,
-  ProgramItem,
-  QuoteItem,
-} from "@/lib/types";
+import type { Page, AddonContent, GalleryItem, QuoteItem } from "@/lib/types";
 import { Markdown } from "./Markdown";
 import { GallerySection } from "./GallerySection";
 import { Quote } from "./Quote";
@@ -24,18 +18,23 @@ export function AddonPage({ page }: AddonPageProps) {
   const de = page.de;
 
   const galleryColumns = de.gallery
-    ? sortIntoColumns(de.gallery as (GalleryItem & { column?: string; position?: string })[], "gallery", 2)
+    ? sortIntoColumns(
+        de.gallery as (GalleryItem & { column?: string; position?: string })[],
+        "gallery",
+        2
+      )
     : { left: [], right: [] };
 
   const quoteColumns = de.quotes
-    ? sortIntoColumns(de.quotes as (QuoteItem & { column?: string; position?: string })[], "quote", 3)
+    ? sortIntoColumns(
+        de.quotes as (QuoteItem & { column?: string; position?: string })[],
+        "quote",
+        3
+      )
     : { left: [], right: [] };
 
   const leftItems = mergeColumnItems(galleryColumns.left, quoteColumns.left);
-  const rightItems = mergeColumnItems(
-    galleryColumns.right,
-    quoteColumns.right
-  );
+  const rightItems = mergeColumnItems(galleryColumns.right, quoteColumns.right);
 
   return (
     <article className="colloquia span2 addon add-nav">
