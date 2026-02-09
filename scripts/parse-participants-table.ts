@@ -5,10 +5,12 @@ import * as cheerio from "cheerio";
 
 /**
  * execute:
- * npx tsx parse-participants-table.ts
+ * npm run parse-participants-table
  */
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+const INPUT = join(ROOT, "content/37-participants/list.html");
+const OUTPUT = join(ROOT, "public/participants.csv");
 
 const YEARS = [
   "1976",
@@ -31,10 +33,7 @@ interface Participant {
   years: Set<string>;
 }
 
-const htmlPath = join(__dirname, "participants.html");
-const csvPath = join(__dirname, "participants.csv");
-
-const html = readFileSync(htmlPath, "utf-8");
+const html = readFileSync(INPUT, "utf-8");
 const $ = cheerio.load(html);
 
 const participants: Participant[] = [];
@@ -75,9 +74,9 @@ const rows = participants.map((p) => {
 
 const csv = [header, ...rows].join("\n") + "\n";
 
-writeFileSync(csvPath, csv, "utf-8");
+writeFileSync(OUTPUT, csv, "utf-8");
 
-console.log(`Wrote ${participants.length} participants to ${csvPath}`);
+console.log(`Wrote ${participants.length} participants to ${OUTPUT}`);
 
 function csvEscape(value: string): string {
   if (value.includes(",") || value.includes('"') || value.includes("\n")) {

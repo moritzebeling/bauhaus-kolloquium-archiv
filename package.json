@@ -9,6 +9,7 @@
     "lint": "eslint",
     "type-check": "tsc --noEmit",
     "test": "npx tsx --test lib/*.test.ts",
+    "parse-participants-table": "npx tsx scripts/parse-participants-table.ts",
     "upload-images": "npx tsx scripts/upload-images.ts",
     "image-dimensions": "npx tsx scripts/generate-image-dimensions.ts",
     "file-sizes": "npx tsx scripts/generate-file-sizes.ts"
