@@ -2,8 +2,15 @@
  * Figure — displays an image with optional copyright protection overlay
  * and caption. Uses next/image for automatic optimization (srcset, WebP/AVIF)
  * on bitmap images, and plain <img> for SVGs.
+ *
+ * Images are rendered with loading="lazy" for SSR, but an IntersectionObserver
+ * with a generous rootMargin flips them to "eager" well before they enter the
+ * viewport, so they're already loaded by the time the user scrolls to them.
  */
 
+"use client";
+
+import { useRef, useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import type { ImageMeta } from "@/lib/types";
 import {
@@ -38,6 +45,46 @@ export function Figure({
   fallbackTitle,
   className,
 }: FigureProps) {
+  const figureRef = useRef<HTMLElement>(null);
+  const [loaded, setLoaded] = useState(false);
+  const handleLoad = useCallback(() => setLoaded(true), []);
+
+  // Preload images before they scroll into view by flipping loading="lazy"
+  // to "eager" when the figure is within 1500px of the viewport.
+  useEffect(() => {
+    const el = figureRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          el.querySelectorAll<HTMLImageElement>("img[loading='lazy']").forEach(
+            (img) => {
+              img.loading = "eager";
+            }
+          );
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "1000px" }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  // Images that are already cached won't fire onLoad after hydration,
+  // so check img.complete on mount to immediately reveal them.
+  useEffect(() => {
+    if (loaded) return;
+    const el = figureRef.current;
+    if (!el) return;
+    const img = el.querySelector<HTMLImageElement>("img");
+    if (img?.complete && img.naturalWidth > 0) {
+      setLoaded(true);
+    }
+  }, [loaded]);
+
   if (!filename) return null;
 
   const copyright = getImageCopyright(images, filename);
@@ -59,16 +106,31 @@ export function Figure({
       width={width}
       height={height}
       sizes="(max-width: 900px) 100vw, 33vw"
-      style={{ width: "100%", height: "auto", aspectRatio: `${width} / ${height}` }}
+      style={{
+        width: "100%",
+        height: "auto",
+        aspectRatio: `${width} / ${height}`,
+      }}
       loading="lazy"
+      onLoad={handleLoad}
     />
   ) : (
     /* eslint-disable-next-line @next/next/no-img-element */
-    <img alt={alt} width="100%" height="auto" loading="lazy" src={src} />
+    <img
+      alt={alt}
+      width="100%"
+      height="auto"
+      loading="lazy"
+      src={src}
+      onLoad={handleLoad}
+    />
   );
 
   return (
-    <figure className={`${isProtected ? "protect" : ""} ${className || ""}`}>
+    <figure
+      ref={figureRef}
+      className={`${loaded ? "loaded" : ""} ${isProtected ? "protect" : ""} ${className || ""}`}
+    >
       {isProtected ? (
         <div className="img protection">
           <div>&copy; {copyright}</div>

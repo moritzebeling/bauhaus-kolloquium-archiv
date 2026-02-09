@@ -296,6 +296,17 @@ figure img {
   background-color: #000;
 }
 
+/* Fade images in once loaded (only when JS is available to toggle .loaded) */
+@media (scripting: enabled) {
+  figure img {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  figure.loaded img {
+    opacity: 1;
+  }
+}
+
 figure figcaption {
   display: block;
   padding: 0.5rem 1rem;
