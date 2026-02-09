@@ -20,6 +20,7 @@ import {
   sortIntoColumns,
   mergeColumnItems,
   getImageUrl,
+  getFileSize,
 } from "@/lib/utils";
 
 interface ColloquiaPageProps {
@@ -161,7 +162,11 @@ export function ColloquiaPage({ page }: ColloquiaPageProps) {
                     />
                   )}
                   <span>Fotoalbum Kolloquiums&nbsp;{de.title}</span>
-                  <span className="small mono">Download PDF</span>
+                  <span className="small mono">
+                    Download PDF
+                    {getFileSize(page.dirPath, de.album) &&
+                      ` (${getFileSize(page.dirPath, de.album)})`}
+                  </span>
                 </a>
               </section>
             )}

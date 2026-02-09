@@ -3,6 +3,45 @@
  */
 
 import type { ImageMeta, GalleryItem, ProgramItem, QuoteItem } from "./types";
+import imageDimensions from "../content/image-dimensions.json";
+import fileSizes from "../content/file-sizes.json";
+
+const dimensionsMap = imageDimensions as Record<
+  string,
+  { width: number; height: number }
+>;
+
+const fileSizesMap = fileSizes as Record<string, number>;
+
+/** Default fallback dimensions when image is not in the manifest */
+const DEFAULT_DIMENSIONS = { width: 2000, height: 1500 };
+
+/**
+ * Get the intrinsic dimensions of a content image.
+ * Looks up from the pre-generated manifest, falls back to defaults.
+ */
+export function getImageDimensions(
+  dirPath: string,
+  filename: string
+): { width: number; height: number } {
+  const key = `${dirPath}/${filename}`;
+  return dimensionsMap[key] ?? DEFAULT_DIMENSIONS;
+}
+
+/**
+ * Get a human-readable file size string for a content file (e.g. PDF).
+ * Returns formatted string like "8.1 MB" or null if not found.
+ */
+export function getFileSize(
+  dirPath: string,
+  filename: string
+): string | null {
+  const key = `${dirPath}/${filename}`;
+  const bytes = fileSizesMap[key];
+  if (bytes == null) return null;
+  const mb = (bytes / (1024 * 1024)).toFixed(1);
+  return `${mb} MB`;
+}
 
 /**
  * Get the public URL for a content image.

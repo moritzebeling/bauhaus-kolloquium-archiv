@@ -11,6 +11,7 @@ import {
   getImageCopyright,
   getImageCaption,
   getImageAlt,
+  getImageDimensions,
 } from "@/lib/utils";
 
 interface FigureProps {
@@ -46,16 +47,19 @@ export function Figure({
 
   const isProtected = !!copyright;
 
+  // Look up real image dimensions to prevent layout shift
+  const { width, height } = getImageDimensions(dirPath, filename);
+
   // Use next/image for bitmap images (automatic srcset, WebP/AVIF, CDN optimization)
   // SVGs are already resolution-independent and don't need optimization
   const imageElement = isBitmap(filename) ? (
     <Image
       src={src}
       alt={alt}
-      width={2000}
-      height={1500}
+      width={width}
+      height={height}
       sizes="(max-width: 900px) 100vw, 33vw"
-      style={{ width: "100%", height: "auto" }}
+      style={{ width: "100%", height: "auto", aspectRatio: `${width} / ${height}` }}
       loading="lazy"
     />
   ) : (
