@@ -101,11 +101,20 @@ function parseCSV(text: string): ParticipantsData {
 
 // ─── Grouping & Sorting ────────────────────────────────────────
 
+/**
+ * Extract the base country for grouping purposes.
+ * E.g. "BRD/D (NL)" → "BRD", "DDR?" → "DDR", "USA (GB)" → "USA"
+ */
+function countryGroupKey(country: string): string {
+  return country.split(/[\/\?\(]/)[0].trim();
+}
+
 function groupByCountry(participants: Participant[]): Group[] {
   const map = new Map<string, Participant[]>();
   for (const p of participants) {
-    if (!map.has(p.country)) map.set(p.country, []);
-    map.get(p.country)!.push(p);
+    const key = countryGroupKey(p.country);
+    if (!map.has(key)) map.set(key, []);
+    map.get(key)!.push(p);
   }
   return Array.from(map.entries())
     .sort(([a], [b]) => a.localeCompare(b, "de"))
@@ -144,7 +153,7 @@ export function ParticipantsPage({ page }: ParticipantsPageProps) {
   const articleRef = useRef<HTMLElement>(null);
   const loadTriggered = useRef(false);
 
-  const csvUrl = `/content/${page.dirPath}/list.csv`;
+  const csvUrl = `/participants.csv`;
 
   const loadData = useCallback(async () => {
     if (loadTriggered.current) return;
@@ -173,7 +182,7 @@ export function ParticipantsPage({ page }: ParticipantsPageProps) {
           observer.disconnect();
         }
       },
-      { rootMargin: "500px" }
+      { rootMargin: "1000px" }
     );
 
     observer.observe(el);
