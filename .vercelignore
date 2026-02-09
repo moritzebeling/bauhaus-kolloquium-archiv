@@ -1,0 +1,3 @@
+# Don't upload local content images to Vercel
+# (they're served from Vercel Blob Storage instead)
+public/content

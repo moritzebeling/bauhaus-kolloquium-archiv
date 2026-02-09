@@ -2,13 +2,14 @@
  * Upload all content images and PDFs to Vercel Blob Storage.
  *
  * Usage:
- *   npx tsx scripts/upload-images.ts
+ *   npm run upload-images
  *
  * This script:
  * 1. Loads env vars from .env.local (where Vercel CLI stores them)
  * 2. Scans the content/ directory for binary files (jpg, jpeg, png, svg, pdf)
- * 3. Uploads each file to Vercel Blob with a deterministic path
- * 4. Outputs the NEXT_PUBLIC_BLOB_URL to set as an environment variable
+ * 3. Uploads each file to Vercel Blob (skips unchanged, overwrites if needed)
+ * 4. Saves NEXT_PUBLIC_BLOB_URL to .env.local
+ * 5. Shows how to set the env var on Vercel for production
  *
  * Prerequisites:
  *   1. Create a Blob store in Vercel Dashboard → Storage → Create → Blob
@@ -17,15 +18,16 @@
  *      (or manually add BLOB_READ_WRITE_TOKEN to .env.local)
  */
 
-import { put } from "@vercel/blob";
+import { put, list } from "@vercel/blob";
 import fs from "fs";
 import path from "path";
 
 // ─── Load .env.local ────────────────────────────────────────────
 
-function loadEnvFile(filename: string) {
+function loadEnvFile(filename: string): Record<string, string> {
   const filepath = path.resolve(process.cwd(), filename);
-  if (!fs.existsSync(filepath)) return;
+  const vars: Record<string, string> = {};
+  if (!fs.existsSync(filepath)) return vars;
   const content = fs.readFileSync(filepath, "utf-8");
   for (const line of content.split("\n")) {
     const trimmed = line.trim();
@@ -34,13 +36,31 @@ function loadEnvFile(filename: string) {
     if (eqIndex === -1) continue;
     const key = trimmed.slice(0, eqIndex).trim();
     const raw = trimmed.slice(eqIndex + 1).trim();
-    // Strip surrounding quotes
     const value = raw.replace(/^["']|["']$/g, "");
-    // Don't override existing env vars
+    vars[key] = value;
     if (!process.env[key]) {
       process.env[key] = value;
     }
   }
+  return vars;
+}
+
+function saveEnvVar(filename: string, key: string, value: string) {
+  const filepath = path.resolve(process.cwd(), filename);
+  let content = "";
+  if (fs.existsSync(filepath)) {
+    content = fs.readFileSync(filepath, "utf-8");
+    // Replace existing key or append
+    const regex = new RegExp(`^${key}=.*$`, "m");
+    if (regex.test(content)) {
+      content = content.replace(regex, `${key}="${value}"`);
+    } else {
+      content = content.trimEnd() + `\n${key}="${value}"\n`;
+    }
+  } else {
+    content = `${key}="${value}"\n`;
+  }
+  fs.writeFileSync(filepath, content);
 }
 
 // Load .env.local first (Vercel CLI default), then .env as fallback
@@ -51,7 +71,6 @@ loadEnvFile(".env");
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
-/** File extensions to upload */
 const UPLOAD_EXTENSIONS = new Set([
   ".jpg",
   ".jpeg",
@@ -62,7 +81,6 @@ const UPLOAD_EXTENSIONS = new Set([
   ".webp",
 ]);
 
-/** Recursively find all uploadable files in a directory */
 function findFiles(
   dir: string,
   base = ""
@@ -87,6 +105,21 @@ function findFiles(
   return results;
 }
 
+// ─── Blob URL detection ─────────────────────────────────────────
+
+async function detectBlobBaseUrl(): Promise<string | null> {
+  try {
+    const result = await list({ limit: 1 });
+    if (result.blobs.length > 0) {
+      const url = new URL(result.blobs[0].url);
+      return url.origin;
+    }
+  } catch {
+    // Ignore — will detect from first upload
+  }
+  return null;
+}
+
 // ─── Upload ─────────────────────────────────────────────────────
 
 async function main() {
@@ -102,9 +135,15 @@ async function main() {
     process.exit(1);
   }
 
-  console.log("Scanning content/ for images and PDFs...\n");
+  // Detect blob base URL from existing blobs
+  let blobBaseUrl = await detectBlobBaseUrl();
+  if (blobBaseUrl) {
+    console.log(`Blob store: ${blobBaseUrl}\n`);
+  }
+
+  console.log("Scanning content/ for images and PDFs...");
   const files = findFiles(CONTENT_DIR);
-  console.log(`Found ${files.length} files to upload.\n`);
+  console.log(`Found ${files.length} files.\n`);
 
   if (files.length === 0) {
     console.log(
@@ -113,7 +152,6 @@ async function main() {
     return;
   }
 
-  let blobBaseUrl = "";
   let uploaded = 0;
   let failed = 0;
 
@@ -125,29 +163,21 @@ async function main() {
       const blob = await put(blobPath, fileBuffer, {
         access: "public",
         addRandomSuffix: false,
+        allowOverwrite: true,
       });
 
       if (!blobBaseUrl) {
-        // Extract base URL from first upload
-        // URL format: https://xxx.public.blob.vercel-storage.com/content/...
         const url = new URL(blob.url);
         blobBaseUrl = url.origin;
+        console.log(`Blob store: ${blobBaseUrl}\n`);
       }
 
       uploaded++;
       console.log(`  ✓ ${blobPath}`);
     } catch (error) {
-      if (
-        error instanceof Error &&
-        error.message &&
-        error.message.includes("This blob already exists")
-      ) {
-        console.log(`  ◦ ${blobPath}: Already exists`);
-      } else {
-        console.error(
-          `  ✗ ${blobPath}: ${error instanceof Error ? error.message : error}`
-        );
-      }
+      console.error(
+        `  ✗ ${blobPath}: ${error instanceof Error ? error.message : error}`
+      );
       failed++;
     }
   }
@@ -155,12 +185,18 @@ async function main() {
   console.log(`\nDone! Uploaded: ${uploaded}, Failed: ${failed}\n`);
 
   if (blobBaseUrl) {
+    // Save to .env.local for local development
+    saveEnvVar(".env.local", "NEXT_PUBLIC_BLOB_URL", blobBaseUrl);
+    console.log(`Saved NEXT_PUBLIC_BLOB_URL to .env.local\n`);
+
     console.log("─".repeat(60));
-    console.log("\nSet this environment variable in your Vercel project:\n");
-    console.log(`  NEXT_PUBLIC_BLOB_URL=${blobBaseUrl}\n`);
+    console.log("\nNow set it on Vercel for production:\n");
     console.log(
-      "You can set it in: Vercel Dashboard → Settings → Environment Variables"
+      `  vercel env add NEXT_PUBLIC_BLOB_URL production preview development\n`
     );
+    console.log(`  (paste: ${blobBaseUrl})\n`);
+    console.log("Then redeploy:\n");
+    console.log("  vercel --prod\n");
     console.log("─".repeat(60));
   }
 }
