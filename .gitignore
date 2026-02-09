@@ -38,6 +38,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local dev symlink (content images served via Vercel Blob in production)
+/public/content
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
