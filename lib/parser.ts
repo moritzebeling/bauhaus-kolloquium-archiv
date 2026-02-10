@@ -96,7 +96,7 @@ export function parseKirbyLinks(text: string): string {
   return text.replace(
     /\(link:\s*([^\s)]+)\s+text:\s*([^)]*?)(?:\s+target:\s*([^)]*?))?\)/g,
     (_match, url: string, linkText: string, target?: string) => {
-      const href = url.trim();
+      const href = url.trim().replace(/^http:\/\//, "https://");
       const isExternal =
         href.startsWith("http://") || href.startsWith("https://");
       const targetVal = target?.trim() || (isExternal ? "_blank" : "");

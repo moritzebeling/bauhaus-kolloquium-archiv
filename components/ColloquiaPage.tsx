@@ -15,6 +15,7 @@ import { Figure } from "./Figure";
 import { GallerySection } from "./GallerySection";
 import { ProgramSection } from "./ProgramSection";
 import { Quote } from "./Quote";
+import { ButtonLink } from "./ButtonLink";
 import {
   formatDateRange,
   sortIntoColumns,
@@ -74,11 +75,13 @@ export function ColloquiaPage({ page }: ColloquiaPageProps) {
       <div className="wrapper">
         <header>
           {de.website && (
-            <div className="official-page-link">
-              <a target="_blank" href={de.website} rel="noreferrer">
-                Offizielle Webseite
-              </a>
-            </div>
+            <ButtonLink
+              href={de.website}
+              external
+              wrapperClassName="official-page-link"
+            >
+              Offizielle Webseite
+            </ButtonLink>
           )}
           <h2>{de.title}</h2>
           <h3>

@@ -184,7 +184,7 @@ describe("parseKirbyLinks", () => {
     const result = parseKirbyLinks(input);
     assert.equal(
       result,
-      '<a href="http://example.com" target="_blank" rel="noreferrer">Example Site</a>'
+      '<a href="https://example.com" target="_blank" rel="noreferrer">Example Site</a>'
     );
   });
 
@@ -194,7 +194,7 @@ describe("parseKirbyLinks", () => {
     const result = parseKirbyLinks(input);
     assert.equal(
       result,
-      '<a href="http://example.com" target="_blank" rel="noreferrer">Example Site</a>'
+      '<a href="https://example.com" target="_blank" rel="noreferrer">Example Site</a>'
     );
   });
 
@@ -204,7 +204,7 @@ describe("parseKirbyLinks", () => {
     const result = parseKirbyLinks(input);
     assert.equal(
       result,
-      'Visit <a href="http://a.com" target="_blank" rel="noreferrer">A</a> and <a href="http://b.com" target="_blank" rel="noreferrer">B</a>'
+      'Visit <a href="https://a.com" target="_blank" rel="noreferrer">A</a> and <a href="https://b.com" target="_blank" rel="noreferrer">B</a>'
     );
   });
 
@@ -214,7 +214,7 @@ describe("parseKirbyLinks", () => {
     const result = parseKirbyLinks(input);
     assert.equal(
       result,
-      '*<a href="http://spectorbooks.com/dust-data" target="_blank" rel="noreferrer">Dust & Data</a>*'
+      '*<a href="https://spectorbooks.com/dust-data" target="_blank" rel="noreferrer">Dust & Data</a>*'
     );
   });
 });

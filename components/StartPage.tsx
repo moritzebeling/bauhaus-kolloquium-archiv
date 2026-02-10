@@ -6,6 +6,7 @@
 import type { Page, StartContent, SiteContent } from "@/lib/types";
 import { Markdown } from "./Markdown";
 import { getImageUrl } from "@/lib/utils";
+import { ButtonLink } from "./ButtonLink";
 
 interface StartPageProps {
   page: Page<StartContent>;
@@ -32,11 +33,13 @@ export function StartPage({ page, site }: StartPageProps) {
           )}
 
           {/* "Impressionen" button */}
-          <div className="center">
-            <a href="#32-2016-exhibition" className="button">
-              Impressionen der Ausstellung
-            </a>
-          </div>
+          <ButtonLink
+            href="#32-2016-exhibition"
+            wrapperClassName="center"
+            linkClassName="button"
+          >
+            Impressionen der Ausstellung
+          </ButtonLink>
         </section>
       </div>
 
