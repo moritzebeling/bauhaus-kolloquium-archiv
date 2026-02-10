@@ -947,6 +947,7 @@ article.participants section {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
+  white-space-collapse: collapse;
   font-family: var(--font-mono);
   font-size: 0.78rem;
 }
@@ -955,7 +956,7 @@ article.participants section {
 .participants-table th,
 .participants-table td {
   padding: 0.3em 1px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid black;
 }
 
 /* Edge padding on first/last cells */
@@ -977,7 +978,7 @@ article.participants section {
   background-color: #fff;
   z-index: 100;
   vertical-align: middle;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid black;
 }
 
 .participants-table thead,
