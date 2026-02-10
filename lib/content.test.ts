@@ -23,11 +23,11 @@ describe("extractSortOrder", () => {
     assert.equal(extractSortOrder("4-1979"), 4);
     assert.equal(extractSortOrder("1-start"), 1);
     assert.equal(extractSortOrder("10-2019"), 10);
-    assert.equal(extractSortOrder("22-credits"), 22);
+    assert.equal(extractSortOrder("22-something"), 22);
   });
 
   it("should return 999 for directories without a number prefix", () => {
-    assert.equal(extractSortOrder("error"), 999);
+    assert.equal(extractSortOrder("no-prefix"), 999);
     assert.equal(extractSortOrder("no-number-here"), 999);
   });
 
@@ -112,10 +112,7 @@ describe("extractImageFilename", () => {
   });
 
   it("should handle filenames with underscores and hyphens", () => {
-    assert.equal(
-      extractImageFilename("BHK_02_150.jpg.txt"),
-      "BHK_02_150.jpg"
-    );
+    assert.equal(extractImageFilename("BHK_02_150.jpg.txt"), "BHK_02_150.jpg");
     assert.equal(
       extractImageFilename("panel-1a-thumb.jpg.txt"),
       "panel-1a-thumb.jpg"
@@ -184,7 +181,10 @@ describe("applyKirbytext", () => {
 
 describe("getImageUrl (content module)", () => {
   it("should return the correct public URL path", () => {
-    assert.equal(getImageUrl("4-1979", "photo.jpg"), "/content/4-1979/photo.jpg");
+    assert.equal(
+      getImageUrl("4-1979", "photo.jpg"),
+      "/content/4-1979/photo.jpg"
+    );
   });
 
   it("should handle various directory and file names", () => {

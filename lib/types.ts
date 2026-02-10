@@ -182,7 +182,6 @@ export type PageTemplate =
   | "publication"
   | "gallery"
   | "participants"
-  | "credits"
   | "default";
 
 export type PageContent =

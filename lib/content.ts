@@ -34,7 +34,6 @@ const VALID_TEMPLATES = new Set<string>([
   "publication",
   "gallery",
   "participants",
-  "credits",
   "default",
 ]);
 
@@ -79,9 +78,7 @@ export function isImageMetaFile(filename: string): boolean {
  * "photo.jpg.txt" → "photo.jpg"
  */
 export function extractImageFilename(metaFilename: string): string | null {
-  const match = metaFilename.match(
-    /^(.+\.(jpg|jpeg|png|gif|svg|webp))\.txt$/i
-  );
+  const match = metaFilename.match(/^(.+\.(jpg|jpeg|png|gif|svg|webp))\.txt$/i);
   return match ? match[1] : null;
 }
 
@@ -204,9 +201,6 @@ export function loadAllContent(): SiteData {
     // Skip files (only process directories)
     const fullPath = path.join(CONTENT_DIR, entry);
     if (!fs.statSync(fullPath).isDirectory()) continue;
-
-    // Skip special directories
-    if (entry === "error") continue;
 
     const page = loadPage(entry);
     if (page) {

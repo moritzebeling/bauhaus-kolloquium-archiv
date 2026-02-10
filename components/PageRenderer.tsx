@@ -54,9 +54,6 @@ export function PageRenderer({ page, site }: PageRendererProps) {
       return <GalleryPage page={page as Page<GalleryPageContent>} />;
     case "participants":
       return <ParticipantsPage page={page as Page<ParticipantsContent>} />;
-    case "credits":
-      // Credits are embedded in the start page
-      return null;
     default:
       return null;
   }
