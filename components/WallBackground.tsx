@@ -48,7 +48,7 @@ export function WallBackground() {
     };
 
     main.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", updateWall);
+    window.addEventListener("resize", updateWall, { passive: true });
     updateWall();
 
     return () => {

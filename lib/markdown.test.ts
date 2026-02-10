@@ -45,7 +45,7 @@ describe("renderMarkdown", () => {
     const result = renderMarkdown(
       "(link: http://example.com text: Example Site target: _blank)"
     );
-    assert.ok(result.includes('href="http://example.com"'));
+    assert.ok(result.includes('href="https://example.com"'));
     assert.ok(result.includes('target="_blank"'));
     assert.ok(result.includes("Example Site"));
   });
@@ -82,6 +82,6 @@ Some **bold** and *italic* text.
       "*(link: http://spectorbooks.com text: Dust & Data target: _blank)*";
     const result = renderMarkdown(input);
     assert.ok(result.includes("Dust &amp; Data") || result.includes("Dust & Data"));
-    assert.ok(result.includes('href="http://spectorbooks.com"'));
+    assert.ok(result.includes('href="https://spectorbooks.com"'));
   });
 });

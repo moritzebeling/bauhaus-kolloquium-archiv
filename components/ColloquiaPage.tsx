@@ -165,11 +165,7 @@ export function ColloquiaPage({ page }: ColloquiaPageProps) {
                     />
                   )}
                   <span>Fotoalbum Kolloquiums&nbsp;{de.title}</span>
-                  <span className="small mono">
-                    Download PDF
-                    {getFileSize(page.dirPath, de.album) &&
-                      ` (${getFileSize(page.dirPath, de.album)})`}
-                  </span>
+                  <AlbumSize dirPath={page.dirPath} album={de.album} />
                 </a>
               </section>
             )}
@@ -223,5 +219,14 @@ export function ColloquiaPage({ page }: ColloquiaPageProps) {
         </div>
       </div>
     </article>
+  );
+}
+
+function AlbumSize({ dirPath, album }: { dirPath: string; album: string }) {
+  const size = getFileSize(dirPath, album);
+  return (
+    <span className="small mono">
+      Download PDF{size && ` (${size})`}
+    </span>
   );
 }

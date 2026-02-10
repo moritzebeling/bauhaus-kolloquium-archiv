@@ -6,6 +6,7 @@
  * scroll layout.
  */
 
+import { Fragment } from "react";
 import { loadAllContent } from "@/lib/content";
 import { PageRenderer } from "@/components/PageRenderer";
 import { Navigation } from "@/components/Navigation";
@@ -71,10 +72,10 @@ export default function Home() {
           // Add empty spacer column after the start page (like legacy)
           if (page.template === "start") {
             return (
-              <>
+              <Fragment key={page.slug}>
                 {el}
-                <article key="spacer-start" className="empty" />
-              </>
+                <article className="empty" />
+              </Fragment>
             );
           }
           return el;

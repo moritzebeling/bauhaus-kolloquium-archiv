@@ -147,10 +147,10 @@ export function sortIntoColumns<
   }
 
   // Sort by position
-  left.sort((a, b) => a.position - b.position);
-  right.sort((a, b) => a.position - b.position);
-
-  return { left, right };
+  return {
+    left: left.toSorted((a, b) => a.position - b.position),
+    right: right.toSorted((a, b) => a.position - b.position),
+  };
 }
 
 /**
@@ -159,9 +159,7 @@ export function sortIntoColumns<
 export function mergeColumnItems(
   ...arrays: ColumnItem<GalleryItem | ProgramItem | QuoteItem>[][]
 ): ColumnItem<GalleryItem | ProgramItem | QuoteItem>[] {
-  const merged = arrays.flat();
-  merged.sort((a, b) => a.position - b.position);
-  return merged;
+  return arrays.flat().toSorted((a, b) => a.position - b.position);
 }
 
 /**

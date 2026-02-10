@@ -209,9 +209,9 @@ export function loadAllContent(): SiteData {
   }
 
   // Sort by order number
-  pages.sort((a, b) => a.sortOrder - b.sortOrder);
+  const sortedPages = pages.toSorted((a, b) => a.sortOrder - b.sortOrder);
 
-  return { site, pages };
+  return { site, pages: sortedPages };
 }
 
 /**

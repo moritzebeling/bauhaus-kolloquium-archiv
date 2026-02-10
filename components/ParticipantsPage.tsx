@@ -33,6 +33,8 @@ interface ParticipantsData {
 
 type SortMode = "country" | "name";
 
+const EMPTY_YEARS: number[] = [];
+
 interface Group {
   label: string;
   participants: Participant[];
@@ -117,15 +119,15 @@ function groupByCountry(participants: Participant[]): Group[] {
     map.get(key)!.push(p);
   }
   return Array.from(map.entries())
-    .sort(([a], [b]) => a.localeCompare(b, "de"))
+    .toSorted(([a], [b]) => a.localeCompare(b, "de"))
     .map(([label, items]) => ({
       label,
-      participants: items.sort((a, b) => a.name.localeCompare(b.name, "de")),
+      participants: items.toSorted((a, b) => a.name.localeCompare(b.name, "de")),
     }));
 }
 
 function groupByInitial(participants: Participant[]): Group[] {
-  const sorted = [...participants].sort((a, b) =>
+  const sorted = participants.toSorted((a, b) =>
     a.name.localeCompare(b.name, "de")
   );
   const map = new Map<string, Participant[]>();
@@ -197,7 +199,7 @@ export function ParticipantsPage({ page }: ParticipantsPageProps) {
       window.removeEventListener("prefetch-participants", handlePrefetch);
   }, [loadData]);
 
-  const years = data?.years ?? [];
+  const years = data?.years ?? EMPTY_YEARS;
 
   // Compute totals per year from the data
   const yearTotals = useMemo(

@@ -1075,6 +1075,13 @@ article.participants section {
   color: #fff;
 }
 
+/* ─── Offscreen Row Optimization ──────────────────────────────── */
+
+.participants-table tbody tr {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 28px;
+}
+
 /* ─── Responsive: wider edge padding ─────────────────────────── */
 
 @media (min-width: 900px) {

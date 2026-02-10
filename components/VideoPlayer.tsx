@@ -5,7 +5,7 @@
 
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { startTransition, useCallback, useEffect, useRef, useState } from "react";
 import type { VideoItem, ImageMeta } from "@/lib/types";
 import { getImageUrl } from "@/lib/utils";
 
@@ -19,6 +19,13 @@ interface VideoPlayerProps {
 
 const CDN_BASE =
   "https://documentary-architecture.fra1.cdn.digitaloceanspaces.com/ibhk/retrospects/";
+
+/** Format seconds as "m:ss" string */
+function formatTime(seconds: number) {
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60);
+  return `${m}:${String(s).padStart(2, "0")}`;
+}
 
 /** Media queries for smaller video sizes (largest size gets no media attr) */
 const SIZE_MEDIA: Record<string, string> = {
@@ -53,17 +60,11 @@ export function VideoPlayer({
     ? video.sizes
         .split(",")
         .map((s) => s.trim())
-        .sort((a, b) => parseInt(a) - parseInt(b))
+        .toSorted((a, b) => parseInt(a) - parseInt(b))
     : [];
 
   // Aspect ratio: default 16:9, can be overridden per video (e.g. "4:3")
   const aspectRatio = video.aspect_ratio || "16:9";
-
-  const formatTime = (seconds: number) => {
-    const m = Math.floor(seconds / 60);
-    const s = Math.floor(seconds % 60);
-    return `${m}:${String(s).padStart(2, "0")}`;
-  };
 
   const togglePlay = useCallback(() => {
     const vid = videoRef.current;
@@ -117,12 +118,13 @@ export function VideoPlayer({
     };
   }, []);
 
+  // Stable video event listeners — don't depend on component state
   useEffect(() => {
     const vid = videoRef.current;
     if (!vid) return;
 
     const onTimeUpdate = () => {
-      setCurrentTime(vid.currentTime);
+      startTransition(() => setCurrentTime(vid.currentTime));
     };
     const onDurationChange = () => {
       setDuration(vid.duration);
@@ -130,23 +132,31 @@ export function VideoPlayer({
     const onEnded = () => {
       setState("ready");
     };
+
+    vid.addEventListener("timeupdate", onTimeUpdate);
+    vid.addEventListener("durationchange", onDurationChange);
+    vid.addEventListener("ended", onEnded);
+
+    return () => {
+      vid.removeEventListener("timeupdate", onTimeUpdate);
+      vid.removeEventListener("durationchange", onDurationChange);
+      vid.removeEventListener("ended", onEnded);
+    };
+  }, []);
+
+  // canplay listener — needs current state to check "please-wait"
+  useEffect(() => {
+    const vid = videoRef.current;
+    if (!vid) return;
+
     const onCanPlay = () => {
       if (state === "please-wait") {
         setState("play");
       }
     };
 
-    vid.addEventListener("timeupdate", onTimeUpdate);
-    vid.addEventListener("durationchange", onDurationChange);
-    vid.addEventListener("ended", onEnded);
     vid.addEventListener("canplay", onCanPlay);
-
-    return () => {
-      vid.removeEventListener("timeupdate", onTimeUpdate);
-      vid.removeEventListener("durationchange", onDurationChange);
-      vid.removeEventListener("ended", onEnded);
-      vid.removeEventListener("canplay", onCanPlay);
-    };
+    return () => vid.removeEventListener("canplay", onCanPlay);
   }, [state]);
 
   const progress = duration > 0 ? (currentTime / duration) * 100 : 0;

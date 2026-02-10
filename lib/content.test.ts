@@ -135,7 +135,7 @@ describe("applyKirbytext", () => {
     };
 
     const result = applyKirbytext(input);
-    assert.ok((result.text as string).includes('href="http://example.com"'));
+    assert.ok((result.text as string).includes('href="https://example.com"'));
     assert.equal(result.title, "No links here");
   });
 

@@ -73,16 +73,29 @@ export function Figure({
     return () => observer.disconnect();
   }, []);
 
-  // Images that are already cached won't fire onLoad after hydration,
-  // so check img.complete on mount to immediately reveal them.
+  // Images that are already cached won't fire onLoad after hydration.
+  // Subscribe to the load event, and for already-cached images schedule
+  // the update asynchronously to avoid synchronous setState in the effect body.
   useEffect(() => {
     if (loaded) return;
     const el = figureRef.current;
     if (!el) return;
     const img = el.querySelector<HTMLImageElement>("img");
-    if (img?.complete && img.naturalWidth > 0) {
-      setLoaded(true);
+    if (!img) return;
+
+    const onLoad = () => setLoaded(true);
+    img.addEventListener("load", onLoad);
+
+    // For cached images that already completed before we subscribed
+    let rafId: number | undefined;
+    if (img.complete && img.naturalWidth > 0) {
+      rafId = requestAnimationFrame(onLoad);
     }
+
+    return () => {
+      img.removeEventListener("load", onLoad);
+      if (rafId !== undefined) cancelAnimationFrame(rafId);
+    };
   }, [loaded]);
 
   if (!filename) return null;

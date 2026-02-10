@@ -5,7 +5,7 @@
 
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { startTransition, useCallback, useEffect, useRef, useState } from "react";
 
 interface NavItem {
   id: string;
@@ -94,7 +94,7 @@ export function Navigation({ items }: NavigationProps) {
       }
 
       if (closestId) {
-        setActiveId(closestId);
+        startTransition(() => setActiveId(closestId));
       }
     };
 
