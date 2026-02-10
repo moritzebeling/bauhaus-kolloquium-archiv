@@ -170,7 +170,7 @@ export function ParticipantsPage({ page }: ParticipantsPageProps) {
     }
   }, [csvUrl]);
 
-  // Auto-load when section is within 500px of viewport
+  // Auto-load when section is within 1000px of viewport
   useEffect(() => {
     const el = articleRef.current;
     if (!el || loadTriggered.current) return;
@@ -187,6 +187,14 @@ export function ParticipantsPage({ page }: ParticipantsPageProps) {
 
     observer.observe(el);
     return () => observer.disconnect();
+  }, [loadData]);
+
+  // Prefetch when user hovers the nav link (fires custom event)
+  useEffect(() => {
+    const handlePrefetch = () => loadData();
+    window.addEventListener("prefetch-participants", handlePrefetch);
+    return () =>
+      window.removeEventListener("prefetch-participants", handlePrefetch);
   }, [loadData]);
 
   const years = data?.years ?? [];
@@ -262,21 +270,21 @@ function ParticipantsTable({
     <table className="participants-table" id="participants-table">
       <thead>
         <tr>
-          <th
-            className={`c${sortMode === "country" ? " active" : ""}`}
-            onClick={() => onSort("country")}
-            role="button"
-            tabIndex={0}
-          >
-            Land
+          <th className="c">
+            <button
+              className={sortMode === "country" ? "active" : ""}
+              onClick={() => onSort("country")}
+            >
+              Land
+            </button>
           </th>
-          <th
-            className={`n${sortMode === "name" ? " active" : ""}`}
-            onClick={() => onSort("name")}
-            role="button"
-            tabIndex={0}
-          >
-            Name
+          <th className="n">
+            <button
+              className={sortMode === "name" ? "active" : ""}
+              onClick={() => onSort("name")}
+            >
+              Name
+            </button>
           </th>
           {years.map((y) => (
             <th key={y} className="r">

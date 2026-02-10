@@ -128,6 +128,13 @@ export function Navigation({ items }: NavigationProps) {
     }
   }, [activeId]);
 
+  // Prefetch participants data when hovering the nav link
+  const handleMouseEnter = useCallback((item: NavItem) => {
+    if (item.template === "participants") {
+      window.dispatchEvent(new CustomEvent("prefetch-participants"));
+    }
+  }, []);
+
   return (
     <nav>
       <button
@@ -143,6 +150,7 @@ export function Navigation({ items }: NavigationProps) {
             href={`#${item.id}`}
             className={activeId === item.id ? "active" : ""}
             onClick={(e) => goToChapter(e, item.id)}
+            onMouseEnter={() => handleMouseEnter(item)}
           >
             {item.label}
           </a>

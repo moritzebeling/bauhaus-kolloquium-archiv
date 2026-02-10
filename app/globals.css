@@ -990,19 +990,25 @@ article.participants section {
 }
 
 /* Sortable header cells */
-.participants-table thead th.c,
-.participants-table thead th.n {
+.participants-table thead th.c button,
+.participants-table thead th.n button {
   cursor: pointer;
   user-select: none;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  padding: 0;
 }
 
-.participants-table thead th.c:hover,
-.participants-table thead th.n:hover {
-  text-decoration: underline;
-}
-
-.participants-table thead th.active {
-  text-decoration: underline;
+.participants-table thead th.c button.active,
+.participants-table thead th.n button.active {
+  text-decoration: none;
+  outline: 1px solid currentColor;
+  outline-offset: 0.3em;
+  border-radius: 4em;
+  padding: 0 0.3em;
 }
 
 /* ─── Rotated Year Headers ───────────────────────────────────── */
