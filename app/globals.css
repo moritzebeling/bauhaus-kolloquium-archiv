@@ -980,7 +980,9 @@ article.participants section {
   background-color: #fff;
   z-index: 100;
   vertical-align: middle;
-  border-bottom: 1px solid black;
+  border-bottom: none;
+  /* Keep the bottom separator visible while cells are sticky */
+  box-shadow: inset 0 -1px 0 #000;
 }
 
 .participants-table thead,
