@@ -20,8 +20,8 @@ export function StartPage({ page, site }: StartPageProps) {
     <article id="start" className="span2 add-nav">
       <div className="wrapper start">
         <section>
-          <header>
-            <h3>{de.title}</h3>
+          <header className="balance-text">
+            <h1>{de.title}</h1>
             {de.subtitle && <h3 className="regular">{de.subtitle}</h3>}
           </header>
 
