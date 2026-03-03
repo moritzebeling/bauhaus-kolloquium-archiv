@@ -1,13 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  trailingSlash: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "*.public.blob.vercel-storage.com",
-      },
-    ],
+    // next/image optimization is not available for static exports;
+    // images are pre-processed by `npm run process-images` instead.
+    unoptimized: true,
   },
 };
 

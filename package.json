@@ -4,24 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "npm run process-images && next build",
     "lint": "eslint",
     "test": "npx tsx --test lib/*.test.ts",
     "test:types": "tsc --noEmit",
+    "process-images": "npx tsx scripts/process-images.ts",
     "parse-participants-table": "npx tsx scripts/parse-participants-table.ts",
-    "upload-images": "npx tsx scripts/upload-images.ts",
     "image-dimensions": "npx tsx scripts/generate-image-dimensions.ts",
     "file-sizes": "npx tsx scripts/generate-file-sizes.ts"
   },
   "dependencies": {
-    "@vercel/blob": "^2.2.0",
     "image-size": "^2.0.2",
     "js-yaml": "^4.1.1",
     "marked": "^17.0.1",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -29,6 +28,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/sharp": "^0.31.1",
     "cheerio": "^1.2.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",

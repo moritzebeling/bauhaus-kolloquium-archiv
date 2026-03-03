@@ -2,13 +2,13 @@
 
 ## Project overview
 
-Archive website for the Internationales Bauhaus-Kolloquium (1976–2019). Single-page horizontal scroll layout, bilingual (DE/EN side by side), deployed on Vercel. See README.md for full details.
+Archive website for the Internationales Bauhaus-Kolloquium (1976–2019). Single-page horizontal scroll layout, bilingual (DE/EN side by side), deployed as a static site on a traditional webhost. See README.md for full details.
 
 ## Tech stack
 
 - Next.js 16 (App Router), TypeScript, Tailwind CSS 4, React 19
 - Content from Kirby CMS flat-file export (`content/` directory)
-- Images/PDFs hosted on Vercel Blob Storage (not in repo on production)
+- Images/PDFs processed locally and served as static files from `public/content/`
 - npm as package manager (not yarn/pnpm)
 
 ## Architecture
@@ -40,9 +40,9 @@ Content lives in `content/` as Kirby CMS flat-file format:
 
 ## Scripts to know about
 
-- `npm run image-dimensions` — regenerate `content/image-dimensions.json` after adding/replacing images
+- `npm run process-images` — compress and copy images from `content/` → `public/content/`; also updates `content/image-dimensions.json`; run before `next build`; skips up-to-date files; pass `--force` to reprocess all
+- `npm run image-dimensions` — regenerate `content/image-dimensions.json` from source images in `content/` (use when you only need to refresh the manifest, not reprocess images)
 - `npm run file-sizes` — regenerate `content/file-sizes.json` after adding/replacing PDFs
-- `npm run upload-images` — upload images/PDFs to Vercel Blob (needs `BLOB_READ_WRITE_TOKEN` in `.env.local`)
 - `npm run parse-participants-table` — parse `content/37-participants/list.html` → `public/participants.csv`
 
 ## Code conventions
@@ -57,7 +57,9 @@ Content lives in `content/` as Kirby CMS flat-file format:
 
 ## Things to watch out for
 
-- Images are NOT on disk in production (Vercel Blob). `content/image-dimensions.json` and `content/file-sizes.json` are pre-generated and committed so build can access dimensions/sizes without the actual files.
-- The `.vercelignore` excludes `public/content` from deployment.
-- `NEXT_PUBLIC_BLOB_URL` env var controls image URL prefix. When unset, images are served locally from `content/`.
+- Images are NOT committed to git (`content/.gitignore` excludes bitmaps and PDFs). They must be present locally in `content/` and then processed into `public/content/` via `npm run process-images` before building.
+- `content/image-dimensions.json` and `content/file-sizes.json` are pre-generated and committed so build can access dimensions/sizes at build time. `process-images` updates the dimensions file automatically when images are resized.
+- `public/content/` is excluded from git (`.gitignore`) and must be regenerated locally before each build.
+- Images are always served from `/content/...` which maps to `public/content/` at runtime.
+- The static build output is in `out/`. There is no `npm run start` — serve `out/` with any web server.
 - The participants table is rendered from `public/participants.csv`, not from the Kirby content system. The CSV is generated from `content/37-participants/list.html` via the parse script.

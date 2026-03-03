@@ -45,13 +45,9 @@ export function getFileSize(
 
 /**
  * Get the public URL for a content image.
- * Uses Vercel Blob CDN in production, local files in development.
+ * Images are served from public/content/ as static files.
  */
 export function getImageUrl(dirPath: string, filename: string): string {
-  const blobUrl = process.env.NEXT_PUBLIC_BLOB_URL;
-  if (blobUrl) {
-    return `${blobUrl}/content/${dirPath}/${filename}`;
-  }
   return `/content/${dirPath}/${filename}`;
 }
 
