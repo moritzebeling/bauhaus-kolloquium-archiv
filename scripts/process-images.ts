@@ -6,6 +6,9 @@
  * SVGs, PDFs, and GIFs are copied as-is. Files are skipped when the destination
  * is already newer than the source (incremental), unless --force is passed.
  *
+ * Also generates responsive srcset variants at 480, 960, and 1440px wide
+ * (named e.g. BHK_01@480.jpg) for use in hand-rolled srcset attributes.
+ *
  * Also updates content/image-dimensions.json with the actual output dimensions
  * of any processed images (important if images were resized).
  *
@@ -27,6 +30,9 @@ const DIMENSIONS_FILE = path.join(process.cwd(), "content", "image-dimensions.js
 const MAX_WIDTH = 3000;
 const JPEG_QUALITY = 85;
 
+/** Responsive srcset breakpoints. Must match SRCSET_WIDTHS in lib/utils.ts. */
+const SRCSET_WIDTHS = [480, 960, 1440] as const;
+
 /** Extensions processed through sharp (compressed + optionally resized). */
 const SHARP_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
 
@@ -46,7 +52,8 @@ async function isOutdated(src: string, dest: string): Promise<boolean> {
 
 async function walk(
   dir: string,
-  updatedDimensions: DimensionsMap
+  updatedDimensions: DimensionsMap,
+  existingDimensions: DimensionsMap
 ): Promise<{ processed: number; copied: number; skipped: number }> {
   let processed = 0;
   let copied = 0;
@@ -62,7 +69,7 @@ async function walk(
     const destPath = path.join(OUTPUT_DIR, relPath);
 
     if (entry.isDirectory()) {
-      const counts = await walk(srcPath, updatedDimensions);
+      const counts = await walk(srcPath, updatedDimensions, existingDimensions);
       processed += counts.processed;
       copied += counts.copied;
       skipped += counts.skipped;
@@ -74,29 +81,68 @@ async function walk(
     if (SHARP_EXTENSIONS.has(ext)) {
       await mkdir(path.dirname(destPath), { recursive: true });
 
-      if (!force && !(await isOutdated(srcPath, destPath))) {
+      let outputWidth: number | undefined;
+
+      if (force || (await isOutdated(srcPath, destPath))) {
+        console.log(`  compress  ${relPath}`);
+
+        let pipeline = sharp(srcPath);
+        const meta = await pipeline.metadata();
+
+        if (meta.width && meta.width > MAX_WIDTH) {
+          pipeline = pipeline.resize(MAX_WIDTH);
+        }
+
+        if (ext === ".jpg" || ext === ".jpeg") {
+          pipeline = pipeline.jpeg({ quality: JPEG_QUALITY, progressive: true });
+        } else if (ext === ".png") {
+          pipeline = pipeline.png({ compressionLevel: 9 });
+        }
+
+        const info = await pipeline.toFile(destPath);
+        updatedDimensions[relPath] = { width: info.width, height: info.height };
+        outputWidth = info.width;
+        processed++;
+      } else {
         skipped++;
-        continue;
+        // Use manifest to get output width for variant decisions
+        outputWidth =
+          updatedDimensions[relPath]?.width ?? existingDimensions[relPath]?.width;
       }
 
-      console.log(`  compress  ${relPath}`);
+      // Generate responsive srcset variants for each breakpoint smaller than
+      // the output image. Each variant is written as e.g. BHK_01@480.jpg.
+      if (outputWidth) {
+        const basename = path.basename(entry.name, ext);
 
-      let pipeline = sharp(srcPath);
-      const meta = await pipeline.metadata();
+        for (const targetWidth of SRCSET_WIDTHS) {
+          if (outputWidth <= targetWidth) continue;
 
-      if (meta.width && meta.width > MAX_WIDTH) {
-        pipeline = pipeline.resize(MAX_WIDTH);
+          const variantFilename = `${basename}@${targetWidth}${ext}`;
+          const variantRelPath = path.join(path.dirname(relPath), variantFilename);
+          const variantDestPath = path.join(OUTPUT_DIR, variantRelPath);
+
+          if (!force && !(await isOutdated(srcPath, variantDestPath))) {
+            skipped++;
+            continue;
+          }
+
+          console.log(`  variant   ${variantRelPath}`);
+
+          let variantPipeline = sharp(srcPath).resize(targetWidth);
+          if (ext === ".jpg" || ext === ".jpeg") {
+            variantPipeline = variantPipeline.jpeg({
+              quality: JPEG_QUALITY,
+              progressive: true,
+            });
+          } else if (ext === ".png") {
+            variantPipeline = variantPipeline.png({ compressionLevel: 9 });
+          }
+
+          await variantPipeline.toFile(variantDestPath);
+          processed++;
+        }
       }
-
-      if (ext === ".jpg" || ext === ".jpeg") {
-        pipeline = pipeline.jpeg({ quality: JPEG_QUALITY, progressive: true });
-      } else if (ext === ".png") {
-        pipeline = pipeline.png({ compressionLevel: 9 });
-      }
-
-      const info = await pipeline.toFile(destPath);
-      updatedDimensions[relPath] = { width: info.width, height: info.height };
-      processed++;
     } else if (COPY_EXTENSIONS.has(ext)) {
       await mkdir(path.dirname(destPath), { recursive: true });
 
@@ -121,16 +167,18 @@ async function main(): Promise<void> {
 
   await mkdir(OUTPUT_DIR, { recursive: true });
 
+  // Load existing dimensions upfront so skipped images can still have their
+  // output width looked up for variant generation.
+  const existingDimensions: DimensionsMap = fs.existsSync(DIMENSIONS_FILE)
+    ? JSON.parse(await readFile(DIMENSIONS_FILE, "utf-8"))
+    : {};
+
   const updatedDimensions: DimensionsMap = {};
-  const counts = await walk(CONTENT_DIR, updatedDimensions);
+  const counts = await walk(CONTENT_DIR, updatedDimensions, existingDimensions);
 
   // Merge updated dimensions into the existing manifest
   if (Object.keys(updatedDimensions).length > 0) {
-    const existing: DimensionsMap = fs.existsSync(DIMENSIONS_FILE)
-      ? JSON.parse(await readFile(DIMENSIONS_FILE, "utf-8"))
-      : {};
-
-    const merged = { ...existing, ...updatedDimensions };
+    const merged = { ...existingDimensions, ...updatedDimensions };
 
     // Sort keys for a stable, diff-friendly output
     const sorted: DimensionsMap = {};
